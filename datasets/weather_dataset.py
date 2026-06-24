@@ -440,3 +440,34 @@ def get_domain_data(
             "target_val": describe_dataset(target_val, class_names),
         },
     }
+
+
+WeatherDataset = WeatherMultiModalDataset
+
+
+def create_data_loader(
+    data_root,
+    domain,
+    split="train",
+    batch_size=32,
+    transform=None,
+    label_mapping=None,
+    val_ratio=0.2,
+    seed=42,
+    shuffle=None,
+    num_workers=4,
+    allow_missing_modalities=False,
+):
+    dataset = WeatherMultiModalDataset(
+        data_root=data_root,
+        domain=domain,
+        split=split,
+        label_mapping=label_mapping,
+        transform=transform,
+        val_ratio=val_ratio,
+        seed=seed,
+        allow_missing_modalities=allow_missing_modalities,
+    )
+    if shuffle is None:
+        shuffle = split == "train"
+    return _make_loader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
