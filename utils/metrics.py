@@ -15,8 +15,17 @@ class SegmentationMetrics:
             pred = pred.cpu().numpy()
         if hasattr(target, 'cpu'):
             target = target.cpu().numpy()
-        
-        mask = (target != self.ignore_index)
+
+        pred = np.asarray(pred).reshape(-1).astype(np.int64)
+        target = np.asarray(target).reshape(-1).astype(np.int64)
+
+        mask = (
+            (target != self.ignore_index)
+            & (target >= 0)
+            & (target < self.num_classes)
+            & (pred >= 0)
+            & (pred < self.num_classes)
+        )
         pred = pred[mask]
         target = target[mask]
         

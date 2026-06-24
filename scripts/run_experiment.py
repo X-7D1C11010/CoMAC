@@ -116,6 +116,18 @@ def class_histogram(preds, labels, num_classes):
     return pred_hist, label_hist
 
 
+def log_leakage_checks(logger, leakage_checks):
+    logger.info("Path leakage checks:\n" + json.dumps(leakage_checks, ensure_ascii=False, indent=2))
+    for check_name, summary in leakage_checks.items():
+        overlaps = []
+        for modality, item in summary.items():
+            count = item.get("count", 0)
+            if count > 0:
+                overlaps.append(f"{modality}={count}")
+        if overlaps:
+            logger.warning(f"Possible data leakage in {check_name}: " + ", ".join(overlaps))
+
+
 @torch.no_grad()
 def compute_centroids(model, data_loader, num_classes, feature_dim, device):
     model.eval()
@@ -461,7 +473,20 @@ def run_single_experiment(source_domain, target_domain, data_root, output_dir, s
 
     num_classes = data_loaders["num_classes"]
     logger.info("Dataset stats:\n" + json.dumps(data_loaders["dataset_stats"], ensure_ascii=False, indent=2))
+    log_leakage_checks(logger, data_loaders["leakage_checks"])
     logger.info(f"Discovered num_classes: {num_classes}")
+
+    target_val_size = len(data_loaders["target_val"].dataset)
+    if target_val_size < 100:
+        logger.warning(
+            f"Target validation split has only {target_val_size} samples; best-epoch metrics can be unstable."
+        )
+    if args.target_supervised_weight > 0:
+        logger.warning(
+            "target_supervised_weight > 0 uses target_train labels during adaptation. "
+            "Target Val and best_target metrics are supervised fine-tuning validation results; "
+            "set --target_supervised_weight 0 for label-free CoMAC-style adaptation."
+        )
 
     model = CoMACWeatherClassifier(
         num_classes=num_classes,
@@ -603,7 +628,9 @@ def run_experiments(source_domain, target_domains, data_root, output_root, args)
                 f"Acc {result['best_source_results']['accuracy']:.4f}; "
                 f"Target best epoch {result['best_target_epoch']}, "
                 f"Acc {result['best_target_results']['accuracy']:.4f}, "
-                f"F1 {result['best_target_results']['f1_score']:.4f}"
+                f"F1 {result['best_target_results']['f1_score']:.4f}; "
+                f"Target final Acc {result['target_after_results']['accuracy']:.4f}, "
+                f"F1 {result['target_after_results']['f1_score']:.4f}"
             )
 
         all_results[target_domain] = run_results
@@ -612,6 +639,23 @@ def run_experiments(source_domain, target_domains, data_root, output_root, args)
         prec_list = [r["best_target_results"]["precision"] for r in run_results]
         rec_list = [r["best_target_results"]["recall"] for r in run_results]
         f1_list = [r["best_target_results"]["f1_score"] for r in run_results]
+        final_acc_list = [r["target_after_results"]["accuracy"] for r in run_results]
+        final_prec_list = [r["target_after_results"]["precision"] for r in run_results]
+        final_rec_list = [r["target_after_results"]["recall"] for r in run_results]
+        final_f1_list = [r["target_after_results"]["f1_score"] for r in run_results]
+
+        best_statistics = {
+            "accuracy": {"mean": float(np.mean(acc_list)), "std": float(np.std(acc_list))},
+            "precision": {"mean": float(np.mean(prec_list)), "std": float(np.std(prec_list))},
+            "recall": {"mean": float(np.mean(rec_list)), "std": float(np.std(rec_list))},
+            "f1_score": {"mean": float(np.mean(f1_list)), "std": float(np.std(f1_list))},
+        }
+        final_statistics = {
+            "accuracy": {"mean": float(np.mean(final_acc_list)), "std": float(np.std(final_acc_list))},
+            "precision": {"mean": float(np.mean(final_prec_list)), "std": float(np.std(final_prec_list))},
+            "recall": {"mean": float(np.mean(final_rec_list)), "std": float(np.std(final_rec_list))},
+            "f1_score": {"mean": float(np.mean(final_f1_list)), "std": float(np.std(final_f1_list))},
+        }
 
         summary = {
             "source_domain": source_domain,
@@ -621,19 +665,20 @@ def run_experiments(source_domain, target_domains, data_root, output_root, args)
             "adapt_epochs": args.adapt_epochs,
             "batch_size": args.batch_size,
             "results": run_results,
-            "statistics": {
-                "accuracy": {"mean": float(np.mean(acc_list)), "std": float(np.std(acc_list))},
-                "precision": {"mean": float(np.mean(prec_list)), "std": float(np.std(prec_list))},
-                "recall": {"mean": float(np.mean(rec_list)), "std": float(np.std(rec_list))},
-                "f1_score": {"mean": float(np.mean(f1_list)), "std": float(np.std(f1_list))},
-            },
+            "statistics": best_statistics,
+            "best_statistics": best_statistics,
+            "final_statistics": final_statistics,
         }
 
         logger.info(f"\n========== {source_domain} -> {target_domain} Summary ==========")
-        logger.info(f"ACC: mean = {summary['statistics']['accuracy']['mean']:.4f}, std = {summary['statistics']['accuracy']['std']:.4f}")
-        logger.info(f"Precision: mean = {summary['statistics']['precision']['mean']:.4f}, std = {summary['statistics']['precision']['std']:.4f}")
-        logger.info(f"Recall: mean = {summary['statistics']['recall']['mean']:.4f}, std = {summary['statistics']['recall']['std']:.4f}")
-        logger.info(f"F1: mean = {summary['statistics']['f1_score']['mean']:.4f}, std = {summary['statistics']['f1_score']['std']:.4f}")
+        logger.info(f"Best ACC: mean = {best_statistics['accuracy']['mean']:.4f}, std = {best_statistics['accuracy']['std']:.4f}")
+        logger.info(f"Best Precision: mean = {best_statistics['precision']['mean']:.4f}, std = {best_statistics['precision']['std']:.4f}")
+        logger.info(f"Best Recall: mean = {best_statistics['recall']['mean']:.4f}, std = {best_statistics['recall']['std']:.4f}")
+        logger.info(f"Best F1: mean = {best_statistics['f1_score']['mean']:.4f}, std = {best_statistics['f1_score']['std']:.4f}")
+        logger.info(f"Final ACC: mean = {final_statistics['accuracy']['mean']:.4f}, std = {final_statistics['accuracy']['std']:.4f}")
+        logger.info(f"Final Precision: mean = {final_statistics['precision']['mean']:.4f}, std = {final_statistics['precision']['std']:.4f}")
+        logger.info(f"Final Recall: mean = {final_statistics['recall']['mean']:.4f}, std = {final_statistics['recall']['std']:.4f}")
+        logger.info(f"Final F1: mean = {final_statistics['f1_score']['mean']:.4f}, std = {final_statistics['f1_score']['std']:.4f}")
 
         with open(os.path.join(domain_output_dir, "summary.json"), "w", encoding="utf-8") as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)

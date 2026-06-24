@@ -206,6 +206,29 @@ def _deterministic_split(items, split, val_ratio, seed):
     return selected
 
 
+def _deterministic_file_split(files_by_label, split, val_ratio, seed):
+    if split not in {"train", "val"}:
+        return files_by_label
+
+    selected = defaultdict(lambda: {"infrared": [], "visible": []})
+    for label_name, modalities in files_by_label.items():
+        for modality in ("infrared", "visible"):
+            paths = list(modalities[modality])
+            rng = random.Random(f"{seed}:{label_name}:{modality}")
+            rng.shuffle(paths)
+
+            if len(paths) <= 1:
+                split_paths = paths if split == "train" else []
+            else:
+                val_count = max(1, int(round(len(paths) * val_ratio)))
+                val_count = min(val_count, len(paths) - 1)
+                split_paths = paths[:val_count] if split == "val" else paths[val_count:]
+
+            selected[label_name][modality] = sorted(split_paths)
+
+    return selected
+
+
 def _pair_modalities(files_by_label, label_mapping, allow_missing_modalities, pairing_seed):
     samples = []
     for label_name, modalities in sorted(files_by_label.items(), key=lambda kv: str(kv[0])):
@@ -267,10 +290,10 @@ class WeatherMultiModalDataset(Dataset):
         files_by_label = explicit_files if explicit_splits else all_files
         if explicit_splits and split == "val" and not _has_any_files(files_by_label):
             files_by_label = _collect_domain_files(data_root, domain, split="test")
+        if not explicit_splits and split in {"train", "val"}:
+            files_by_label = _deterministic_file_split(files_by_label, split, val_ratio, seed)
 
         samples = _pair_modalities(files_by_label, label_mapping, allow_missing_modalities, seed)
-        if not explicit_splits and split in {"train", "val"}:
-            samples = _deterministic_split(samples, split, val_ratio, seed)
 
         self.samples = samples
         self.class_counts = Counter(sample["label"] for sample in samples)
@@ -357,6 +380,43 @@ def _make_loader(dataset, batch_size, shuffle, num_workers):
     )
 
 
+def _modality_paths(dataset, modality):
+    return [sample[modality] for sample in dataset.samples if sample[modality]]
+
+
+def _path_reference_summary(dataset, modality):
+    paths = _modality_paths(dataset, modality)
+    unique = set(paths)
+    return {
+        "references": len(paths),
+        "unique": len(unique),
+        "duplicate_references": len(paths) - len(unique),
+    }
+
+
+def _path_overlap_summary(left_dataset, right_dataset, max_examples=5):
+    summary = {}
+    all_left = set()
+    all_right = set()
+    for modality in ("infrared", "visible"):
+        left_paths = set(_modality_paths(left_dataset, modality))
+        right_paths = set(_modality_paths(right_dataset, modality))
+        overlap = sorted(left_paths & right_paths)
+        all_left.update(left_paths)
+        all_right.update(right_paths)
+        summary[modality] = {
+            "count": len(overlap),
+            "examples": overlap[:max_examples],
+        }
+
+    overlap = sorted(all_left & all_right)
+    summary["any_modality"] = {
+        "count": len(overlap),
+        "examples": overlap[:max_examples],
+    }
+    return summary
+
+
 def describe_dataset(dataset, class_names=None):
     counts = dict(sorted(dataset.class_counts.items()))
     readable = {}
@@ -368,6 +428,8 @@ def describe_dataset(dataset, class_names=None):
         "split": dataset.split,
         "num_samples": len(dataset),
         "class_counts": readable,
+        "infrared_paths": _path_reference_summary(dataset, "infrared"),
+        "visible_paths": _path_reference_summary(dataset, "visible"),
     }
 
 
@@ -425,6 +487,13 @@ def get_domain_data(
         allow_missing_modalities=allow_missing_modalities,
     )
 
+    leakage_checks = {
+        "source_train_vs_source_val": _path_overlap_summary(source_train, source_val),
+        "target_train_vs_target_val": _path_overlap_summary(target_train, target_val),
+        "source_train_vs_target_val": _path_overlap_summary(source_train, target_val),
+        "source_val_vs_target_val": _path_overlap_summary(source_val, target_val),
+    }
+
     return {
         "source_train": _make_loader(source_train, batch_size, shuffle=True, num_workers=num_workers),
         "source_val": _make_loader(source_val, batch_size, shuffle=False, num_workers=num_workers),
@@ -439,6 +508,7 @@ def get_domain_data(
             "target_train": describe_dataset(target_train, class_names),
             "target_val": describe_dataset(target_val, class_names),
         },
+        "leakage_checks": leakage_checks,
     }
 
 
