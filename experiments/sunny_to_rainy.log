@@ -1,0 +1,1545 @@
+2026-06-17 23:21:30,242 - INFO - ========== 实验: 晴天 -> 雨天 ==========
+2026-06-17 23:21:30,242 - INFO - 重复次数: 5
+2026-06-17 23:21:30,242 - INFO - 训练轮数: 50
+2026-06-17 23:21:30,242 - INFO - 批大小: 32
+2026-06-17 23:21:30,242 - INFO - 
+---------- 第 1/5 次重复 (种子 42) ----------
+2026-06-17 23:21:30,674 - INFO - === 开始源域训练 (种子 42) ===
+2026-06-17 23:21:32,755 - INFO - Epoch [1], Batch [20/26], Loss: 2.6020, Acc: 0.0984
+2026-06-17 23:21:33,363 - INFO - Source Training - Epoch [1], Loss: 2.5962, Acc: 0.1127
+2026-06-17 23:21:34,860 - INFO - Source Val - Epoch [1], Acc: 0.1509, F1: 0.0685
+2026-06-17 23:21:38,837 - INFO - Epoch [2], Batch [20/26], Loss: 2.1043, Acc: 0.2016
+2026-06-17 23:21:39,344 - INFO - Source Training - Epoch [2], Loss: 2.3510, Acc: 0.2145
+2026-06-17 23:21:40,827 - INFO - Source Val - Epoch [2], Acc: 0.2217, F1: 0.1205
+2026-06-17 23:21:44,826 - INFO - Epoch [3], Batch [20/26], Loss: 1.7438, Acc: 0.3422
+2026-06-17 23:21:45,441 - INFO - Source Training - Epoch [3], Loss: 2.0448, Acc: 0.3480
+2026-06-17 23:21:46,891 - INFO - Source Val - Epoch [3], Acc: 0.3632, F1: 0.2542
+2026-06-17 23:21:50,934 - INFO - Epoch [4], Batch [20/26], Loss: 1.7139, Acc: 0.3891
+2026-06-17 23:21:51,441 - INFO - Source Training - Epoch [4], Loss: 1.8113, Acc: 0.4081
+2026-06-17 23:21:52,905 - INFO - Source Val - Epoch [4], Acc: 0.5142, F1: 0.3798
+2026-06-17 23:21:56,628 - INFO - Epoch [5], Batch [20/26], Loss: 1.5407, Acc: 0.4859
+2026-06-17 23:21:57,257 - INFO - Source Training - Epoch [5], Loss: 1.5341, Acc: 0.4841
+2026-06-17 23:21:58,943 - INFO - Source Val - Epoch [5], Acc: 0.4387, F1: 0.2953
+2026-06-17 23:22:01,059 - INFO - Epoch [6], Batch [20/26], Loss: 1.0804, Acc: 0.5422
+2026-06-17 23:22:01,623 - INFO - Source Training - Epoch [6], Loss: 1.3339, Acc: 0.5564
+2026-06-17 23:22:03,130 - INFO - Source Val - Epoch [6], Acc: 0.6038, F1: 0.5433
+2026-06-17 23:22:07,106 - INFO - Epoch [7], Batch [20/26], Loss: 1.2432, Acc: 0.6203
+2026-06-17 23:22:07,400 - INFO - Source Training - Epoch [7], Loss: 1.0950, Acc: 0.6311
+2026-06-17 23:22:08,842 - INFO - Source Val - Epoch [7], Acc: 0.7170, F1: 0.5926
+2026-06-17 23:22:12,579 - INFO - Epoch [8], Batch [20/26], Loss: 0.8762, Acc: 0.7141
+2026-06-17 23:22:13,193 - INFO - Source Training - Epoch [8], Loss: 0.8967, Acc: 0.7194
+2026-06-17 23:22:14,675 - INFO - Source Val - Epoch [8], Acc: 0.7028, F1: 0.6928
+2026-06-17 23:22:16,825 - INFO - Epoch [9], Batch [20/26], Loss: 0.6800, Acc: 0.7969
+2026-06-17 23:22:17,733 - INFO - Source Training - Epoch [9], Loss: 0.6783, Acc: 0.8002
+2026-06-17 23:22:19,182 - INFO - Source Val - Epoch [9], Acc: 0.7028, F1: 0.7011
+2026-06-17 23:22:21,576 - INFO - Epoch [10], Batch [20/26], Loss: 0.4745, Acc: 0.8078
+2026-06-17 23:22:22,208 - INFO - Source Training - Epoch [10], Loss: 0.5379, Acc: 0.8223
+2026-06-17 23:22:23,696 - INFO - Source Val - Epoch [10], Acc: 0.8491, F1: 0.8254
+2026-06-17 23:22:27,706 - INFO - Epoch [11], Batch [20/26], Loss: 0.3510, Acc: 0.8719
+2026-06-17 23:22:28,123 - INFO - Source Training - Epoch [11], Loss: 0.4250, Acc: 0.8762
+2026-06-17 23:22:29,601 - INFO - Source Val - Epoch [11], Acc: 0.8443, F1: 0.8536
+2026-06-17 23:22:31,655 - INFO - Epoch [12], Batch [20/26], Loss: 0.1309, Acc: 0.8891
+2026-06-17 23:22:32,226 - INFO - Source Training - Epoch [12], Loss: 0.3215, Acc: 0.8946
+2026-06-17 23:22:33,671 - INFO - Source Val - Epoch [12], Acc: 0.8915, F1: 0.9108
+2026-06-17 23:22:37,620 - INFO - Epoch [13], Batch [20/26], Loss: 0.2694, Acc: 0.9172
+2026-06-17 23:22:38,053 - INFO - Source Training - Epoch [13], Loss: 0.2251, Acc: 0.9289
+2026-06-17 23:22:39,615 - INFO - Source Val - Epoch [13], Acc: 0.8679, F1: 0.8794
+2026-06-17 23:22:42,005 - INFO - Epoch [14], Batch [20/26], Loss: 0.2181, Acc: 0.9391
+2026-06-17 23:22:42,406 - INFO - Source Training - Epoch [14], Loss: 0.2001, Acc: 0.9387
+2026-06-17 23:22:43,914 - INFO - Source Val - Epoch [14], Acc: 0.8962, F1: 0.9057
+2026-06-17 23:22:48,136 - INFO - Epoch [15], Batch [20/26], Loss: 0.1391, Acc: 0.9500
+2026-06-17 23:22:48,784 - INFO - Source Training - Epoch [15], Loss: 0.1645, Acc: 0.9510
+2026-06-17 23:22:50,232 - INFO - Source Val - Epoch [15], Acc: 0.9670, F1: 0.9647
+2026-06-17 23:22:54,110 - INFO - Epoch [16], Batch [20/26], Loss: 0.0439, Acc: 0.9594
+2026-06-17 23:22:54,501 - INFO - Source Training - Epoch [16], Loss: 0.1332, Acc: 0.9608
+2026-06-17 23:22:56,028 - INFO - Source Val - Epoch [16], Acc: 0.8962, F1: 0.9054
+2026-06-17 23:22:58,262 - INFO - Epoch [17], Batch [20/26], Loss: 0.0599, Acc: 0.9625
+2026-06-17 23:22:58,932 - INFO - Source Training - Epoch [17], Loss: 0.1453, Acc: 0.9608
+2026-06-17 23:23:00,421 - INFO - Source Val - Epoch [17], Acc: 0.8962, F1: 0.9057
+2026-06-17 23:23:02,865 - INFO - Epoch [18], Batch [20/26], Loss: 0.2855, Acc: 0.9703
+2026-06-17 23:23:03,269 - INFO - Source Training - Epoch [18], Loss: 0.0953, Acc: 0.9730
+2026-06-17 23:23:04,736 - INFO - Source Val - Epoch [18], Acc: 0.9057, F1: 0.9163
+2026-06-17 23:23:07,315 - INFO - Epoch [19], Batch [20/26], Loss: 0.0638, Acc: 0.9625
+2026-06-17 23:23:07,733 - INFO - Source Training - Epoch [19], Loss: 0.0870, Acc: 0.9694
+2026-06-17 23:23:09,189 - INFO - Source Val - Epoch [19], Acc: 0.9670, F1: 0.9660
+2026-06-17 23:23:11,110 - INFO - Epoch [20], Batch [20/26], Loss: 0.0392, Acc: 0.9688
+2026-06-17 23:23:11,779 - INFO - Source Training - Epoch [20], Loss: 0.1117, Acc: 0.9730
+2026-06-17 23:23:13,293 - INFO - Source Val - Epoch [20], Acc: 0.9057, F1: 0.9163
+2026-06-17 23:23:15,643 - INFO - Epoch [21], Batch [20/26], Loss: 0.0438, Acc: 0.9797
+2026-06-17 23:23:16,042 - INFO - Source Training - Epoch [21], Loss: 0.0702, Acc: 0.9792
+2026-06-17 23:23:17,495 - INFO - Source Val - Epoch [21], Acc: 0.9670, F1: 0.9642
+2026-06-17 23:23:19,730 - INFO - Epoch [22], Batch [20/26], Loss: 0.0683, Acc: 0.9797
+2026-06-17 23:23:20,271 - INFO - Source Training - Epoch [22], Loss: 0.0604, Acc: 0.9816
+2026-06-17 23:23:21,763 - INFO - Source Val - Epoch [22], Acc: 0.9057, F1: 0.9160
+2026-06-17 23:23:24,074 - INFO - Epoch [23], Batch [20/26], Loss: 0.0900, Acc: 0.9797
+2026-06-17 23:23:24,550 - INFO - Source Training - Epoch [23], Loss: 0.0575, Acc: 0.9804
+2026-06-17 23:23:26,045 - INFO - Source Val - Epoch [23], Acc: 0.9670, F1: 0.9647
+2026-06-17 23:23:28,181 - INFO - Epoch [24], Batch [20/26], Loss: 0.0294, Acc: 0.9750
+2026-06-17 23:23:28,771 - INFO - Source Training - Epoch [24], Loss: 0.0729, Acc: 0.9779
+2026-06-17 23:23:30,240 - INFO - Source Val - Epoch [24], Acc: 0.8632, F1: 0.8641
+2026-06-17 23:23:32,393 - INFO - Epoch [25], Batch [20/26], Loss: 0.1224, Acc: 0.9812
+2026-06-17 23:23:32,924 - INFO - Source Training - Epoch [25], Loss: 0.0591, Acc: 0.9841
+2026-06-17 23:23:34,425 - INFO - Source Val - Epoch [25], Acc: 0.9057, F1: 0.9165
+2026-06-17 23:23:36,715 - INFO - Epoch [26], Batch [20/26], Loss: 0.0070, Acc: 0.9891
+2026-06-17 23:23:37,301 - INFO - Source Training - Epoch [26], Loss: 0.0415, Acc: 0.9890
+2026-06-17 23:23:38,765 - INFO - Source Val - Epoch [26], Acc: 0.9057, F1: 0.9160
+2026-06-17 23:23:40,722 - INFO - Epoch [27], Batch [20/26], Loss: 0.2136, Acc: 0.9875
+2026-06-17 23:23:41,346 - INFO - Source Training - Epoch [27], Loss: 0.0460, Acc: 0.9902
+2026-06-17 23:23:42,852 - INFO - Source Val - Epoch [27], Acc: 0.9151, F1: 0.9258
+2026-06-17 23:23:45,329 - INFO - Epoch [28], Batch [20/26], Loss: 0.0066, Acc: 0.9891
+2026-06-17 23:23:45,798 - INFO - Source Training - Epoch [28], Loss: 0.0464, Acc: 0.9877
+2026-06-17 23:23:47,252 - INFO - Source Val - Epoch [28], Acc: 0.9670, F1: 0.9646
+2026-06-17 23:23:49,392 - INFO - Epoch [29], Batch [20/26], Loss: 0.0830, Acc: 0.9875
+2026-06-17 23:23:49,967 - INFO - Source Training - Epoch [29], Loss: 0.0452, Acc: 0.9890
+2026-06-17 23:23:51,423 - INFO - Source Val - Epoch [29], Acc: 0.9764, F1: 0.9740
+2026-06-17 23:23:55,510 - INFO - Epoch [30], Batch [20/26], Loss: 0.0150, Acc: 0.9906
+2026-06-17 23:23:56,091 - INFO - Source Training - Epoch [30], Loss: 0.0395, Acc: 0.9890
+2026-06-17 23:23:57,541 - INFO - Source Val - Epoch [30], Acc: 0.9764, F1: 0.9740
+2026-06-17 23:23:59,651 - INFO - Epoch [31], Batch [20/26], Loss: 0.0098, Acc: 0.9875
+2026-06-17 23:24:00,401 - INFO - Source Training - Epoch [31], Loss: 0.0439, Acc: 0.9865
+2026-06-17 23:24:01,850 - INFO - Source Val - Epoch [31], Acc: 0.9151, F1: 0.9261
+2026-06-17 23:24:04,075 - INFO - Epoch [32], Batch [20/26], Loss: 0.0254, Acc: 0.9953
+2026-06-17 23:24:04,459 - INFO - Source Training - Epoch [32], Loss: 0.0324, Acc: 0.9914
+2026-06-17 23:24:05,966 - INFO - Source Val - Epoch [32], Acc: 0.9670, F1: 0.9641
+2026-06-17 23:24:08,114 - INFO - Epoch [33], Batch [20/26], Loss: 0.0052, Acc: 0.9953
+2026-06-17 23:24:08,880 - INFO - Source Training - Epoch [33], Loss: 0.0238, Acc: 0.9951
+2026-06-17 23:24:10,424 - INFO - Source Val - Epoch [33], Acc: 0.9811, F1: 0.9785
+2026-06-17 23:24:14,624 - INFO - Epoch [34], Batch [20/26], Loss: 0.0022, Acc: 0.9969
+2026-06-17 23:24:15,175 - INFO - Source Training - Epoch [34], Loss: 0.0198, Acc: 0.9963
+2026-06-17 23:24:16,650 - INFO - Source Val - Epoch [34], Acc: 0.9151, F1: 0.9259
+2026-06-17 23:24:19,130 - INFO - Epoch [35], Batch [20/26], Loss: 0.0353, Acc: 0.9922
+2026-06-17 23:24:19,689 - INFO - Source Training - Epoch [35], Loss: 0.0384, Acc: 0.9926
+2026-06-17 23:24:21,168 - INFO - Source Val - Epoch [35], Acc: 0.9057, F1: 0.9160
+2026-06-17 23:24:23,527 - INFO - Epoch [36], Batch [20/26], Loss: 0.0025, Acc: 0.9906
+2026-06-17 23:24:24,149 - INFO - Source Training - Epoch [36], Loss: 0.0368, Acc: 0.9914
+2026-06-17 23:24:25,594 - INFO - Source Val - Epoch [36], Acc: 0.9717, F1: 0.9669
+2026-06-17 23:24:27,959 - INFO - Epoch [37], Batch [20/26], Loss: 0.0048, Acc: 0.9922
+2026-06-17 23:24:28,812 - INFO - Source Training - Epoch [37], Loss: 0.0289, Acc: 0.9877
+2026-06-17 23:24:30,333 - INFO - Source Val - Epoch [37], Acc: 0.9104, F1: 0.9185
+2026-06-17 23:24:32,680 - INFO - Epoch [38], Batch [20/26], Loss: 0.0101, Acc: 1.0000
+2026-06-17 23:24:33,098 - INFO - Source Training - Epoch [38], Loss: 0.0222, Acc: 0.9963
+2026-06-17 23:24:34,545 - INFO - Source Val - Epoch [38], Acc: 0.9057, F1: 0.9165
+2026-06-17 23:24:36,825 - INFO - Epoch [39], Batch [20/26], Loss: 0.0055, Acc: 0.9922
+2026-06-17 23:24:37,193 - INFO - Source Training - Epoch [39], Loss: 0.0231, Acc: 0.9902
+2026-06-17 23:24:38,697 - INFO - Source Val - Epoch [39], Acc: 0.9057, F1: 0.9165
+2026-06-17 23:24:41,067 - INFO - Epoch [40], Batch [20/26], Loss: 0.0018, Acc: 0.9938
+2026-06-17 23:24:41,674 - INFO - Source Training - Epoch [40], Loss: 0.0270, Acc: 0.9914
+2026-06-17 23:24:43,141 - INFO - Source Val - Epoch [40], Acc: 0.9104, F1: 0.9209
+2026-06-17 23:24:45,620 - INFO - Epoch [41], Batch [20/26], Loss: 0.0053, Acc: 0.9984
+2026-06-17 23:24:45,886 - INFO - Source Training - Epoch [41], Loss: 0.0220, Acc: 0.9975
+2026-06-17 23:24:47,411 - INFO - Source Val - Epoch [41], Acc: 0.9104, F1: 0.9209
+2026-06-17 23:24:49,795 - INFO - Epoch [42], Batch [20/26], Loss: 0.2956, Acc: 0.9875
+2026-06-17 23:24:50,203 - INFO - Source Training - Epoch [42], Loss: 0.0545, Acc: 0.9853
+2026-06-17 23:24:51,724 - INFO - Source Val - Epoch [42], Acc: 0.9057, F1: 0.9166
+2026-06-17 23:24:54,054 - INFO - Epoch [43], Batch [20/26], Loss: 0.0301, Acc: 0.9906
+2026-06-17 23:24:54,344 - INFO - Source Training - Epoch [43], Loss: 0.0185, Acc: 0.9926
+2026-06-17 23:24:55,867 - INFO - Source Val - Epoch [43], Acc: 0.9292, F1: 0.9413
+2026-06-17 23:24:58,025 - INFO - Epoch [44], Batch [20/26], Loss: 0.0039, Acc: 0.9953
+2026-06-17 23:24:58,691 - INFO - Source Training - Epoch [44], Loss: 0.0180, Acc: 0.9951
+2026-06-17 23:25:00,334 - INFO - Source Val - Epoch [44], Acc: 0.9057, F1: 0.9163
+2026-06-17 23:25:02,396 - INFO - Epoch [45], Batch [20/26], Loss: 0.0022, Acc: 0.9984
+2026-06-17 23:25:03,178 - INFO - Source Training - Epoch [45], Loss: 0.0083, Acc: 0.9988
+2026-06-17 23:25:04,656 - INFO - Source Val - Epoch [45], Acc: 0.9198, F1: 0.9303
+2026-06-17 23:25:07,147 - INFO - Epoch [46], Batch [20/26], Loss: 0.0023, Acc: 0.9969
+2026-06-17 23:25:07,545 - INFO - Source Training - Epoch [46], Loss: 0.0099, Acc: 0.9963
+2026-06-17 23:25:08,999 - INFO - Source Val - Epoch [46], Acc: 0.9198, F1: 0.9303
+2026-06-17 23:25:11,230 - INFO - Epoch [47], Batch [20/26], Loss: 0.0007, Acc: 0.9953
+2026-06-17 23:25:11,696 - INFO - Source Training - Epoch [47], Loss: 0.0156, Acc: 0.9951
+2026-06-17 23:25:13,153 - INFO - Source Val - Epoch [47], Acc: 0.8821, F1: 0.8320
+2026-06-17 23:25:15,491 - INFO - Epoch [48], Batch [20/26], Loss: 0.0099, Acc: 0.9953
+2026-06-17 23:25:15,910 - INFO - Source Training - Epoch [48], Loss: 0.0230, Acc: 0.9939
+2026-06-17 23:25:17,374 - INFO - Source Val - Epoch [48], Acc: 0.8774, F1: 0.8873
+2026-06-17 23:25:19,677 - INFO - Epoch [49], Batch [20/26], Loss: 0.0155, Acc: 0.9969
+2026-06-17 23:25:20,197 - INFO - Source Training - Epoch [49], Loss: 0.0095, Acc: 0.9975
+2026-06-17 23:25:21,639 - INFO - Source Val - Epoch [49], Acc: 0.9057, F1: 0.9165
+2026-06-17 23:25:24,135 - INFO - Epoch [50], Batch [20/26], Loss: 0.0180, Acc: 0.9938
+2026-06-17 23:25:24,665 - INFO - Source Training - Epoch [50], Loss: 0.0181, Acc: 0.9951
+2026-06-17 23:25:26,110 - INFO - Source Val - Epoch [50], Acc: 0.9151, F1: 0.9261
+2026-06-17 23:25:26,110 - INFO - === 开始目标域适应 (种子 42) ===
+2026-06-17 23:25:29,710 - INFO - Epoch [1], Batch [20], Cls Loss: 0.0069, Domain Loss: 0.3713
+2026-06-17 23:25:30,588 - INFO - DA Training - Epoch [1], Cls Loss: 0.0298, Domain Loss: 1.8360, Acc: 0.9914
+2026-06-17 23:25:30,860 - INFO - Target Val - Epoch [1], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:25:36,011 - INFO - Epoch [2], Batch [20], Cls Loss: 0.0107, Domain Loss: 0.0567
+2026-06-17 23:25:36,787 - INFO - DA Training - Epoch [2], Cls Loss: 0.0234, Domain Loss: 0.1463, Acc: 0.9988
+2026-06-17 23:25:37,031 - INFO - Target Val - Epoch [2], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:25:40,549 - INFO - Epoch [3], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0284
+2026-06-17 23:25:41,432 - INFO - DA Training - Epoch [3], Cls Loss: 0.0104, Domain Loss: 0.0687, Acc: 0.9975
+2026-06-17 23:25:41,662 - INFO - Target Val - Epoch [3], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:25:44,988 - INFO - Epoch [4], Batch [20], Cls Loss: 0.0068, Domain Loss: 0.0289
+2026-06-17 23:25:45,906 - INFO - DA Training - Epoch [4], Cls Loss: 0.0069, Domain Loss: 0.0583, Acc: 1.0000
+2026-06-17 23:25:46,149 - INFO - Target Val - Epoch [4], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:25:49,589 - INFO - Epoch [5], Batch [20], Cls Loss: 0.0021, Domain Loss: 0.0026
+2026-06-17 23:25:50,621 - INFO - DA Training - Epoch [5], Cls Loss: 0.0064, Domain Loss: 0.0402, Acc: 0.9988
+2026-06-17 23:25:50,897 - INFO - Target Val - Epoch [5], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:25:54,334 - INFO - Epoch [6], Batch [20], Cls Loss: 0.0057, Domain Loss: 0.0008
+2026-06-17 23:25:55,141 - INFO - DA Training - Epoch [6], Cls Loss: 0.0080, Domain Loss: 0.0492, Acc: 0.9988
+2026-06-17 23:25:55,368 - INFO - Target Val - Epoch [6], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:25:58,786 - INFO - Epoch [7], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0363
+2026-06-17 23:25:59,700 - INFO - DA Training - Epoch [7], Cls Loss: 0.0053, Domain Loss: 0.0376, Acc: 1.0000
+2026-06-17 23:25:59,946 - INFO - Target Val - Epoch [7], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:03,491 - INFO - Epoch [8], Batch [20], Cls Loss: 0.0194, Domain Loss: 0.0023
+2026-06-17 23:26:04,472 - INFO - DA Training - Epoch [8], Cls Loss: 0.0059, Domain Loss: 0.0378, Acc: 0.9988
+2026-06-17 23:26:04,709 - INFO - Target Val - Epoch [8], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:26:08,002 - INFO - Epoch [9], Batch [20], Cls Loss: 0.0023, Domain Loss: 0.0241
+2026-06-17 23:26:08,741 - INFO - DA Training - Epoch [9], Cls Loss: 0.0109, Domain Loss: 0.0128, Acc: 0.9963
+2026-06-17 23:26:08,978 - INFO - Target Val - Epoch [9], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:12,399 - INFO - Epoch [10], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0018
+2026-06-17 23:26:13,214 - INFO - DA Training - Epoch [10], Cls Loss: 0.0091, Domain Loss: 0.0192, Acc: 0.9975
+2026-06-17 23:26:13,467 - INFO - Target Val - Epoch [10], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:16,918 - INFO - Epoch [11], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0032
+2026-06-17 23:26:17,760 - INFO - DA Training - Epoch [11], Cls Loss: 0.0048, Domain Loss: 0.0324, Acc: 0.9988
+2026-06-17 23:26:17,999 - INFO - Target Val - Epoch [11], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:21,509 - INFO - Epoch [12], Batch [20], Cls Loss: 0.0469, Domain Loss: 0.0031
+2026-06-17 23:26:22,350 - INFO - DA Training - Epoch [12], Cls Loss: 0.0082, Domain Loss: 0.0167, Acc: 0.9963
+2026-06-17 23:26:22,582 - INFO - Target Val - Epoch [12], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:26,252 - INFO - Epoch [13], Batch [20], Cls Loss: 0.0081, Domain Loss: 0.0003
+2026-06-17 23:26:27,089 - INFO - DA Training - Epoch [13], Cls Loss: 0.0238, Domain Loss: 0.0138, Acc: 0.9951
+2026-06-17 23:26:27,329 - INFO - Target Val - Epoch [13], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:30,854 - INFO - Epoch [14], Batch [20], Cls Loss: 0.0536, Domain Loss: 0.0619
+2026-06-17 23:26:31,732 - INFO - DA Training - Epoch [14], Cls Loss: 0.0291, Domain Loss: 0.0244, Acc: 0.9926
+2026-06-17 23:26:31,967 - INFO - Target Val - Epoch [14], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:35,484 - INFO - Epoch [15], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0162
+2026-06-17 23:26:36,416 - INFO - DA Training - Epoch [15], Cls Loss: 0.0089, Domain Loss: 0.0368, Acc: 0.9975
+2026-06-17 23:26:36,633 - INFO - Target Val - Epoch [15], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:40,178 - INFO - Epoch [16], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0556
+2026-06-17 23:26:41,082 - INFO - DA Training - Epoch [16], Cls Loss: 0.0083, Domain Loss: 0.0160, Acc: 0.9963
+2026-06-17 23:26:41,330 - INFO - Target Val - Epoch [16], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:44,745 - INFO - Epoch [17], Batch [20], Cls Loss: 0.0031, Domain Loss: 0.0007
+2026-06-17 23:26:45,666 - INFO - DA Training - Epoch [17], Cls Loss: 0.0095, Domain Loss: 0.0147, Acc: 0.9988
+2026-06-17 23:26:45,882 - INFO - Target Val - Epoch [17], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:49,341 - INFO - Epoch [18], Batch [20], Cls Loss: 0.0034, Domain Loss: 0.0003
+2026-06-17 23:26:50,297 - INFO - DA Training - Epoch [18], Cls Loss: 0.0226, Domain Loss: 0.0109, Acc: 0.9902
+2026-06-17 23:26:50,517 - INFO - Target Val - Epoch [18], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:53,870 - INFO - Epoch [19], Batch [20], Cls Loss: 0.0051, Domain Loss: 0.1591
+2026-06-17 23:26:54,642 - INFO - DA Training - Epoch [19], Cls Loss: 0.0231, Domain Loss: 0.0301, Acc: 0.9939
+2026-06-17 23:26:54,896 - INFO - Target Val - Epoch [19], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:26:58,011 - INFO - Epoch [20], Batch [20], Cls Loss: 0.0111, Domain Loss: 0.0119
+2026-06-17 23:26:58,874 - INFO - DA Training - Epoch [20], Cls Loss: 0.0248, Domain Loss: 0.0285, Acc: 0.9914
+2026-06-17 23:26:59,102 - INFO - Target Val - Epoch [20], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:02,316 - INFO - Epoch [21], Batch [20], Cls Loss: 0.0091, Domain Loss: 0.0000
+2026-06-17 23:27:03,231 - INFO - DA Training - Epoch [21], Cls Loss: 0.0136, Domain Loss: 0.0123, Acc: 0.9975
+2026-06-17 23:27:03,459 - INFO - Target Val - Epoch [21], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:06,600 - INFO - Epoch [22], Batch [20], Cls Loss: 0.0379, Domain Loss: 0.0008
+2026-06-17 23:27:07,500 - INFO - DA Training - Epoch [22], Cls Loss: 0.0174, Domain Loss: 0.0110, Acc: 0.9939
+2026-06-17 23:27:07,723 - INFO - Target Val - Epoch [22], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:11,383 - INFO - Epoch [23], Batch [20], Cls Loss: 0.0140, Domain Loss: 0.0025
+2026-06-17 23:27:12,355 - INFO - DA Training - Epoch [23], Cls Loss: 0.0084, Domain Loss: 0.0121, Acc: 0.9975
+2026-06-17 23:27:12,591 - INFO - Target Val - Epoch [23], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:15,968 - INFO - Epoch [24], Batch [20], Cls Loss: 0.0005, Domain Loss: 0.0978
+2026-06-17 23:27:16,716 - INFO - DA Training - Epoch [24], Cls Loss: 0.0023, Domain Loss: 0.0294, Acc: 1.0000
+2026-06-17 23:27:16,946 - INFO - Target Val - Epoch [24], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:20,637 - INFO - Epoch [25], Batch [20], Cls Loss: 0.0021, Domain Loss: 0.0000
+2026-06-17 23:27:21,431 - INFO - DA Training - Epoch [25], Cls Loss: 0.0174, Domain Loss: 0.0137, Acc: 0.9951
+2026-06-17 23:27:21,669 - INFO - Target Val - Epoch [25], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:25,290 - INFO - Epoch [26], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0641
+2026-06-17 23:27:26,277 - INFO - DA Training - Epoch [26], Cls Loss: 0.0251, Domain Loss: 0.0130, Acc: 0.9939
+2026-06-17 23:27:26,515 - INFO - Target Val - Epoch [26], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:29,918 - INFO - Epoch [27], Batch [20], Cls Loss: 0.0122, Domain Loss: 0.0036
+2026-06-17 23:27:30,671 - INFO - DA Training - Epoch [27], Cls Loss: 0.0145, Domain Loss: 0.0052, Acc: 0.9951
+2026-06-17 23:27:30,901 - INFO - Target Val - Epoch [27], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:34,271 - INFO - Epoch [28], Batch [20], Cls Loss: 0.0130, Domain Loss: 0.0000
+2026-06-17 23:27:35,043 - INFO - DA Training - Epoch [28], Cls Loss: 0.0077, Domain Loss: 0.0026, Acc: 0.9975
+2026-06-17 23:27:35,277 - INFO - Target Val - Epoch [28], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:38,683 - INFO - Epoch [29], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0005
+2026-06-17 23:27:39,435 - INFO - DA Training - Epoch [29], Cls Loss: 0.0082, Domain Loss: 0.0031, Acc: 0.9975
+2026-06-17 23:27:39,675 - INFO - Target Val - Epoch [29], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:43,054 - INFO - Epoch [30], Batch [20], Cls Loss: 0.0034, Domain Loss: 0.0001
+2026-06-17 23:27:43,850 - INFO - DA Training - Epoch [30], Cls Loss: 0.0094, Domain Loss: 0.0114, Acc: 0.9988
+2026-06-17 23:27:44,068 - INFO - Target Val - Epoch [30], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:47,318 - INFO - Epoch [31], Batch [20], Cls Loss: 0.0107, Domain Loss: 0.0000
+2026-06-17 23:27:48,057 - INFO - DA Training - Epoch [31], Cls Loss: 0.0197, Domain Loss: 0.0179, Acc: 0.9902
+2026-06-17 23:27:48,286 - INFO - Target Val - Epoch [31], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:51,509 - INFO - Epoch [32], Batch [20], Cls Loss: 0.0058, Domain Loss: 0.0044
+2026-06-17 23:27:52,263 - INFO - DA Training - Epoch [32], Cls Loss: 0.0193, Domain Loss: 0.0257, Acc: 0.9963
+2026-06-17 23:27:52,504 - INFO - Target Val - Epoch [32], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:27:55,946 - INFO - Epoch [33], Batch [20], Cls Loss: 0.0049, Domain Loss: 0.0000
+2026-06-17 23:27:56,692 - INFO - DA Training - Epoch [33], Cls Loss: 0.0186, Domain Loss: 0.0295, Acc: 0.9926
+2026-06-17 23:27:56,929 - INFO - Target Val - Epoch [33], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:00,252 - INFO - Epoch [34], Batch [20], Cls Loss: 0.0019, Domain Loss: 0.0000
+2026-06-17 23:28:01,063 - INFO - DA Training - Epoch [34], Cls Loss: 0.0187, Domain Loss: 0.0013, Acc: 0.9939
+2026-06-17 23:28:01,313 - INFO - Target Val - Epoch [34], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:04,759 - INFO - Epoch [35], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0000
+2026-06-17 23:28:05,545 - INFO - DA Training - Epoch [35], Cls Loss: 0.0216, Domain Loss: 0.0114, Acc: 0.9951
+2026-06-17 23:28:05,767 - INFO - Target Val - Epoch [35], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:09,412 - INFO - Epoch [36], Batch [20], Cls Loss: 0.0262, Domain Loss: 0.0001
+2026-06-17 23:28:10,154 - INFO - DA Training - Epoch [36], Cls Loss: 0.0344, Domain Loss: 0.0036, Acc: 0.9914
+2026-06-17 23:28:10,390 - INFO - Target Val - Epoch [36], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:13,958 - INFO - Epoch [37], Batch [20], Cls Loss: 0.0012, Domain Loss: 0.0000
+2026-06-17 23:28:14,855 - INFO - DA Training - Epoch [37], Cls Loss: 0.0139, Domain Loss: 0.0093, Acc: 0.9963
+2026-06-17 23:28:15,073 - INFO - Target Val - Epoch [37], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:18,481 - INFO - Epoch [38], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0002
+2026-06-17 23:28:19,423 - INFO - DA Training - Epoch [38], Cls Loss: 0.0096, Domain Loss: 0.0073, Acc: 0.9951
+2026-06-17 23:28:19,656 - INFO - Target Val - Epoch [38], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:23,172 - INFO - Epoch [39], Batch [20], Cls Loss: 0.0047, Domain Loss: 0.0000
+2026-06-17 23:28:24,076 - INFO - DA Training - Epoch [39], Cls Loss: 0.0038, Domain Loss: 0.0183, Acc: 1.0000
+2026-06-17 23:28:24,314 - INFO - Target Val - Epoch [39], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:27,882 - INFO - Epoch [40], Batch [20], Cls Loss: 0.0027, Domain Loss: 0.0002
+2026-06-17 23:28:28,757 - INFO - DA Training - Epoch [40], Cls Loss: 0.0080, Domain Loss: 0.0042, Acc: 0.9975
+2026-06-17 23:28:28,992 - INFO - Target Val - Epoch [40], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:32,325 - INFO - Epoch [41], Batch [20], Cls Loss: 0.0022, Domain Loss: 0.0002
+2026-06-17 23:28:33,173 - INFO - DA Training - Epoch [41], Cls Loss: 0.0039, Domain Loss: 0.0402, Acc: 0.9975
+2026-06-17 23:28:33,399 - INFO - Target Val - Epoch [41], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:36,870 - INFO - Epoch [42], Batch [20], Cls Loss: 0.1033, Domain Loss: 0.0000
+2026-06-17 23:28:37,618 - INFO - DA Training - Epoch [42], Cls Loss: 0.0118, Domain Loss: 0.0035, Acc: 0.9975
+2026-06-17 23:28:37,840 - INFO - Target Val - Epoch [42], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:41,114 - INFO - Epoch [43], Batch [20], Cls Loss: 0.0046, Domain Loss: 0.0000
+2026-06-17 23:28:41,989 - INFO - DA Training - Epoch [43], Cls Loss: 0.0039, Domain Loss: 0.0038, Acc: 1.0000
+2026-06-17 23:28:42,222 - INFO - Target Val - Epoch [43], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:45,565 - INFO - Epoch [44], Batch [20], Cls Loss: 0.0043, Domain Loss: 0.0000
+2026-06-17 23:28:46,487 - INFO - DA Training - Epoch [44], Cls Loss: 0.0048, Domain Loss: 0.0123, Acc: 0.9975
+2026-06-17 23:28:46,731 - INFO - Target Val - Epoch [44], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:50,101 - INFO - Epoch [45], Batch [20], Cls Loss: 0.0009, Domain Loss: 0.0000
+2026-06-17 23:28:50,925 - INFO - DA Training - Epoch [45], Cls Loss: 0.0032, Domain Loss: 0.0015, Acc: 0.9988
+2026-06-17 23:28:51,156 - INFO - Target Val - Epoch [45], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:54,455 - INFO - Epoch [46], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0016
+2026-06-17 23:28:55,335 - INFO - DA Training - Epoch [46], Cls Loss: 0.0022, Domain Loss: 0.0020, Acc: 1.0000
+2026-06-17 23:28:55,579 - INFO - Target Val - Epoch [46], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:28:59,006 - INFO - Epoch [47], Batch [20], Cls Loss: 0.0000, Domain Loss: 0.0000
+2026-06-17 23:28:59,785 - INFO - DA Training - Epoch [47], Cls Loss: 0.0004, Domain Loss: 0.0025, Acc: 1.0000
+2026-06-17 23:29:00,019 - INFO - Target Val - Epoch [47], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:29:03,360 - INFO - Epoch [48], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0000
+2026-06-17 23:29:04,291 - INFO - DA Training - Epoch [48], Cls Loss: 0.0019, Domain Loss: 0.0066, Acc: 1.0000
+2026-06-17 23:29:04,543 - INFO - Target Val - Epoch [48], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:29:07,999 - INFO - Epoch [49], Batch [20], Cls Loss: 0.0010, Domain Loss: 0.0000
+2026-06-17 23:29:08,852 - INFO - DA Training - Epoch [49], Cls Loss: 0.0011, Domain Loss: 0.0012, Acc: 1.0000
+2026-06-17 23:29:09,072 - INFO - Target Val - Epoch [49], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:29:12,579 - INFO - Epoch [50], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0073
+2026-06-17 23:29:13,406 - INFO - DA Training - Epoch [50], Cls Loss: 0.0022, Domain Loss: 0.0004, Acc: 1.0000
+2026-06-17 23:29:13,642 - INFO - Target Val - Epoch [50], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:29:13,643 - INFO - 第 1 次重复完成
+2026-06-17 23:29:13,643 - INFO - 源域最佳: Epoch 33, Acc: 0.9811, F1: 0.9785
+2026-06-17 23:29:13,643 - INFO - 目标域最佳: Epoch 1, Acc: 0.0385, F1: 0.0556
+2026-06-17 23:29:13,643 - INFO - 
+---------- 第 2/5 次重复 (种子 43) ----------
+2026-06-17 23:29:14,047 - INFO - === 开始源域训练 (种子 43) ===
+2026-06-17 23:29:16,094 - INFO - Epoch [1], Batch [20/26], Loss: 2.6360, Acc: 0.0656
+2026-06-17 23:29:16,677 - INFO - Source Training - Epoch [1], Loss: 2.6334, Acc: 0.0735
+2026-06-17 23:29:18,134 - INFO - Source Val - Epoch [1], Acc: 0.0755, F1: 0.0108
+2026-06-17 23:29:21,683 - INFO - Epoch [2], Batch [20/26], Loss: 2.4746, Acc: 0.0922
+2026-06-17 23:29:22,054 - INFO - Source Training - Epoch [2], Loss: 2.5760, Acc: 0.0993
+2026-06-17 23:29:23,510 - INFO - Source Val - Epoch [2], Acc: 0.1792, F1: 0.1180
+2026-06-17 23:29:27,107 - INFO - Epoch [3], Batch [20/26], Loss: 2.1462, Acc: 0.2344
+2026-06-17 23:29:27,642 - INFO - Source Training - Epoch [3], Loss: 2.3343, Acc: 0.2390
+2026-06-17 23:29:29,151 - INFO - Source Val - Epoch [3], Acc: 0.2217, F1: 0.0902
+2026-06-17 23:29:32,828 - INFO - Epoch [4], Batch [20/26], Loss: 2.1751, Acc: 0.2844
+2026-06-17 23:29:33,569 - INFO - Source Training - Epoch [4], Loss: 2.1224, Acc: 0.2880
+2026-06-17 23:29:35,028 - INFO - Source Val - Epoch [4], Acc: 0.4670, F1: 0.3128
+2026-06-17 23:29:38,808 - INFO - Epoch [5], Batch [20/26], Loss: 1.8145, Acc: 0.3469
+2026-06-17 23:29:39,342 - INFO - Source Training - Epoch [5], Loss: 1.8364, Acc: 0.3578
+2026-06-17 23:29:40,789 - INFO - Source Val - Epoch [5], Acc: 0.4811, F1: 0.2999
+2026-06-17 23:29:44,981 - INFO - Epoch [6], Batch [20/26], Loss: 1.7857, Acc: 0.4875
+2026-06-17 23:29:45,473 - INFO - Source Training - Epoch [6], Loss: 1.5479, Acc: 0.4926
+2026-06-17 23:29:47,010 - INFO - Source Val - Epoch [6], Acc: 0.5708, F1: 0.4255
+2026-06-17 23:29:50,742 - INFO - Epoch [7], Batch [20/26], Loss: 0.7021, Acc: 0.5891
+2026-06-17 23:29:51,370 - INFO - Source Training - Epoch [7], Loss: 1.2573, Acc: 0.6189
+2026-06-17 23:29:52,868 - INFO - Source Val - Epoch [7], Acc: 0.7358, F1: 0.7299
+2026-06-17 23:29:57,161 - INFO - Epoch [8], Batch [20/26], Loss: 0.9232, Acc: 0.7172
+2026-06-17 23:29:57,821 - INFO - Source Training - Epoch [8], Loss: 0.9130, Acc: 0.7316
+2026-06-17 23:29:59,308 - INFO - Source Val - Epoch [8], Acc: 0.8019, F1: 0.7669
+2026-06-17 23:30:03,224 - INFO - Epoch [9], Batch [20/26], Loss: 0.6191, Acc: 0.7859
+2026-06-17 23:30:03,882 - INFO - Source Training - Epoch [9], Loss: 0.7447, Acc: 0.7855
+2026-06-17 23:30:05,358 - INFO - Source Val - Epoch [9], Acc: 0.7783, F1: 0.7324
+2026-06-17 23:30:07,406 - INFO - Epoch [10], Batch [20/26], Loss: 0.4824, Acc: 0.8234
+2026-06-17 23:30:08,152 - INFO - Source Training - Epoch [10], Loss: 0.6013, Acc: 0.8235
+2026-06-17 23:30:09,606 - INFO - Source Val - Epoch [10], Acc: 0.8208, F1: 0.7952
+2026-06-17 23:30:13,604 - INFO - Epoch [11], Batch [20/26], Loss: 0.4649, Acc: 0.8313
+2026-06-17 23:30:14,266 - INFO - Source Training - Epoch [11], Loss: 0.5110, Acc: 0.8346
+2026-06-17 23:30:15,703 - INFO - Source Val - Epoch [11], Acc: 0.8491, F1: 0.7277
+2026-06-17 23:30:19,165 - INFO - Epoch [12], Batch [20/26], Loss: 0.4233, Acc: 0.8672
+2026-06-17 23:30:20,013 - INFO - Source Training - Epoch [12], Loss: 0.4239, Acc: 0.8627
+2026-06-17 23:30:21,508 - INFO - Source Val - Epoch [12], Acc: 0.8774, F1: 0.7801
+2026-06-17 23:30:25,437 - INFO - Epoch [13], Batch [20/26], Loss: 0.9228, Acc: 0.8703
+2026-06-17 23:30:26,177 - INFO - Source Training - Epoch [13], Loss: 0.4205, Acc: 0.8725
+2026-06-17 23:30:27,647 - INFO - Source Val - Epoch [13], Acc: 0.8208, F1: 0.6978
+2026-06-17 23:30:30,498 - INFO - Epoch [14], Batch [20/26], Loss: 0.2188, Acc: 0.8969
+2026-06-17 23:30:30,765 - INFO - Source Training - Epoch [14], Loss: 0.3269, Acc: 0.8995
+2026-06-17 23:30:32,274 - INFO - Source Val - Epoch [14], Acc: 0.8868, F1: 0.7857
+2026-06-17 23:30:36,115 - INFO - Epoch [15], Batch [20/26], Loss: 0.1577, Acc: 0.9109
+2026-06-17 23:30:36,668 - INFO - Source Training - Epoch [15], Loss: 0.3002, Acc: 0.9118
+2026-06-17 23:30:38,156 - INFO - Source Val - Epoch [15], Acc: 0.7783, F1: 0.7212
+2026-06-17 23:30:40,504 - INFO - Epoch [16], Batch [20/26], Loss: 0.4148, Acc: 0.9141
+2026-06-17 23:30:40,931 - INFO - Source Training - Epoch [16], Loss: 0.2596, Acc: 0.9093
+2026-06-17 23:30:42,447 - INFO - Source Val - Epoch [16], Acc: 0.8726, F1: 0.8192
+2026-06-17 23:30:44,546 - INFO - Epoch [17], Batch [20/26], Loss: 0.1205, Acc: 0.9125
+2026-06-17 23:30:44,958 - INFO - Source Training - Epoch [17], Loss: 0.2496, Acc: 0.9142
+2026-06-17 23:30:46,466 - INFO - Source Val - Epoch [17], Acc: 0.8726, F1: 0.8159
+2026-06-17 23:30:48,771 - INFO - Epoch [18], Batch [20/26], Loss: 0.2017, Acc: 0.9281
+2026-06-17 23:30:49,254 - INFO - Source Training - Epoch [18], Loss: 0.2236, Acc: 0.9240
+2026-06-17 23:30:50,724 - INFO - Source Val - Epoch [18], Acc: 0.9198, F1: 0.8798
+2026-06-17 23:30:54,618 - INFO - Epoch [19], Batch [20/26], Loss: 0.1512, Acc: 0.9219
+2026-06-17 23:30:55,016 - INFO - Source Training - Epoch [19], Loss: 0.2205, Acc: 0.9154
+2026-06-17 23:30:56,459 - INFO - Source Val - Epoch [19], Acc: 0.8821, F1: 0.8248
+2026-06-17 23:30:58,633 - INFO - Epoch [20], Batch [20/26], Loss: 0.1736, Acc: 0.9266
+2026-06-17 23:30:59,293 - INFO - Source Training - Epoch [20], Loss: 0.1877, Acc: 0.9265
+2026-06-17 23:31:00,766 - INFO - Source Val - Epoch [20], Acc: 0.9104, F1: 0.8707
+2026-06-17 23:31:03,021 - INFO - Epoch [21], Batch [20/26], Loss: 0.2352, Acc: 0.9313
+2026-06-17 23:31:03,390 - INFO - Source Training - Epoch [21], Loss: 0.1751, Acc: 0.9301
+2026-06-17 23:31:04,855 - INFO - Source Val - Epoch [21], Acc: 0.8821, F1: 0.8205
+2026-06-17 23:31:07,265 - INFO - Epoch [22], Batch [20/26], Loss: 0.1372, Acc: 0.9219
+2026-06-17 23:31:07,671 - INFO - Source Training - Epoch [22], Loss: 0.1755, Acc: 0.9265
+2026-06-17 23:31:09,193 - INFO - Source Val - Epoch [22], Acc: 0.8821, F1: 0.8244
+2026-06-17 23:31:11,149 - INFO - Epoch [23], Batch [20/26], Loss: 0.0200, Acc: 0.9281
+2026-06-17 23:31:11,701 - INFO - Source Training - Epoch [23], Loss: 0.1671, Acc: 0.9301
+2026-06-17 23:31:13,162 - INFO - Source Val - Epoch [23], Acc: 0.9198, F1: 0.8781
+2026-06-17 23:31:15,288 - INFO - Epoch [24], Batch [20/26], Loss: 0.1546, Acc: 0.9344
+2026-06-17 23:31:16,163 - INFO - Source Training - Epoch [24], Loss: 0.1372, Acc: 0.9375
+2026-06-17 23:31:17,634 - INFO - Source Val - Epoch [24], Acc: 0.8868, F1: 0.7872
+2026-06-17 23:31:20,296 - INFO - Epoch [25], Batch [20/26], Loss: 0.2221, Acc: 0.9266
+2026-06-17 23:31:20,593 - INFO - Source Training - Epoch [25], Loss: 0.1292, Acc: 0.9326
+2026-06-17 23:31:22,083 - INFO - Source Val - Epoch [25], Acc: 0.9198, F1: 0.8764
+2026-06-17 23:31:24,525 - INFO - Epoch [26], Batch [20/26], Loss: 0.1374, Acc: 0.9391
+2026-06-17 23:31:24,967 - INFO - Source Training - Epoch [26], Loss: 0.1398, Acc: 0.9350
+2026-06-17 23:31:26,413 - INFO - Source Val - Epoch [26], Acc: 0.8821, F1: 0.8205
+2026-06-17 23:31:28,535 - INFO - Epoch [27], Batch [20/26], Loss: 0.1298, Acc: 0.9219
+2026-06-17 23:31:29,354 - INFO - Source Training - Epoch [27], Loss: 0.1392, Acc: 0.9289
+2026-06-17 23:31:30,845 - INFO - Source Val - Epoch [27], Acc: 0.8632, F1: 0.8016
+2026-06-17 23:31:33,099 - INFO - Epoch [28], Batch [20/26], Loss: 0.1456, Acc: 0.9437
+2026-06-17 23:31:33,724 - INFO - Source Training - Epoch [28], Loss: 0.1101, Acc: 0.9461
+2026-06-17 23:31:35,268 - INFO - Source Val - Epoch [28], Acc: 0.9151, F1: 0.8360
+2026-06-17 23:31:37,521 - INFO - Epoch [29], Batch [20/26], Loss: 0.1346, Acc: 0.9563
+2026-06-17 23:31:38,241 - INFO - Source Training - Epoch [29], Loss: 0.1045, Acc: 0.9620
+2026-06-17 23:31:39,734 - INFO - Source Val - Epoch [29], Acc: 0.9953, F1: 0.9940
+2026-06-17 23:31:43,582 - INFO - Epoch [30], Batch [20/26], Loss: 0.0008, Acc: 0.9797
+2026-06-17 23:31:44,015 - INFO - Source Training - Epoch [30], Loss: 0.0912, Acc: 0.9779
+2026-06-17 23:31:45,605 - INFO - Source Val - Epoch [30], Acc: 0.8962, F1: 0.8188
+2026-06-17 23:31:47,944 - INFO - Epoch [31], Batch [20/26], Loss: 0.0417, Acc: 0.9719
+2026-06-17 23:31:48,560 - INFO - Source Training - Epoch [31], Loss: 0.1097, Acc: 0.9681
+2026-06-17 23:31:50,021 - INFO - Source Val - Epoch [31], Acc: 0.9528, F1: 0.8902
+2026-06-17 23:31:52,360 - INFO - Epoch [32], Batch [20/26], Loss: 0.1998, Acc: 0.9766
+2026-06-17 23:31:53,003 - INFO - Source Training - Epoch [32], Loss: 0.0816, Acc: 0.9767
+2026-06-17 23:31:54,454 - INFO - Source Val - Epoch [32], Acc: 0.9104, F1: 0.8422
+2026-06-17 23:31:56,759 - INFO - Epoch [33], Batch [20/26], Loss: 0.1044, Acc: 0.9703
+2026-06-17 23:31:57,928 - INFO - Source Training - Epoch [33], Loss: 0.1026, Acc: 0.9743
+2026-06-17 23:31:59,404 - INFO - Source Val - Epoch [33], Acc: 0.9387, F1: 0.9487
+2026-06-17 23:32:01,895 - INFO - Epoch [34], Batch [20/26], Loss: 0.0160, Acc: 0.9859
+2026-06-17 23:32:02,203 - INFO - Source Training - Epoch [34], Loss: 0.0503, Acc: 0.9890
+2026-06-17 23:32:03,673 - INFO - Source Val - Epoch [34], Acc: 0.9292, F1: 0.8751
+2026-06-17 23:32:05,993 - INFO - Epoch [35], Batch [20/26], Loss: 0.0110, Acc: 0.9922
+2026-06-17 23:32:06,522 - INFO - Source Training - Epoch [35], Loss: 0.0346, Acc: 0.9914
+2026-06-17 23:32:08,035 - INFO - Source Val - Epoch [35], Acc: 0.9575, F1: 0.9336
+2026-06-17 23:32:10,563 - INFO - Epoch [36], Batch [20/26], Loss: 0.0289, Acc: 0.9938
+2026-06-17 23:32:11,291 - INFO - Source Training - Epoch [36], Loss: 0.0306, Acc: 0.9914
+2026-06-17 23:32:12,774 - INFO - Source Val - Epoch [36], Acc: 0.9953, F1: 0.9915
+2026-06-17 23:32:15,035 - INFO - Epoch [37], Batch [20/26], Loss: 0.0390, Acc: 0.9969
+2026-06-17 23:32:15,738 - INFO - Source Training - Epoch [37], Loss: 0.0220, Acc: 0.9951
+2026-06-17 23:32:17,255 - INFO - Source Val - Epoch [37], Acc: 0.9811, F1: 0.9785
+2026-06-17 23:32:19,628 - INFO - Epoch [38], Batch [20/26], Loss: 0.0277, Acc: 0.9938
+2026-06-17 23:32:20,246 - INFO - Source Training - Epoch [38], Loss: 0.0373, Acc: 0.9926
+2026-06-17 23:32:21,700 - INFO - Source Val - Epoch [38], Acc: 0.9811, F1: 0.9819
+2026-06-17 23:32:23,971 - INFO - Epoch [39], Batch [20/26], Loss: 0.2867, Acc: 0.9844
+2026-06-17 23:32:24,670 - INFO - Source Training - Epoch [39], Loss: 0.0637, Acc: 0.9841
+2026-06-17 23:32:26,119 - INFO - Source Val - Epoch [39], Acc: 0.9434, F1: 0.9243
+2026-06-17 23:32:28,375 - INFO - Epoch [40], Batch [20/26], Loss: 0.0059, Acc: 0.9891
+2026-06-17 23:32:29,066 - INFO - Source Training - Epoch [40], Loss: 0.0437, Acc: 0.9877
+2026-06-17 23:32:30,568 - INFO - Source Val - Epoch [40], Acc: 0.9245, F1: 0.9110
+2026-06-17 23:32:32,759 - INFO - Epoch [41], Batch [20/26], Loss: 0.0197, Acc: 0.9859
+2026-06-17 23:32:33,891 - INFO - Source Training - Epoch [41], Loss: 0.0302, Acc: 0.9865
+2026-06-17 23:32:35,454 - INFO - Source Val - Epoch [41], Acc: 0.9717, F1: 0.9760
+2026-06-17 23:32:37,635 - INFO - Epoch [42], Batch [20/26], Loss: 0.0049, Acc: 0.9859
+2026-06-17 23:32:38,309 - INFO - Source Training - Epoch [42], Loss: 0.0328, Acc: 0.9865
+2026-06-17 23:32:39,779 - INFO - Source Val - Epoch [42], Acc: 0.9245, F1: 0.8420
+2026-06-17 23:32:42,562 - INFO - Epoch [43], Batch [20/26], Loss: 0.0020, Acc: 0.9906
+2026-06-17 23:32:42,962 - INFO - Source Training - Epoch [43], Loss: 0.0203, Acc: 0.9926
+2026-06-17 23:32:44,501 - INFO - Source Val - Epoch [43], Acc: 0.9953, F1: 0.9940
+2026-06-17 23:32:46,961 - INFO - Epoch [44], Batch [20/26], Loss: 0.0141, Acc: 0.9969
+2026-06-17 23:32:47,409 - INFO - Source Training - Epoch [44], Loss: 0.0189, Acc: 0.9951
+2026-06-17 23:32:48,928 - INFO - Source Val - Epoch [44], Acc: 0.8774, F1: 0.8640
+2026-06-17 23:32:51,495 - INFO - Epoch [45], Batch [20/26], Loss: 0.1131, Acc: 0.9953
+2026-06-17 23:32:51,872 - INFO - Source Training - Epoch [45], Loss: 0.0189, Acc: 0.9951
+2026-06-17 23:32:53,406 - INFO - Source Val - Epoch [45], Acc: 0.8774, F1: 0.8736
+2026-06-17 23:32:55,605 - INFO - Epoch [46], Batch [20/26], Loss: 0.0089, Acc: 0.9938
+2026-06-17 23:32:56,156 - INFO - Source Training - Epoch [46], Loss: 0.0309, Acc: 0.9926
+2026-06-17 23:32:57,640 - INFO - Source Val - Epoch [46], Acc: 0.9481, F1: 0.8904
+2026-06-17 23:32:59,925 - INFO - Epoch [47], Batch [20/26], Loss: 0.0044, Acc: 0.9859
+2026-06-17 23:33:00,544 - INFO - Source Training - Epoch [47], Loss: 0.0325, Acc: 0.9865
+2026-06-17 23:33:02,008 - INFO - Source Val - Epoch [47], Acc: 0.9623, F1: 0.9026
+2026-06-17 23:33:04,192 - INFO - Epoch [48], Batch [20/26], Loss: 0.0023, Acc: 0.9984
+2026-06-17 23:33:04,656 - INFO - Source Training - Epoch [48], Loss: 0.0109, Acc: 0.9975
+2026-06-17 23:33:06,163 - INFO - Source Val - Epoch [48], Acc: 0.9623, F1: 0.9026
+2026-06-17 23:33:08,697 - INFO - Epoch [49], Batch [20/26], Loss: 0.0008, Acc: 0.9953
+2026-06-17 23:33:08,956 - INFO - Source Training - Epoch [49], Loss: 0.0158, Acc: 0.9963
+2026-06-17 23:33:10,463 - INFO - Source Val - Epoch [49], Acc: 0.9623, F1: 0.9026
+2026-06-17 23:33:12,594 - INFO - Epoch [50], Batch [20/26], Loss: 0.0032, Acc: 0.9969
+2026-06-17 23:33:13,541 - INFO - Source Training - Epoch [50], Loss: 0.0217, Acc: 0.9963
+2026-06-17 23:33:15,181 - INFO - Source Val - Epoch [50], Acc: 0.9623, F1: 0.9026
+2026-06-17 23:33:15,182 - INFO - === 开始目标域适应 (种子 43) ===
+2026-06-17 23:33:18,555 - INFO - Epoch [1], Batch [20], Cls Loss: 0.0039, Domain Loss: 0.2681
+2026-06-17 23:33:19,338 - INFO - DA Training - Epoch [1], Cls Loss: 0.0222, Domain Loss: 0.9424, Acc: 0.9926
+2026-06-17 23:33:19,573 - INFO - Target Val - Epoch [1], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:24,555 - INFO - Epoch [2], Batch [20], Cls Loss: 0.0134, Domain Loss: 0.1884
+2026-06-17 23:33:25,538 - INFO - DA Training - Epoch [2], Cls Loss: 0.0174, Domain Loss: 0.2030, Acc: 0.9988
+2026-06-17 23:33:25,749 - INFO - Target Val - Epoch [2], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:29,197 - INFO - Epoch [3], Batch [20], Cls Loss: 0.0043, Domain Loss: 0.0216
+2026-06-17 23:33:30,010 - INFO - DA Training - Epoch [3], Cls Loss: 0.0200, Domain Loss: 0.0504, Acc: 0.9939
+2026-06-17 23:33:30,256 - INFO - Target Val - Epoch [3], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:33,871 - INFO - Epoch [4], Batch [20], Cls Loss: 0.0036, Domain Loss: 0.0044
+2026-06-17 23:33:34,665 - INFO - DA Training - Epoch [4], Cls Loss: 0.0091, Domain Loss: 0.0718, Acc: 0.9988
+2026-06-17 23:33:34,902 - INFO - Target Val - Epoch [4], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:38,495 - INFO - Epoch [5], Batch [20], Cls Loss: 0.0035, Domain Loss: 0.0007
+2026-06-17 23:33:39,286 - INFO - DA Training - Epoch [5], Cls Loss: 0.0109, Domain Loss: 0.0380, Acc: 0.9951
+2026-06-17 23:33:39,531 - INFO - Target Val - Epoch [5], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:42,972 - INFO - Epoch [6], Batch [20], Cls Loss: 0.0013, Domain Loss: 0.0231
+2026-06-17 23:33:43,804 - INFO - DA Training - Epoch [6], Cls Loss: 0.0053, Domain Loss: 0.0188, Acc: 1.0000
+2026-06-17 23:33:44,051 - INFO - Target Val - Epoch [6], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:47,343 - INFO - Epoch [7], Batch [20], Cls Loss: 0.0051, Domain Loss: 0.0038
+2026-06-17 23:33:48,213 - INFO - DA Training - Epoch [7], Cls Loss: 0.0119, Domain Loss: 0.0168, Acc: 0.9963
+2026-06-17 23:33:48,439 - INFO - Target Val - Epoch [7], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:51,725 - INFO - Epoch [8], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0006
+2026-06-17 23:33:52,589 - INFO - DA Training - Epoch [8], Cls Loss: 0.0073, Domain Loss: 0.0316, Acc: 0.9975
+2026-06-17 23:33:52,818 - INFO - Target Val - Epoch [8], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:33:55,971 - INFO - Epoch [9], Batch [20], Cls Loss: 0.0050, Domain Loss: 0.1243
+2026-06-17 23:33:56,897 - INFO - DA Training - Epoch [9], Cls Loss: 0.0197, Domain Loss: 0.0230, Acc: 0.9939
+2026-06-17 23:33:57,137 - INFO - Target Val - Epoch [9], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:00,325 - INFO - Epoch [10], Batch [20], Cls Loss: 0.0191, Domain Loss: 0.0002
+2026-06-17 23:34:01,140 - INFO - DA Training - Epoch [10], Cls Loss: 0.0238, Domain Loss: 0.0140, Acc: 0.9902
+2026-06-17 23:34:01,376 - INFO - Target Val - Epoch [10], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:04,664 - INFO - Epoch [11], Batch [20], Cls Loss: 0.0071, Domain Loss: 0.0023
+2026-06-17 23:34:05,713 - INFO - DA Training - Epoch [11], Cls Loss: 0.0203, Domain Loss: 0.0324, Acc: 0.9951
+2026-06-17 23:34:05,960 - INFO - Target Val - Epoch [11], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:09,133 - INFO - Epoch [12], Batch [20], Cls Loss: 0.0065, Domain Loss: 0.0007
+2026-06-17 23:34:09,952 - INFO - DA Training - Epoch [12], Cls Loss: 0.0267, Domain Loss: 0.0331, Acc: 0.9914
+2026-06-17 23:34:10,176 - INFO - Target Val - Epoch [12], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:13,473 - INFO - Epoch [13], Batch [20], Cls Loss: 0.0053, Domain Loss: 0.0001
+2026-06-17 23:34:14,276 - INFO - DA Training - Epoch [13], Cls Loss: 0.0161, Domain Loss: 0.0350, Acc: 0.9975
+2026-06-17 23:34:14,523 - INFO - Target Val - Epoch [13], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:17,560 - INFO - Epoch [14], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0024
+2026-06-17 23:34:18,325 - INFO - DA Training - Epoch [14], Cls Loss: 0.0036, Domain Loss: 0.0135, Acc: 1.0000
+2026-06-17 23:34:18,568 - INFO - Target Val - Epoch [14], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:21,679 - INFO - Epoch [15], Batch [20], Cls Loss: 0.0012, Domain Loss: 0.0001
+2026-06-17 23:34:22,461 - INFO - DA Training - Epoch [15], Cls Loss: 0.0022, Domain Loss: 0.0047, Acc: 1.0000
+2026-06-17 23:34:22,689 - INFO - Target Val - Epoch [15], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:25,977 - INFO - Epoch [16], Batch [20], Cls Loss: 0.0041, Domain Loss: 0.0935
+2026-06-17 23:34:26,716 - INFO - DA Training - Epoch [16], Cls Loss: 0.0052, Domain Loss: 0.0142, Acc: 0.9975
+2026-06-17 23:34:26,942 - INFO - Target Val - Epoch [16], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:30,160 - INFO - Epoch [17], Batch [20], Cls Loss: 0.0033, Domain Loss: 0.0093
+2026-06-17 23:34:30,983 - INFO - DA Training - Epoch [17], Cls Loss: 0.0059, Domain Loss: 0.0067, Acc: 0.9988
+2026-06-17 23:34:31,221 - INFO - Target Val - Epoch [17], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:34,259 - INFO - Epoch [18], Batch [20], Cls Loss: 0.0045, Domain Loss: 0.0000
+2026-06-17 23:34:35,038 - INFO - DA Training - Epoch [18], Cls Loss: 0.0086, Domain Loss: 0.0056, Acc: 0.9988
+2026-06-17 23:34:35,283 - INFO - Target Val - Epoch [18], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:38,454 - INFO - Epoch [19], Batch [20], Cls Loss: 0.0087, Domain Loss: 0.0010
+2026-06-17 23:34:39,232 - INFO - DA Training - Epoch [19], Cls Loss: 0.0054, Domain Loss: 0.0028, Acc: 1.0000
+2026-06-17 23:34:39,459 - INFO - Target Val - Epoch [19], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:43,060 - INFO - Epoch [20], Batch [20], Cls Loss: 0.0742, Domain Loss: 0.0002
+2026-06-17 23:34:43,792 - INFO - DA Training - Epoch [20], Cls Loss: 0.0044, Domain Loss: 0.0172, Acc: 0.9988
+2026-06-17 23:34:44,030 - INFO - Target Val - Epoch [20], Acc: 0.2692, F1: 0.2121
+2026-06-17 23:34:49,018 - INFO - Epoch [21], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0002
+2026-06-17 23:34:49,826 - INFO - DA Training - Epoch [21], Cls Loss: 0.0083, Domain Loss: 0.0047, Acc: 0.9975
+2026-06-17 23:34:50,056 - INFO - Target Val - Epoch [21], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:53,762 - INFO - Epoch [22], Batch [20], Cls Loss: 0.0018, Domain Loss: 0.0002
+2026-06-17 23:34:54,669 - INFO - DA Training - Epoch [22], Cls Loss: 0.0085, Domain Loss: 0.0181, Acc: 0.9951
+2026-06-17 23:34:54,907 - INFO - Target Val - Epoch [22], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:34:58,450 - INFO - Epoch [23], Batch [20], Cls Loss: 0.0027, Domain Loss: 0.0000
+2026-06-17 23:34:59,207 - INFO - DA Training - Epoch [23], Cls Loss: 0.0033, Domain Loss: 0.0013, Acc: 0.9988
+2026-06-17 23:34:59,454 - INFO - Target Val - Epoch [23], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:02,727 - INFO - Epoch [24], Batch [20], Cls Loss: 0.0101, Domain Loss: 0.0001
+2026-06-17 23:35:03,577 - INFO - DA Training - Epoch [24], Cls Loss: 0.0182, Domain Loss: 0.0073, Acc: 0.9951
+2026-06-17 23:35:03,812 - INFO - Target Val - Epoch [24], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:07,011 - INFO - Epoch [25], Batch [20], Cls Loss: 0.0020, Domain Loss: 0.1465
+2026-06-17 23:35:07,859 - INFO - DA Training - Epoch [25], Cls Loss: 0.0242, Domain Loss: 0.0411, Acc: 0.9914
+2026-06-17 23:35:08,080 - INFO - Target Val - Epoch [25], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:11,512 - INFO - Epoch [26], Batch [20], Cls Loss: 0.0008, Domain Loss: 0.0000
+2026-06-17 23:35:12,452 - INFO - DA Training - Epoch [26], Cls Loss: 0.0102, Domain Loss: 0.0164, Acc: 0.9975
+2026-06-17 23:35:12,697 - INFO - Target Val - Epoch [26], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:16,036 - INFO - Epoch [27], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.1965
+2026-06-17 23:35:16,980 - INFO - DA Training - Epoch [27], Cls Loss: 0.0099, Domain Loss: 0.0137, Acc: 0.9939
+2026-06-17 23:35:17,203 - INFO - Target Val - Epoch [27], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:20,192 - INFO - Epoch [28], Batch [20], Cls Loss: 0.0010, Domain Loss: 0.0597
+2026-06-17 23:35:21,139 - INFO - DA Training - Epoch [28], Cls Loss: 0.0127, Domain Loss: 0.0103, Acc: 0.9963
+2026-06-17 23:35:21,367 - INFO - Target Val - Epoch [28], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:24,907 - INFO - Epoch [29], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0338
+2026-06-17 23:35:25,814 - INFO - DA Training - Epoch [29], Cls Loss: 0.0092, Domain Loss: 0.0054, Acc: 0.9963
+2026-06-17 23:35:26,043 - INFO - Target Val - Epoch [29], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:29,611 - INFO - Epoch [30], Batch [20], Cls Loss: 0.0024, Domain Loss: 0.0001
+2026-06-17 23:35:30,438 - INFO - DA Training - Epoch [30], Cls Loss: 0.0237, Domain Loss: 0.0150, Acc: 0.9963
+2026-06-17 23:35:30,670 - INFO - Target Val - Epoch [30], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:34,078 - INFO - Epoch [31], Batch [20], Cls Loss: 0.0039, Domain Loss: 0.0002
+2026-06-17 23:35:34,838 - INFO - DA Training - Epoch [31], Cls Loss: 0.0095, Domain Loss: 0.0074, Acc: 0.9975
+2026-06-17 23:35:35,075 - INFO - Target Val - Epoch [31], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:38,927 - INFO - Epoch [32], Batch [20], Cls Loss: 0.0037, Domain Loss: 0.0000
+2026-06-17 23:35:39,766 - INFO - DA Training - Epoch [32], Cls Loss: 0.0127, Domain Loss: 0.0027, Acc: 0.9963
+2026-06-17 23:35:40,005 - INFO - Target Val - Epoch [32], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:43,593 - INFO - Epoch [33], Batch [20], Cls Loss: 0.0266, Domain Loss: 0.0001
+2026-06-17 23:35:44,332 - INFO - DA Training - Epoch [33], Cls Loss: 0.0066, Domain Loss: 0.0033, Acc: 0.9988
+2026-06-17 23:35:44,557 - INFO - Target Val - Epoch [33], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:47,767 - INFO - Epoch [34], Batch [20], Cls Loss: 0.0019, Domain Loss: 0.0001
+2026-06-17 23:35:48,660 - INFO - DA Training - Epoch [34], Cls Loss: 0.0050, Domain Loss: 0.0045, Acc: 0.9988
+2026-06-17 23:35:48,892 - INFO - Target Val - Epoch [34], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:52,334 - INFO - Epoch [35], Batch [20], Cls Loss: 0.0025, Domain Loss: 0.0635
+2026-06-17 23:35:53,155 - INFO - DA Training - Epoch [35], Cls Loss: 0.0029, Domain Loss: 0.0116, Acc: 0.9988
+2026-06-17 23:35:53,414 - INFO - Target Val - Epoch [35], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:35:56,907 - INFO - Epoch [36], Batch [20], Cls Loss: 0.0021, Domain Loss: 0.0000
+2026-06-17 23:35:57,819 - INFO - DA Training - Epoch [36], Cls Loss: 0.0069, Domain Loss: 0.0071, Acc: 0.9988
+2026-06-17 23:35:58,058 - INFO - Target Val - Epoch [36], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:01,795 - INFO - Epoch [37], Batch [20], Cls Loss: 0.0031, Domain Loss: 0.0000
+2026-06-17 23:36:02,575 - INFO - DA Training - Epoch [37], Cls Loss: 0.0101, Domain Loss: 0.0052, Acc: 0.9951
+2026-06-17 23:36:02,825 - INFO - Target Val - Epoch [37], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:06,171 - INFO - Epoch [38], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0000
+2026-06-17 23:36:07,040 - INFO - DA Training - Epoch [38], Cls Loss: 0.0093, Domain Loss: 0.0033, Acc: 0.9963
+2026-06-17 23:36:07,267 - INFO - Target Val - Epoch [38], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:10,543 - INFO - Epoch [39], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0000
+2026-06-17 23:36:11,451 - INFO - DA Training - Epoch [39], Cls Loss: 0.0040, Domain Loss: 0.0008, Acc: 0.9988
+2026-06-17 23:36:11,683 - INFO - Target Val - Epoch [39], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:15,047 - INFO - Epoch [40], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0007
+2026-06-17 23:36:15,817 - INFO - DA Training - Epoch [40], Cls Loss: 0.0484, Domain Loss: 0.0048, Acc: 0.9926
+2026-06-17 23:36:16,047 - INFO - Target Val - Epoch [40], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:19,392 - INFO - Epoch [41], Batch [20], Cls Loss: 0.0189, Domain Loss: 0.0003
+2026-06-17 23:36:20,359 - INFO - DA Training - Epoch [41], Cls Loss: 0.0106, Domain Loss: 0.0094, Acc: 0.9951
+2026-06-17 23:36:20,582 - INFO - Target Val - Epoch [41], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:24,172 - INFO - Epoch [42], Batch [20], Cls Loss: 0.0115, Domain Loss: 0.0000
+2026-06-17 23:36:24,981 - INFO - DA Training - Epoch [42], Cls Loss: 0.0414, Domain Loss: 0.0050, Acc: 0.9926
+2026-06-17 23:36:25,219 - INFO - Target Val - Epoch [42], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:28,711 - INFO - Epoch [43], Batch [20], Cls Loss: 0.0015, Domain Loss: 0.0002
+2026-06-17 23:36:29,530 - INFO - DA Training - Epoch [43], Cls Loss: 0.0182, Domain Loss: 0.0055, Acc: 0.9939
+2026-06-17 23:36:29,777 - INFO - Target Val - Epoch [43], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:33,321 - INFO - Epoch [44], Batch [20], Cls Loss: 0.0005, Domain Loss: 0.0485
+2026-06-17 23:36:34,220 - INFO - DA Training - Epoch [44], Cls Loss: 0.0082, Domain Loss: 0.0252, Acc: 0.9975
+2026-06-17 23:36:34,449 - INFO - Target Val - Epoch [44], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:37,936 - INFO - Epoch [45], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0000
+2026-06-17 23:36:38,766 - INFO - DA Training - Epoch [45], Cls Loss: 0.0029, Domain Loss: 0.0004, Acc: 1.0000
+2026-06-17 23:36:38,988 - INFO - Target Val - Epoch [45], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:42,806 - INFO - Epoch [46], Batch [20], Cls Loss: 0.0018, Domain Loss: 0.0000
+2026-06-17 23:36:43,779 - INFO - DA Training - Epoch [46], Cls Loss: 0.0038, Domain Loss: 0.0029, Acc: 0.9988
+2026-06-17 23:36:44,006 - INFO - Target Val - Epoch [46], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:47,457 - INFO - Epoch [47], Batch [20], Cls Loss: 0.0169, Domain Loss: 0.0065
+2026-06-17 23:36:48,440 - INFO - DA Training - Epoch [47], Cls Loss: 0.0029, Domain Loss: 0.0024, Acc: 1.0000
+2026-06-17 23:36:48,671 - INFO - Target Val - Epoch [47], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:51,794 - INFO - Epoch [48], Batch [20], Cls Loss: 0.0015, Domain Loss: 0.0000
+2026-06-17 23:36:52,699 - INFO - DA Training - Epoch [48], Cls Loss: 0.0013, Domain Loss: 0.0083, Acc: 1.0000
+2026-06-17 23:36:52,910 - INFO - Target Val - Epoch [48], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:36:56,455 - INFO - Epoch [49], Batch [20], Cls Loss: 0.0082, Domain Loss: 0.0000
+2026-06-17 23:36:57,325 - INFO - DA Training - Epoch [49], Cls Loss: 0.0018, Domain Loss: 0.0002, Acc: 1.0000
+2026-06-17 23:36:57,559 - INFO - Target Val - Epoch [49], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:37:00,842 - INFO - Epoch [50], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0001
+2026-06-17 23:37:01,794 - INFO - DA Training - Epoch [50], Cls Loss: 0.0041, Domain Loss: 0.0001, Acc: 0.9988
+2026-06-17 23:37:02,020 - INFO - Target Val - Epoch [50], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:37:02,021 - INFO - 第 2 次重复完成
+2026-06-17 23:37:02,021 - INFO - 源域最佳: Epoch 29, Acc: 0.9953, F1: 0.9940
+2026-06-17 23:37:02,021 - INFO - 目标域最佳: Epoch 20, Acc: 0.2692, F1: 0.2121
+2026-06-17 23:37:02,021 - INFO - 
+---------- 第 3/5 次重复 (种子 44) ----------
+2026-06-17 23:37:02,451 - INFO - === 开始源域训练 (种子 44) ===
+2026-06-17 23:37:04,777 - INFO - Epoch [1], Batch [20/26], Loss: 2.6214, Acc: 0.0516
+2026-06-17 23:37:05,170 - INFO - Source Training - Epoch [1], Loss: 2.6510, Acc: 0.0625
+2026-06-17 23:37:06,616 - INFO - Source Val - Epoch [1], Acc: 0.1415, F1: 0.0554
+2026-06-17 23:37:10,156 - INFO - Epoch [2], Batch [20/26], Loss: 2.3998, Acc: 0.1500
+2026-06-17 23:37:10,815 - INFO - Source Training - Epoch [2], Loss: 2.4814, Acc: 0.1520
+2026-06-17 23:37:12,287 - INFO - Source Val - Epoch [2], Acc: 0.1321, F1: 0.0802
+2026-06-17 23:37:14,646 - INFO - Epoch [3], Batch [20/26], Loss: 2.4570, Acc: 0.2484
+2026-06-17 23:37:15,075 - INFO - Source Training - Epoch [3], Loss: 2.2636, Acc: 0.2598
+2026-06-17 23:37:16,545 - INFO - Source Val - Epoch [3], Acc: 0.2925, F1: 0.1563
+2026-06-17 23:37:20,590 - INFO - Epoch [4], Batch [20/26], Loss: 1.3800, Acc: 0.3578
+2026-06-17 23:37:21,139 - INFO - Source Training - Epoch [4], Loss: 1.9164, Acc: 0.3664
+2026-06-17 23:37:22,589 - INFO - Source Val - Epoch [4], Acc: 0.3632, F1: 0.2948
+2026-06-17 23:37:26,534 - INFO - Epoch [5], Batch [20/26], Loss: 1.4321, Acc: 0.4984
+2026-06-17 23:37:27,256 - INFO - Source Training - Epoch [5], Loss: 1.5337, Acc: 0.5061
+2026-06-17 23:37:28,708 - INFO - Source Val - Epoch [5], Acc: 0.6557, F1: 0.5818
+2026-06-17 23:37:32,678 - INFO - Epoch [6], Batch [20/26], Loss: 1.0076, Acc: 0.6250
+2026-06-17 23:37:33,060 - INFO - Source Training - Epoch [6], Loss: 1.1913, Acc: 0.6336
+2026-06-17 23:37:34,555 - INFO - Source Val - Epoch [6], Acc: 0.7123, F1: 0.6811
+2026-06-17 23:37:38,225 - INFO - Epoch [7], Batch [20/26], Loss: 0.8566, Acc: 0.7094
+2026-06-17 23:37:38,807 - INFO - Source Training - Epoch [7], Loss: 0.9774, Acc: 0.7108
+2026-06-17 23:37:40,261 - INFO - Source Val - Epoch [7], Acc: 0.7028, F1: 0.6859
+2026-06-17 23:37:42,411 - INFO - Epoch [8], Batch [20/26], Loss: 0.5962, Acc: 0.7969
+2026-06-17 23:37:43,020 - INFO - Source Training - Epoch [8], Loss: 0.7356, Acc: 0.7953
+2026-06-17 23:37:44,474 - INFO - Source Val - Epoch [8], Acc: 0.7264, F1: 0.7526
+2026-06-17 23:37:48,120 - INFO - Epoch [9], Batch [20/26], Loss: 0.4896, Acc: 0.8375
+2026-06-17 23:37:48,731 - INFO - Source Training - Epoch [9], Loss: 0.5771, Acc: 0.8382
+2026-06-17 23:37:50,244 - INFO - Source Val - Epoch [9], Acc: 0.7500, F1: 0.7769
+2026-06-17 23:37:54,383 - INFO - Epoch [10], Batch [20/26], Loss: 0.2223, Acc: 0.8891
+2026-06-17 23:37:54,861 - INFO - Source Training - Epoch [10], Loss: 0.4414, Acc: 0.8934
+2026-06-17 23:37:56,324 - INFO - Source Val - Epoch [10], Acc: 0.8726, F1: 0.8905
+2026-06-17 23:38:00,084 - INFO - Epoch [11], Batch [20/26], Loss: 0.1896, Acc: 0.9313
+2026-06-17 23:38:00,561 - INFO - Source Training - Epoch [11], Loss: 0.2859, Acc: 0.9203
+2026-06-17 23:38:02,035 - INFO - Source Val - Epoch [11], Acc: 0.8774, F1: 0.8868
+2026-06-17 23:38:06,088 - INFO - Epoch [12], Batch [20/26], Loss: 0.1153, Acc: 0.9359
+2026-06-17 23:38:06,581 - INFO - Source Training - Epoch [12], Loss: 0.2352, Acc: 0.9338
+2026-06-17 23:38:08,042 - INFO - Source Val - Epoch [12], Acc: 0.8538, F1: 0.8595
+2026-06-17 23:38:10,142 - INFO - Epoch [13], Batch [20/26], Loss: 0.2121, Acc: 0.9437
+2026-06-17 23:38:10,982 - INFO - Source Training - Epoch [13], Loss: 0.2088, Acc: 0.9387
+2026-06-17 23:38:12,486 - INFO - Source Val - Epoch [13], Acc: 0.8679, F1: 0.8854
+2026-06-17 23:38:14,719 - INFO - Epoch [14], Batch [20/26], Loss: 0.0357, Acc: 0.9469
+2026-06-17 23:38:15,314 - INFO - Source Training - Epoch [14], Loss: 0.1617, Acc: 0.9510
+2026-06-17 23:38:16,812 - INFO - Source Val - Epoch [14], Acc: 0.8726, F1: 0.8857
+2026-06-17 23:38:18,778 - INFO - Epoch [15], Batch [20/26], Loss: 0.1047, Acc: 0.9750
+2026-06-17 23:38:19,478 - INFO - Source Training - Epoch [15], Loss: 0.1099, Acc: 0.9718
+2026-06-17 23:38:20,955 - INFO - Source Val - Epoch [15], Acc: 0.8821, F1: 0.9008
+2026-06-17 23:38:24,823 - INFO - Epoch [16], Batch [20/26], Loss: 0.0199, Acc: 0.9766
+2026-06-17 23:38:25,191 - INFO - Source Training - Epoch [16], Loss: 0.0867, Acc: 0.9779
+2026-06-17 23:38:26,658 - INFO - Source Val - Epoch [16], Acc: 0.9198, F1: 0.9346
+2026-06-17 23:38:30,244 - INFO - Epoch [17], Batch [20/26], Loss: 0.0277, Acc: 0.9656
+2026-06-17 23:38:31,081 - INFO - Source Training - Epoch [17], Loss: 0.1077, Acc: 0.9669
+2026-06-17 23:38:32,544 - INFO - Source Val - Epoch [17], Acc: 0.8726, F1: 0.8822
+2026-06-17 23:38:34,712 - INFO - Epoch [18], Batch [20/26], Loss: 0.0330, Acc: 0.9688
+2026-06-17 23:38:35,284 - INFO - Source Training - Epoch [18], Loss: 0.0978, Acc: 0.9681
+2026-06-17 23:38:36,824 - INFO - Source Val - Epoch [18], Acc: 0.8585, F1: 0.8695
+2026-06-17 23:38:39,400 - INFO - Epoch [19], Batch [20/26], Loss: 0.1172, Acc: 0.9656
+2026-06-17 23:38:39,753 - INFO - Source Training - Epoch [19], Loss: 0.1079, Acc: 0.9657
+2026-06-17 23:38:41,194 - INFO - Source Val - Epoch [19], Acc: 0.9340, F1: 0.9458
+2026-06-17 23:38:45,107 - INFO - Epoch [20], Batch [20/26], Loss: 0.0385, Acc: 0.9750
+2026-06-17 23:38:45,529 - INFO - Source Training - Epoch [20], Loss: 0.0795, Acc: 0.9755
+2026-06-17 23:38:47,015 - INFO - Source Val - Epoch [20], Acc: 0.8868, F1: 0.9041
+2026-06-17 23:38:49,404 - INFO - Epoch [21], Batch [20/26], Loss: 0.0953, Acc: 0.9781
+2026-06-17 23:38:50,058 - INFO - Source Training - Epoch [21], Loss: 0.0555, Acc: 0.9804
+2026-06-17 23:38:51,574 - INFO - Source Val - Epoch [21], Acc: 0.9340, F1: 0.9472
+2026-06-17 23:38:53,861 - INFO - Epoch [22], Batch [20/26], Loss: 0.0419, Acc: 0.9906
+2026-06-17 23:38:54,370 - INFO - Source Training - Epoch [22], Loss: 0.0470, Acc: 0.9865
+2026-06-17 23:38:55,877 - INFO - Source Val - Epoch [22], Acc: 0.9198, F1: 0.9337
+2026-06-17 23:38:58,221 - INFO - Epoch [23], Batch [20/26], Loss: 0.0916, Acc: 0.9875
+2026-06-17 23:38:58,771 - INFO - Source Training - Epoch [23], Loss: 0.0424, Acc: 0.9853
+2026-06-17 23:39:00,228 - INFO - Source Val - Epoch [23], Acc: 0.9198, F1: 0.9339
+2026-06-17 23:39:02,492 - INFO - Epoch [24], Batch [20/26], Loss: 0.0136, Acc: 0.9906
+2026-06-17 23:39:02,902 - INFO - Source Training - Epoch [24], Loss: 0.0268, Acc: 0.9914
+2026-06-17 23:39:04,400 - INFO - Source Val - Epoch [24], Acc: 0.9340, F1: 0.9456
+2026-06-17 23:39:06,874 - INFO - Epoch [25], Batch [20/26], Loss: 0.0046, Acc: 0.9922
+2026-06-17 23:39:07,510 - INFO - Source Training - Epoch [25], Loss: 0.0224, Acc: 0.9926
+2026-06-17 23:39:09,015 - INFO - Source Val - Epoch [25], Acc: 0.9198, F1: 0.9390
+2026-06-17 23:39:11,621 - INFO - Epoch [26], Batch [20/26], Loss: 0.0009, Acc: 0.9938
+2026-06-17 23:39:12,317 - INFO - Source Training - Epoch [26], Loss: 0.0224, Acc: 0.9926
+2026-06-17 23:39:13,816 - INFO - Source Val - Epoch [26], Acc: 0.9104, F1: 0.9137
+2026-06-17 23:39:16,547 - INFO - Epoch [27], Batch [20/26], Loss: 0.0035, Acc: 0.9953
+2026-06-17 23:39:17,005 - INFO - Source Training - Epoch [27], Loss: 0.0199, Acc: 0.9951
+2026-06-17 23:39:18,459 - INFO - Source Val - Epoch [27], Acc: 0.9104, F1: 0.9137
+2026-06-17 23:39:20,767 - INFO - Epoch [28], Batch [20/26], Loss: 0.0310, Acc: 0.9844
+2026-06-17 23:39:21,172 - INFO - Source Training - Epoch [28], Loss: 0.0477, Acc: 0.9865
+2026-06-17 23:39:22,616 - INFO - Source Val - Epoch [28], Acc: 0.9104, F1: 0.9137
+2026-06-17 23:39:24,879 - INFO - Epoch [29], Batch [20/26], Loss: 0.0088, Acc: 0.9797
+2026-06-17 23:39:25,504 - INFO - Source Training - Epoch [29], Loss: 0.0577, Acc: 0.9816
+2026-06-17 23:39:26,993 - INFO - Source Val - Epoch [29], Acc: 0.9104, F1: 0.9238
+2026-06-17 23:39:29,104 - INFO - Epoch [30], Batch [20/26], Loss: 0.0422, Acc: 0.9875
+2026-06-17 23:39:29,717 - INFO - Source Training - Epoch [30], Loss: 0.0383, Acc: 0.9877
+2026-06-17 23:39:31,166 - INFO - Source Val - Epoch [30], Acc: 0.8774, F1: 0.8983
+2026-06-17 23:39:33,700 - INFO - Epoch [31], Batch [20/26], Loss: 0.0248, Acc: 0.9969
+2026-06-17 23:39:34,095 - INFO - Source Training - Epoch [31], Loss: 0.0250, Acc: 0.9939
+2026-06-17 23:39:35,573 - INFO - Source Val - Epoch [31], Acc: 0.8632, F1: 0.8801
+2026-06-17 23:39:37,574 - INFO - Epoch [32], Batch [20/26], Loss: 0.0630, Acc: 0.9859
+2026-06-17 23:39:38,165 - INFO - Source Training - Epoch [32], Loss: 0.0375, Acc: 0.9853
+2026-06-17 23:39:39,690 - INFO - Source Val - Epoch [32], Acc: 0.8868, F1: 0.8783
+2026-06-17 23:39:42,044 - INFO - Epoch [33], Batch [20/26], Loss: 0.0306, Acc: 0.9922
+2026-06-17 23:39:42,939 - INFO - Source Training - Epoch [33], Loss: 0.0349, Acc: 0.9926
+2026-06-17 23:39:44,443 - INFO - Source Val - Epoch [33], Acc: 0.9198, F1: 0.9313
+2026-06-17 23:39:46,796 - INFO - Epoch [34], Batch [20/26], Loss: 0.0187, Acc: 0.9953
+2026-06-17 23:39:47,308 - INFO - Source Training - Epoch [34], Loss: 0.0177, Acc: 0.9939
+2026-06-17 23:39:48,828 - INFO - Source Val - Epoch [34], Acc: 0.9198, F1: 0.9313
+2026-06-17 23:39:51,491 - INFO - Epoch [35], Batch [20/26], Loss: 0.0691, Acc: 0.9938
+2026-06-17 23:39:51,826 - INFO - Source Training - Epoch [35], Loss: 0.0182, Acc: 0.9951
+2026-06-17 23:39:53,277 - INFO - Source Val - Epoch [35], Acc: 0.9057, F1: 0.9160
+2026-06-17 23:39:55,657 - INFO - Epoch [36], Batch [20/26], Loss: 0.0254, Acc: 1.0000
+2026-06-17 23:39:56,038 - INFO - Source Training - Epoch [36], Loss: 0.0081, Acc: 1.0000
+2026-06-17 23:39:57,500 - INFO - Source Val - Epoch [36], Acc: 0.8774, F1: 0.8883
+2026-06-17 23:40:00,062 - INFO - Epoch [37], Batch [20/26], Loss: 0.0105, Acc: 0.9953
+2026-06-17 23:40:00,526 - INFO - Source Training - Epoch [37], Loss: 0.0151, Acc: 0.9951
+2026-06-17 23:40:02,074 - INFO - Source Val - Epoch [37], Acc: 0.8821, F1: 0.8975
+2026-06-17 23:40:04,389 - INFO - Epoch [38], Batch [20/26], Loss: 0.0001, Acc: 0.9938
+2026-06-17 23:40:04,681 - INFO - Source Training - Epoch [38], Loss: 0.0213, Acc: 0.9951
+2026-06-17 23:40:06,157 - INFO - Source Val - Epoch [38], Acc: 0.9245, F1: 0.9375
+2026-06-17 23:40:09,144 - INFO - Epoch [39], Batch [20/26], Loss: 0.0020, Acc: 0.9984
+2026-06-17 23:40:09,599 - INFO - Source Training - Epoch [39], Loss: 0.0184, Acc: 0.9975
+2026-06-17 23:40:11,099 - INFO - Source Val - Epoch [39], Acc: 0.8962, F1: 0.8997
+2026-06-17 23:40:13,552 - INFO - Epoch [40], Batch [20/26], Loss: 0.0219, Acc: 0.9969
+2026-06-17 23:40:14,366 - INFO - Source Training - Epoch [40], Loss: 0.0089, Acc: 0.9963
+2026-06-17 23:40:15,817 - INFO - Source Val - Epoch [40], Acc: 0.9245, F1: 0.9362
+2026-06-17 23:40:18,088 - INFO - Epoch [41], Batch [20/26], Loss: 0.0010, Acc: 0.9953
+2026-06-17 23:40:18,880 - INFO - Source Training - Epoch [41], Loss: 0.0192, Acc: 0.9951
+2026-06-17 23:40:20,390 - INFO - Source Val - Epoch [41], Acc: 0.8821, F1: 0.8932
+2026-06-17 23:40:22,645 - INFO - Epoch [42], Batch [20/26], Loss: 0.0444, Acc: 0.9891
+2026-06-17 23:40:23,179 - INFO - Source Training - Epoch [42], Loss: 0.0354, Acc: 0.9902
+2026-06-17 23:40:24,637 - INFO - Source Val - Epoch [42], Acc: 0.8868, F1: 0.9026
+2026-06-17 23:40:26,948 - INFO - Epoch [43], Batch [20/26], Loss: 0.0042, Acc: 0.9938
+2026-06-17 23:40:27,417 - INFO - Source Training - Epoch [43], Loss: 0.0100, Acc: 0.9951
+2026-06-17 23:40:28,876 - INFO - Source Val - Epoch [43], Acc: 0.9340, F1: 0.9456
+2026-06-17 23:40:31,217 - INFO - Epoch [44], Batch [20/26], Loss: 0.0027, Acc: 0.9984
+2026-06-17 23:40:31,677 - INFO - Source Training - Epoch [44], Loss: 0.0087, Acc: 0.9975
+2026-06-17 23:40:33,174 - INFO - Source Val - Epoch [44], Acc: 0.9340, F1: 0.9458
+2026-06-17 23:40:35,542 - INFO - Epoch [45], Batch [20/26], Loss: 0.0070, Acc: 0.9938
+2026-06-17 23:40:36,086 - INFO - Source Training - Epoch [45], Loss: 0.0275, Acc: 0.9902
+2026-06-17 23:40:37,637 - INFO - Source Val - Epoch [45], Acc: 0.9198, F1: 0.9390
+2026-06-17 23:40:39,982 - INFO - Epoch [46], Batch [20/26], Loss: 0.0064, Acc: 0.9969
+2026-06-17 23:40:40,406 - INFO - Source Training - Epoch [46], Loss: 0.0138, Acc: 0.9963
+2026-06-17 23:40:41,887 - INFO - Source Val - Epoch [46], Acc: 0.9245, F1: 0.9375
+2026-06-17 23:40:44,307 - INFO - Epoch [47], Batch [20/26], Loss: 0.0023, Acc: 0.9922
+2026-06-17 23:40:45,118 - INFO - Source Training - Epoch [47], Loss: 0.0195, Acc: 0.9939
+2026-06-17 23:40:46,618 - INFO - Source Val - Epoch [47], Acc: 0.9009, F1: 0.9052
+2026-06-17 23:40:49,132 - INFO - Epoch [48], Batch [20/26], Loss: 0.3076, Acc: 0.9875
+2026-06-17 23:40:49,583 - INFO - Source Training - Epoch [48], Loss: 0.0462, Acc: 0.9890
+2026-06-17 23:40:51,067 - INFO - Source Val - Epoch [48], Acc: 0.9104, F1: 0.9260
+2026-06-17 23:40:53,262 - INFO - Epoch [49], Batch [20/26], Loss: 0.0146, Acc: 0.9938
+2026-06-17 23:40:53,656 - INFO - Source Training - Epoch [49], Loss: 0.0204, Acc: 0.9926
+2026-06-17 23:40:55,160 - INFO - Source Val - Epoch [49], Acc: 0.8868, F1: 0.8980
+2026-06-17 23:40:57,187 - INFO - Epoch [50], Batch [20/26], Loss: 0.0008, Acc: 0.9953
+2026-06-17 23:40:57,682 - INFO - Source Training - Epoch [50], Loss: 0.0137, Acc: 0.9939
+2026-06-17 23:40:59,144 - INFO - Source Val - Epoch [50], Acc: 0.8396, F1: 0.8578
+2026-06-17 23:40:59,145 - INFO - === 开始目标域适应 (种子 44) ===
+2026-06-17 23:41:02,321 - INFO - Epoch [1], Batch [20], Cls Loss: 0.0132, Domain Loss: 0.5760
+2026-06-17 23:41:03,082 - INFO - DA Training - Epoch [1], Cls Loss: 0.0173, Domain Loss: 1.3286, Acc: 0.9988
+2026-06-17 23:41:03,308 - INFO - Target Val - Epoch [1], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:07,902 - INFO - Epoch [2], Batch [20], Cls Loss: 0.0099, Domain Loss: 0.0343
+2026-06-17 23:41:08,698 - INFO - DA Training - Epoch [2], Cls Loss: 0.0243, Domain Loss: 0.1503, Acc: 0.9939
+2026-06-17 23:41:08,917 - INFO - Target Val - Epoch [2], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:12,121 - INFO - Epoch [3], Batch [20], Cls Loss: 0.0117, Domain Loss: 0.0523
+2026-06-17 23:41:12,870 - INFO - DA Training - Epoch [3], Cls Loss: 0.0271, Domain Loss: 0.0922, Acc: 0.9926
+2026-06-17 23:41:13,099 - INFO - Target Val - Epoch [3], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:16,030 - INFO - Epoch [4], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0015
+2026-06-17 23:41:16,866 - INFO - DA Training - Epoch [4], Cls Loss: 0.0077, Domain Loss: 0.0366, Acc: 0.9988
+2026-06-17 23:41:17,108 - INFO - Target Val - Epoch [4], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:20,341 - INFO - Epoch [5], Batch [20], Cls Loss: 0.0030, Domain Loss: 0.1016
+2026-06-17 23:41:21,150 - INFO - DA Training - Epoch [5], Cls Loss: 0.0054, Domain Loss: 0.0261, Acc: 0.9988
+2026-06-17 23:41:21,383 - INFO - Target Val - Epoch [5], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:24,633 - INFO - Epoch [6], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0005
+2026-06-17 23:41:25,545 - INFO - DA Training - Epoch [6], Cls Loss: 0.0041, Domain Loss: 0.0136, Acc: 1.0000
+2026-06-17 23:41:25,775 - INFO - Target Val - Epoch [6], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:29,078 - INFO - Epoch [7], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0003
+2026-06-17 23:41:30,042 - INFO - DA Training - Epoch [7], Cls Loss: 0.0049, Domain Loss: 0.0165, Acc: 0.9988
+2026-06-17 23:41:30,264 - INFO - Target Val - Epoch [7], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:33,660 - INFO - Epoch [8], Batch [20], Cls Loss: 0.0077, Domain Loss: 0.0048
+2026-06-17 23:41:34,476 - INFO - DA Training - Epoch [8], Cls Loss: 0.0093, Domain Loss: 0.0297, Acc: 0.9975
+2026-06-17 23:41:34,709 - INFO - Target Val - Epoch [8], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:38,157 - INFO - Epoch [9], Batch [20], Cls Loss: 0.0007, Domain Loss: 0.0002
+2026-06-17 23:41:38,948 - INFO - DA Training - Epoch [9], Cls Loss: 0.0130, Domain Loss: 0.0057, Acc: 0.9975
+2026-06-17 23:41:39,199 - INFO - Target Val - Epoch [9], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:41:42,833 - INFO - Epoch [10], Batch [20], Cls Loss: 0.0033, Domain Loss: 0.0054
+2026-06-17 23:41:43,763 - INFO - DA Training - Epoch [10], Cls Loss: 0.0074, Domain Loss: 0.0141, Acc: 0.9975
+2026-06-17 23:41:44,012 - INFO - Target Val - Epoch [10], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:41:47,510 - INFO - Epoch [11], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0020
+2026-06-17 23:41:48,284 - INFO - DA Training - Epoch [11], Cls Loss: 0.0049, Domain Loss: 0.0184, Acc: 0.9975
+2026-06-17 23:41:48,524 - INFO - Target Val - Epoch [11], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:51,766 - INFO - Epoch [12], Batch [20], Cls Loss: 0.0158, Domain Loss: 0.0623
+2026-06-17 23:41:52,694 - INFO - DA Training - Epoch [12], Cls Loss: 0.0059, Domain Loss: 0.0183, Acc: 0.9988
+2026-06-17 23:41:52,931 - INFO - Target Val - Epoch [12], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:41:56,442 - INFO - Epoch [13], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0146
+2026-06-17 23:41:57,175 - INFO - DA Training - Epoch [13], Cls Loss: 0.0024, Domain Loss: 0.0167, Acc: 1.0000
+2026-06-17 23:41:57,408 - INFO - Target Val - Epoch [13], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:00,931 - INFO - Epoch [14], Batch [20], Cls Loss: 0.0258, Domain Loss: 0.0000
+2026-06-17 23:42:01,804 - INFO - DA Training - Epoch [14], Cls Loss: 0.0061, Domain Loss: 0.0132, Acc: 0.9975
+2026-06-17 23:42:02,044 - INFO - Target Val - Epoch [14], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:05,505 - INFO - Epoch [15], Batch [20], Cls Loss: 0.0023, Domain Loss: 0.0070
+2026-06-17 23:42:06,443 - INFO - DA Training - Epoch [15], Cls Loss: 0.0023, Domain Loss: 0.0262, Acc: 1.0000
+2026-06-17 23:42:06,681 - INFO - Target Val - Epoch [15], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:10,533 - INFO - Epoch [16], Batch [20], Cls Loss: 0.0018, Domain Loss: 0.0006
+2026-06-17 23:42:11,414 - INFO - DA Training - Epoch [16], Cls Loss: 0.0091, Domain Loss: 0.0065, Acc: 0.9963
+2026-06-17 23:42:11,636 - INFO - Target Val - Epoch [16], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:15,025 - INFO - Epoch [17], Batch [20], Cls Loss: 0.0109, Domain Loss: 0.0054
+2026-06-17 23:42:15,968 - INFO - DA Training - Epoch [17], Cls Loss: 0.0125, Domain Loss: 0.0112, Acc: 0.9951
+2026-06-17 23:42:16,208 - INFO - Target Val - Epoch [17], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:42:19,726 - INFO - Epoch [18], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0017
+2026-06-17 23:42:20,493 - INFO - DA Training - Epoch [18], Cls Loss: 0.0081, Domain Loss: 0.0108, Acc: 0.9975
+2026-06-17 23:42:20,739 - INFO - Target Val - Epoch [18], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:24,233 - INFO - Epoch [19], Batch [20], Cls Loss: 0.0260, Domain Loss: 0.0065
+2026-06-17 23:42:25,198 - INFO - DA Training - Epoch [19], Cls Loss: 0.0077, Domain Loss: 0.0159, Acc: 0.9963
+2026-06-17 23:42:25,434 - INFO - Target Val - Epoch [19], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:42:28,813 - INFO - Epoch [20], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.1086
+2026-06-17 23:42:29,655 - INFO - DA Training - Epoch [20], Cls Loss: 0.0131, Domain Loss: 0.0166, Acc: 0.9939
+2026-06-17 23:42:29,898 - INFO - Target Val - Epoch [20], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:33,448 - INFO - Epoch [21], Batch [20], Cls Loss: 0.0228, Domain Loss: 0.0003
+2026-06-17 23:42:34,396 - INFO - DA Training - Epoch [21], Cls Loss: 0.0117, Domain Loss: 0.0259, Acc: 0.9975
+2026-06-17 23:42:34,622 - INFO - Target Val - Epoch [21], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:38,050 - INFO - Epoch [22], Batch [20], Cls Loss: 0.0020, Domain Loss: 0.0505
+2026-06-17 23:42:38,958 - INFO - DA Training - Epoch [22], Cls Loss: 0.0224, Domain Loss: 0.0174, Acc: 0.9914
+2026-06-17 23:42:39,192 - INFO - Target Val - Epoch [22], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:42:42,745 - INFO - Epoch [23], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0085
+2026-06-17 23:42:43,721 - INFO - DA Training - Epoch [23], Cls Loss: 0.0132, Domain Loss: 0.0118, Acc: 0.9951
+2026-06-17 23:42:43,968 - INFO - Target Val - Epoch [23], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:47,502 - INFO - Epoch [24], Batch [20], Cls Loss: 0.0481, Domain Loss: 0.0002
+2026-06-17 23:42:48,400 - INFO - DA Training - Epoch [24], Cls Loss: 0.0341, Domain Loss: 0.0146, Acc: 0.9914
+2026-06-17 23:42:48,631 - INFO - Target Val - Epoch [24], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:52,134 - INFO - Epoch [25], Batch [20], Cls Loss: 0.0023, Domain Loss: 0.0001
+2026-06-17 23:42:52,989 - INFO - DA Training - Epoch [25], Cls Loss: 0.0117, Domain Loss: 0.0167, Acc: 0.9914
+2026-06-17 23:42:53,215 - INFO - Target Val - Epoch [25], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:42:56,701 - INFO - Epoch [26], Batch [20], Cls Loss: 0.0053, Domain Loss: 0.0793
+2026-06-17 23:42:57,446 - INFO - DA Training - Epoch [26], Cls Loss: 0.0246, Domain Loss: 0.0137, Acc: 0.9951
+2026-06-17 23:42:57,685 - INFO - Target Val - Epoch [26], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:01,017 - INFO - Epoch [27], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0006
+2026-06-17 23:43:01,762 - INFO - DA Training - Epoch [27], Cls Loss: 0.0128, Domain Loss: 0.0102, Acc: 0.9963
+2026-06-17 23:43:02,026 - INFO - Target Val - Epoch [27], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:05,341 - INFO - Epoch [28], Batch [20], Cls Loss: 0.0080, Domain Loss: 0.0000
+2026-06-17 23:43:06,241 - INFO - DA Training - Epoch [28], Cls Loss: 0.0098, Domain Loss: 0.0059, Acc: 0.9975
+2026-06-17 23:43:06,491 - INFO - Target Val - Epoch [28], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:09,827 - INFO - Epoch [29], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0034
+2026-06-17 23:43:10,777 - INFO - DA Training - Epoch [29], Cls Loss: 0.0032, Domain Loss: 0.0071, Acc: 1.0000
+2026-06-17 23:43:11,016 - INFO - Target Val - Epoch [29], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:14,314 - INFO - Epoch [30], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0000
+2026-06-17 23:43:15,321 - INFO - DA Training - Epoch [30], Cls Loss: 0.0077, Domain Loss: 0.0078, Acc: 0.9975
+2026-06-17 23:43:15,580 - INFO - Target Val - Epoch [30], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:19,194 - INFO - Epoch [31], Batch [20], Cls Loss: 0.0046, Domain Loss: 0.0000
+2026-06-17 23:43:20,039 - INFO - DA Training - Epoch [31], Cls Loss: 0.0058, Domain Loss: 0.0040, Acc: 0.9975
+2026-06-17 23:43:20,303 - INFO - Target Val - Epoch [31], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:23,683 - INFO - Epoch [32], Batch [20], Cls Loss: 0.0396, Domain Loss: 0.0001
+2026-06-17 23:43:24,497 - INFO - DA Training - Epoch [32], Cls Loss: 0.0099, Domain Loss: 0.0021, Acc: 0.9951
+2026-06-17 23:43:24,720 - INFO - Target Val - Epoch [32], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:28,058 - INFO - Epoch [33], Batch [20], Cls Loss: 0.0045, Domain Loss: 0.0076
+2026-06-17 23:43:28,876 - INFO - DA Training - Epoch [33], Cls Loss: 0.0189, Domain Loss: 0.0042, Acc: 0.9963
+2026-06-17 23:43:29,126 - INFO - Target Val - Epoch [33], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:32,530 - INFO - Epoch [34], Batch [20], Cls Loss: 0.0009, Domain Loss: 0.0000
+2026-06-17 23:43:33,284 - INFO - DA Training - Epoch [34], Cls Loss: 0.0143, Domain Loss: 0.0010, Acc: 0.9951
+2026-06-17 23:43:33,529 - INFO - Target Val - Epoch [34], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:36,811 - INFO - Epoch [35], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0366
+2026-06-17 23:43:37,757 - INFO - DA Training - Epoch [35], Cls Loss: 0.0051, Domain Loss: 0.0022, Acc: 0.9975
+2026-06-17 23:43:37,985 - INFO - Target Val - Epoch [35], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:41,097 - INFO - Epoch [36], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0019
+2026-06-17 23:43:41,973 - INFO - DA Training - Epoch [36], Cls Loss: 0.0016, Domain Loss: 0.0108, Acc: 1.0000
+2026-06-17 23:43:42,202 - INFO - Target Val - Epoch [36], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:45,443 - INFO - Epoch [37], Batch [20], Cls Loss: 0.0157, Domain Loss: 0.0000
+2026-06-17 23:43:46,341 - INFO - DA Training - Epoch [37], Cls Loss: 0.0140, Domain Loss: 0.0030, Acc: 0.9963
+2026-06-17 23:43:46,566 - INFO - Target Val - Epoch [37], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:49,879 - INFO - Epoch [38], Batch [20], Cls Loss: 0.0026, Domain Loss: 0.0000
+2026-06-17 23:43:50,748 - INFO - DA Training - Epoch [38], Cls Loss: 0.0073, Domain Loss: 0.0031, Acc: 0.9988
+2026-06-17 23:43:51,003 - INFO - Target Val - Epoch [38], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:43:54,399 - INFO - Epoch [39], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0000
+2026-06-17 23:43:55,334 - INFO - DA Training - Epoch [39], Cls Loss: 0.0040, Domain Loss: 0.0050, Acc: 0.9988
+2026-06-17 23:43:55,558 - INFO - Target Val - Epoch [39], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:43:59,007 - INFO - Epoch [40], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0001
+2026-06-17 23:43:59,765 - INFO - DA Training - Epoch [40], Cls Loss: 0.0052, Domain Loss: 0.0025, Acc: 0.9975
+2026-06-17 23:44:00,013 - INFO - Target Val - Epoch [40], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:03,633 - INFO - Epoch [41], Batch [20], Cls Loss: 0.0005, Domain Loss: 0.0000
+2026-06-17 23:44:04,418 - INFO - DA Training - Epoch [41], Cls Loss: 0.0091, Domain Loss: 0.0049, Acc: 0.9975
+2026-06-17 23:44:04,656 - INFO - Target Val - Epoch [41], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:08,182 - INFO - Epoch [42], Batch [20], Cls Loss: 0.0074, Domain Loss: 0.0000
+2026-06-17 23:44:09,054 - INFO - DA Training - Epoch [42], Cls Loss: 0.0118, Domain Loss: 0.0055, Acc: 0.9951
+2026-06-17 23:44:09,273 - INFO - Target Val - Epoch [42], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:12,765 - INFO - Epoch [43], Batch [20], Cls Loss: 0.0112, Domain Loss: 0.0006
+2026-06-17 23:44:13,717 - INFO - DA Training - Epoch [43], Cls Loss: 0.0098, Domain Loss: 0.0079, Acc: 0.9975
+2026-06-17 23:44:13,959 - INFO - Target Val - Epoch [43], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:17,152 - INFO - Epoch [44], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0000
+2026-06-17 23:44:18,078 - INFO - DA Training - Epoch [44], Cls Loss: 0.0086, Domain Loss: 0.0025, Acc: 0.9963
+2026-06-17 23:44:18,316 - INFO - Target Val - Epoch [44], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:44:21,962 - INFO - Epoch [45], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0000
+2026-06-17 23:44:22,845 - INFO - DA Training - Epoch [45], Cls Loss: 0.0054, Domain Loss: 0.0132, Acc: 0.9975
+2026-06-17 23:44:23,067 - INFO - Target Val - Epoch [45], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:44:26,606 - INFO - Epoch [46], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0000
+2026-06-17 23:44:27,469 - INFO - DA Training - Epoch [46], Cls Loss: 0.0080, Domain Loss: 0.0089, Acc: 0.9975
+2026-06-17 23:44:27,695 - INFO - Target Val - Epoch [46], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:44:30,851 - INFO - Epoch [47], Batch [20], Cls Loss: 0.0000, Domain Loss: 0.0000
+2026-06-17 23:44:31,608 - INFO - DA Training - Epoch [47], Cls Loss: 0.0056, Domain Loss: 0.0020, Acc: 0.9963
+2026-06-17 23:44:31,827 - INFO - Target Val - Epoch [47], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:44:35,196 - INFO - Epoch [48], Batch [20], Cls Loss: 0.0000, Domain Loss: 0.0000
+2026-06-17 23:44:35,973 - INFO - DA Training - Epoch [48], Cls Loss: 0.0107, Domain Loss: 0.0032, Acc: 0.9963
+2026-06-17 23:44:36,208 - INFO - Target Val - Epoch [48], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:39,571 - INFO - Epoch [49], Batch [20], Cls Loss: 0.0126, Domain Loss: 0.0000
+2026-06-17 23:44:40,367 - INFO - DA Training - Epoch [49], Cls Loss: 0.0055, Domain Loss: 0.0118, Acc: 0.9975
+2026-06-17 23:44:40,597 - INFO - Target Val - Epoch [49], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:43,670 - INFO - Epoch [50], Batch [20], Cls Loss: 0.0062, Domain Loss: 0.0688
+2026-06-17 23:44:44,457 - INFO - DA Training - Epoch [50], Cls Loss: 0.0079, Domain Loss: 0.0073, Acc: 0.9975
+2026-06-17 23:44:44,689 - INFO - Target Val - Epoch [50], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:44:44,689 - INFO - 第 3 次重复完成
+2026-06-17 23:44:44,690 - INFO - 源域最佳: Epoch 19, Acc: 0.9340, F1: 0.9458
+2026-06-17 23:44:44,690 - INFO - 目标域最佳: Epoch 1, Acc: 0.0385, F1: 0.0556
+2026-06-17 23:44:44,690 - INFO - 
+---------- 第 4/5 次重复 (种子 45) ----------
+2026-06-17 23:44:45,138 - INFO - === 开始源域训练 (种子 45) ===
+2026-06-17 23:44:47,528 - INFO - Epoch [1], Batch [20/26], Loss: 2.5310, Acc: 0.1313
+2026-06-17 23:44:48,051 - INFO - Source Training - Epoch [1], Loss: 2.6164, Acc: 0.1422
+2026-06-17 23:44:49,516 - INFO - Source Val - Epoch [1], Acc: 0.1509, F1: 0.0202
+2026-06-17 23:44:53,242 - INFO - Epoch [2], Batch [20/26], Loss: 2.5335, Acc: 0.1734
+2026-06-17 23:44:53,881 - INFO - Source Training - Epoch [2], Loss: 2.4690, Acc: 0.1850
+2026-06-17 23:44:55,364 - INFO - Source Val - Epoch [2], Acc: 0.2123, F1: 0.0697
+2026-06-17 23:44:59,250 - INFO - Epoch [3], Batch [20/26], Loss: 2.4437, Acc: 0.2516
+2026-06-17 23:44:59,785 - INFO - Source Training - Epoch [3], Loss: 2.1721, Acc: 0.2598
+2026-06-17 23:45:01,271 - INFO - Source Val - Epoch [3], Acc: 0.2594, F1: 0.1294
+2026-06-17 23:45:05,279 - INFO - Epoch [4], Batch [20/26], Loss: 1.9566, Acc: 0.3344
+2026-06-17 23:45:05,964 - INFO - Source Training - Epoch [4], Loss: 1.9327, Acc: 0.3444
+2026-06-17 23:45:07,423 - INFO - Source Val - Epoch [4], Acc: 0.3962, F1: 0.2811
+2026-06-17 23:45:11,507 - INFO - Epoch [5], Batch [20/26], Loss: 1.1689, Acc: 0.4266
+2026-06-17 23:45:11,856 - INFO - Source Training - Epoch [5], Loss: 1.7284, Acc: 0.4179
+2026-06-17 23:45:13,359 - INFO - Source Val - Epoch [5], Acc: 0.4717, F1: 0.3096
+2026-06-17 23:45:17,511 - INFO - Epoch [6], Batch [20/26], Loss: 1.2655, Acc: 0.4656
+2026-06-17 23:45:17,842 - INFO - Source Training - Epoch [6], Loss: 1.4575, Acc: 0.4865
+2026-06-17 23:45:19,282 - INFO - Source Val - Epoch [6], Acc: 0.5330, F1: 0.4134
+2026-06-17 23:45:23,095 - INFO - Epoch [7], Batch [20/26], Loss: 1.0767, Acc: 0.5547
+2026-06-17 23:45:23,716 - INFO - Source Training - Epoch [7], Loss: 1.2247, Acc: 0.5662
+2026-06-17 23:45:25,174 - INFO - Source Val - Epoch [7], Acc: 0.5472, F1: 0.4352
+2026-06-17 23:45:29,142 - INFO - Epoch [8], Batch [20/26], Loss: 0.5729, Acc: 0.6859
+2026-06-17 23:45:29,811 - INFO - Source Training - Epoch [8], Loss: 0.9427, Acc: 0.6875
+2026-06-17 23:45:31,311 - INFO - Source Val - Epoch [8], Acc: 0.6698, F1: 0.6443
+2026-06-17 23:45:35,230 - INFO - Epoch [9], Batch [20/26], Loss: 0.7356, Acc: 0.7234
+2026-06-17 23:45:35,532 - INFO - Source Training - Epoch [9], Loss: 0.8026, Acc: 0.7279
+2026-06-17 23:45:37,104 - INFO - Source Val - Epoch [9], Acc: 0.6887, F1: 0.6186
+2026-06-17 23:45:40,834 - INFO - Epoch [10], Batch [20/26], Loss: 0.4272, Acc: 0.7609
+2026-06-17 23:45:41,432 - INFO - Source Training - Epoch [10], Loss: 0.6799, Acc: 0.7745
+2026-06-17 23:45:42,923 - INFO - Source Val - Epoch [10], Acc: 0.6840, F1: 0.5781
+2026-06-17 23:45:44,982 - INFO - Epoch [11], Batch [20/26], Loss: 0.3625, Acc: 0.8328
+2026-06-17 23:45:45,434 - INFO - Source Training - Epoch [11], Loss: 0.5854, Acc: 0.8186
+2026-06-17 23:45:46,894 - INFO - Source Val - Epoch [11], Acc: 0.8349, F1: 0.8401
+2026-06-17 23:45:50,696 - INFO - Epoch [12], Batch [20/26], Loss: 0.3599, Acc: 0.8578
+2026-06-17 23:45:51,335 - INFO - Source Training - Epoch [12], Loss: 0.4551, Acc: 0.8640
+2026-06-17 23:45:52,796 - INFO - Source Val - Epoch [12], Acc: 0.8491, F1: 0.8494
+2026-06-17 23:45:56,579 - INFO - Epoch [13], Batch [20/26], Loss: 0.3230, Acc: 0.8953
+2026-06-17 23:45:57,090 - INFO - Source Training - Epoch [13], Loss: 0.3392, Acc: 0.9032
+2026-06-17 23:45:58,593 - INFO - Source Val - Epoch [13], Acc: 0.8962, F1: 0.9106
+2026-06-17 23:46:02,495 - INFO - Epoch [14], Batch [20/26], Loss: 0.2577, Acc: 0.9328
+2026-06-17 23:46:03,081 - INFO - Source Training - Epoch [14], Loss: 0.2833, Acc: 0.9301
+2026-06-17 23:46:04,541 - INFO - Source Val - Epoch [14], Acc: 0.8821, F1: 0.8951
+2026-06-17 23:46:06,637 - INFO - Epoch [15], Batch [20/26], Loss: 0.3142, Acc: 0.9375
+2026-06-17 23:46:07,088 - INFO - Source Training - Epoch [15], Loss: 0.2448, Acc: 0.9375
+2026-06-17 23:46:08,626 - INFO - Source Val - Epoch [15], Acc: 0.8962, F1: 0.9122
+2026-06-17 23:46:10,873 - INFO - Epoch [16], Batch [20/26], Loss: 0.2346, Acc: 0.9594
+2026-06-17 23:46:11,290 - INFO - Source Training - Epoch [16], Loss: 0.1444, Acc: 0.9608
+2026-06-17 23:46:12,780 - INFO - Source Val - Epoch [16], Acc: 0.9528, F1: 0.9534
+2026-06-17 23:46:16,734 - INFO - Epoch [17], Batch [20/26], Loss: 0.1384, Acc: 0.9469
+2026-06-17 23:46:17,222 - INFO - Source Training - Epoch [17], Loss: 0.1531, Acc: 0.9498
+2026-06-17 23:46:18,831 - INFO - Source Val - Epoch [17], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:46:22,595 - INFO - Epoch [18], Batch [20/26], Loss: 0.1015, Acc: 0.9672
+2026-06-17 23:46:23,166 - INFO - Source Training - Epoch [18], Loss: 0.1232, Acc: 0.9596
+2026-06-17 23:46:24,648 - INFO - Source Val - Epoch [18], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:46:26,970 - INFO - Epoch [19], Batch [20/26], Loss: 0.1161, Acc: 0.9625
+2026-06-17 23:46:27,373 - INFO - Source Training - Epoch [19], Loss: 0.1216, Acc: 0.9632
+2026-06-17 23:46:28,821 - INFO - Source Val - Epoch [19], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:46:31,265 - INFO - Epoch [20], Batch [20/26], Loss: 0.0622, Acc: 0.9750
+2026-06-17 23:46:31,805 - INFO - Source Training - Epoch [20], Loss: 0.0950, Acc: 0.9755
+2026-06-17 23:46:33,298 - INFO - Source Val - Epoch [20], Acc: 0.9575, F1: 0.9580
+2026-06-17 23:46:35,684 - INFO - Epoch [21], Batch [20/26], Loss: 0.0180, Acc: 0.9766
+2026-06-17 23:46:36,307 - INFO - Source Training - Epoch [21], Loss: 0.0930, Acc: 0.9730
+2026-06-17 23:46:37,928 - INFO - Source Val - Epoch [21], Acc: 0.9575, F1: 0.9580
+2026-06-17 23:46:40,184 - INFO - Epoch [22], Batch [20/26], Loss: 0.1857, Acc: 0.9688
+2026-06-17 23:46:40,712 - INFO - Source Training - Epoch [22], Loss: 0.0939, Acc: 0.9706
+2026-06-17 23:46:42,174 - INFO - Source Val - Epoch [22], Acc: 0.9575, F1: 0.9536
+2026-06-17 23:46:44,774 - INFO - Epoch [23], Batch [20/26], Loss: 0.0282, Acc: 0.9828
+2026-06-17 23:46:45,280 - INFO - Source Training - Epoch [23], Loss: 0.0687, Acc: 0.9828
+2026-06-17 23:46:46,728 - INFO - Source Val - Epoch [23], Acc: 0.9811, F1: 0.9789
+2026-06-17 23:46:49,325 - INFO - Epoch [24], Batch [20/26], Loss: 0.1671, Acc: 0.9859
+2026-06-17 23:46:49,871 - INFO - Source Training - Epoch [24], Loss: 0.0472, Acc: 0.9865
+2026-06-17 23:46:51,324 - INFO - Source Val - Epoch [24], Acc: 0.9575, F1: 0.9536
+2026-06-17 23:46:53,511 - INFO - Epoch [25], Batch [20/26], Loss: 0.0371, Acc: 0.9828
+2026-06-17 23:46:54,353 - INFO - Source Training - Epoch [25], Loss: 0.0568, Acc: 0.9779
+2026-06-17 23:46:55,882 - INFO - Source Val - Epoch [25], Acc: 0.8113, F1: 0.8365
+2026-06-17 23:46:58,147 - INFO - Epoch [26], Batch [20/26], Loss: 0.0207, Acc: 0.9891
+2026-06-17 23:46:58,594 - INFO - Source Training - Epoch [26], Loss: 0.0590, Acc: 0.9853
+2026-06-17 23:47:00,084 - INFO - Source Val - Epoch [26], Acc: 0.9575, F1: 0.9610
+2026-06-17 23:47:02,190 - INFO - Epoch [27], Batch [20/26], Loss: 0.1638, Acc: 0.9766
+2026-06-17 23:47:02,703 - INFO - Source Training - Epoch [27], Loss: 0.0756, Acc: 0.9755
+2026-06-17 23:47:04,162 - INFO - Source Val - Epoch [27], Acc: 0.8774, F1: 0.8745
+2026-06-17 23:47:06,632 - INFO - Epoch [28], Batch [20/26], Loss: 0.0435, Acc: 0.9781
+2026-06-17 23:47:07,527 - INFO - Source Training - Epoch [28], Loss: 0.0539, Acc: 0.9816
+2026-06-17 23:47:09,014 - INFO - Source Val - Epoch [28], Acc: 0.9811, F1: 0.9829
+2026-06-17 23:47:11,334 - INFO - Epoch [29], Batch [20/26], Loss: 0.0164, Acc: 0.9922
+2026-06-17 23:47:11,918 - INFO - Source Training - Epoch [29], Loss: 0.0320, Acc: 0.9902
+2026-06-17 23:47:13,362 - INFO - Source Val - Epoch [29], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:47:15,568 - INFO - Epoch [30], Batch [20/26], Loss: 0.0080, Acc: 0.9891
+2026-06-17 23:47:16,025 - INFO - Source Training - Epoch [30], Loss: 0.0244, Acc: 0.9914
+2026-06-17 23:47:17,484 - INFO - Source Val - Epoch [30], Acc: 0.9811, F1: 0.9834
+2026-06-17 23:47:20,330 - INFO - Epoch [31], Batch [20/26], Loss: 0.0565, Acc: 0.9938
+2026-06-17 23:47:20,635 - INFO - Source Training - Epoch [31], Loss: 0.0386, Acc: 0.9890
+2026-06-17 23:47:22,145 - INFO - Source Val - Epoch [31], Acc: 0.9670, F1: 0.9623
+2026-06-17 23:47:24,526 - INFO - Epoch [32], Batch [20/26], Loss: 0.0206, Acc: 0.9875
+2026-06-17 23:47:25,026 - INFO - Source Training - Epoch [32], Loss: 0.0402, Acc: 0.9890
+2026-06-17 23:47:26,479 - INFO - Source Val - Epoch [32], Acc: 0.9198, F1: 0.9320
+2026-06-17 23:47:28,779 - INFO - Epoch [33], Batch [20/26], Loss: 0.0061, Acc: 0.9891
+2026-06-17 23:47:29,339 - INFO - Source Training - Epoch [33], Loss: 0.0314, Acc: 0.9914
+2026-06-17 23:47:30,849 - INFO - Source Val - Epoch [33], Acc: 0.9198, F1: 0.9327
+2026-06-17 23:47:33,156 - INFO - Epoch [34], Batch [20/26], Loss: 0.0041, Acc: 0.9891
+2026-06-17 23:47:33,687 - INFO - Source Training - Epoch [34], Loss: 0.0322, Acc: 0.9877
+2026-06-17 23:47:35,185 - INFO - Source Val - Epoch [34], Acc: 0.9198, F1: 0.9327
+2026-06-17 23:47:37,633 - INFO - Epoch [35], Batch [20/26], Loss: 0.0123, Acc: 0.9891
+2026-06-17 23:47:38,074 - INFO - Source Training - Epoch [35], Loss: 0.0322, Acc: 0.9890
+2026-06-17 23:47:39,561 - INFO - Source Val - Epoch [35], Acc: 0.9198, F1: 0.9312
+2026-06-17 23:47:41,476 - INFO - Epoch [36], Batch [20/26], Loss: 0.0298, Acc: 0.9953
+2026-06-17 23:47:42,156 - INFO - Source Training - Epoch [36], Loss: 0.0217, Acc: 0.9939
+2026-06-17 23:47:43,665 - INFO - Source Val - Epoch [36], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:47:45,932 - INFO - Epoch [37], Batch [20/26], Loss: 0.0052, Acc: 0.9891
+2026-06-17 23:47:46,557 - INFO - Source Training - Epoch [37], Loss: 0.0404, Acc: 0.9877
+2026-06-17 23:47:48,018 - INFO - Source Val - Epoch [37], Acc: 0.9198, F1: 0.9370
+2026-06-17 23:47:50,264 - INFO - Epoch [38], Batch [20/26], Loss: 0.1692, Acc: 0.9859
+2026-06-17 23:47:50,780 - INFO - Source Training - Epoch [38], Loss: 0.0445, Acc: 0.9877
+2026-06-17 23:47:52,235 - INFO - Source Val - Epoch [38], Acc: 0.9198, F1: 0.9312
+2026-06-17 23:47:54,421 - INFO - Epoch [39], Batch [20/26], Loss: 0.0215, Acc: 0.9922
+2026-06-17 23:47:54,922 - INFO - Source Training - Epoch [39], Loss: 0.0290, Acc: 0.9914
+2026-06-17 23:47:56,384 - INFO - Source Val - Epoch [39], Acc: 0.9198, F1: 0.9355
+2026-06-17 23:47:58,552 - INFO - Epoch [40], Batch [20/26], Loss: 0.0040, Acc: 0.9922
+2026-06-17 23:47:59,057 - INFO - Source Training - Epoch [40], Loss: 0.0234, Acc: 0.9939
+2026-06-17 23:48:00,563 - INFO - Source Val - Epoch [40], Acc: 0.9811, F1: 0.9834
+2026-06-17 23:48:02,505 - INFO - Epoch [41], Batch [20/26], Loss: 0.1480, Acc: 0.9891
+2026-06-17 23:48:03,278 - INFO - Source Training - Epoch [41], Loss: 0.0316, Acc: 0.9914
+2026-06-17 23:48:04,767 - INFO - Source Val - Epoch [41], Acc: 0.9198, F1: 0.9355
+2026-06-17 23:48:07,196 - INFO - Epoch [42], Batch [20/26], Loss: 0.0644, Acc: 0.9875
+2026-06-17 23:48:07,879 - INFO - Source Training - Epoch [42], Loss: 0.0307, Acc: 0.9890
+2026-06-17 23:48:09,382 - INFO - Source Val - Epoch [42], Acc: 0.9198, F1: 0.9355
+2026-06-17 23:48:11,488 - INFO - Epoch [43], Batch [20/26], Loss: 0.0058, Acc: 0.9984
+2026-06-17 23:48:11,977 - INFO - Source Training - Epoch [43], Loss: 0.0126, Acc: 0.9951
+2026-06-17 23:48:13,467 - INFO - Source Val - Epoch [43], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:48:16,038 - INFO - Epoch [44], Batch [20/26], Loss: 0.0116, Acc: 0.9953
+2026-06-17 23:48:16,502 - INFO - Source Training - Epoch [44], Loss: 0.0114, Acc: 0.9963
+2026-06-17 23:48:17,966 - INFO - Source Val - Epoch [44], Acc: 0.9811, F1: 0.9834
+2026-06-17 23:48:20,190 - INFO - Epoch [45], Batch [20/26], Loss: 0.0012, Acc: 0.9969
+2026-06-17 23:48:20,534 - INFO - Source Training - Epoch [45], Loss: 0.0211, Acc: 0.9926
+2026-06-17 23:48:22,023 - INFO - Source Val - Epoch [45], Acc: 0.9198, F1: 0.9355
+2026-06-17 23:48:24,348 - INFO - Epoch [46], Batch [20/26], Loss: 0.0014, Acc: 0.9953
+2026-06-17 23:48:24,972 - INFO - Source Training - Epoch [46], Loss: 0.0152, Acc: 0.9963
+2026-06-17 23:48:26,431 - INFO - Source Val - Epoch [46], Acc: 0.9811, F1: 0.9794
+2026-06-17 23:48:28,775 - INFO - Epoch [47], Batch [20/26], Loss: 0.0005, Acc: 0.9938
+2026-06-17 23:48:29,099 - INFO - Source Training - Epoch [47], Loss: 0.0265, Acc: 0.9914
+2026-06-17 23:48:30,552 - INFO - Source Val - Epoch [47], Acc: 0.9387, F1: 0.9444
+2026-06-17 23:48:32,778 - INFO - Epoch [48], Batch [20/26], Loss: 0.1673, Acc: 0.9812
+2026-06-17 23:48:33,684 - INFO - Source Training - Epoch [48], Loss: 0.0433, Acc: 0.9853
+2026-06-17 23:48:35,189 - INFO - Source Val - Epoch [48], Acc: 0.8821, F1: 0.8754
+2026-06-17 23:48:37,418 - INFO - Epoch [49], Batch [20/26], Loss: 0.0572, Acc: 0.9828
+2026-06-17 23:48:38,005 - INFO - Source Training - Epoch [49], Loss: 0.0476, Acc: 0.9853
+2026-06-17 23:48:39,464 - INFO - Source Val - Epoch [49], Acc: 0.9811, F1: 0.9834
+2026-06-17 23:48:41,732 - INFO - Epoch [50], Batch [20/26], Loss: 0.0488, Acc: 0.9891
+2026-06-17 23:48:42,188 - INFO - Source Training - Epoch [50], Loss: 0.0252, Acc: 0.9877
+2026-06-17 23:48:43,645 - INFO - Source Val - Epoch [50], Acc: 0.8821, F1: 0.8736
+2026-06-17 23:48:43,646 - INFO - === 开始目标域适应 (种子 45) ===
+2026-06-17 23:48:47,171 - INFO - Epoch [1], Batch [20], Cls Loss: 0.0834, Domain Loss: 0.0711
+2026-06-17 23:48:47,934 - INFO - DA Training - Epoch [1], Cls Loss: 0.0245, Domain Loss: 1.1610, Acc: 0.9914
+2026-06-17 23:48:48,151 - INFO - Target Val - Epoch [1], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:48:52,985 - INFO - Epoch [2], Batch [20], Cls Loss: 0.0512, Domain Loss: 0.0148
+2026-06-17 23:48:53,843 - INFO - DA Training - Epoch [2], Cls Loss: 0.0369, Domain Loss: 0.1394, Acc: 0.9841
+2026-06-17 23:48:54,065 - INFO - Target Val - Epoch [2], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:48:57,338 - INFO - Epoch [3], Batch [20], Cls Loss: 0.0408, Domain Loss: 0.1150
+2026-06-17 23:48:58,280 - INFO - DA Training - Epoch [3], Cls Loss: 0.0320, Domain Loss: 0.0832, Acc: 0.9890
+2026-06-17 23:48:58,506 - INFO - Target Val - Epoch [3], Acc: 0.3462, F1: 0.3000
+2026-06-17 23:49:03,549 - INFO - Epoch [4], Batch [20], Cls Loss: 0.0270, Domain Loss: 0.0723
+2026-06-17 23:49:04,338 - INFO - DA Training - Epoch [4], Cls Loss: 0.0237, Domain Loss: 0.0974, Acc: 0.9926
+2026-06-17 23:49:04,587 - INFO - Target Val - Epoch [4], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:49:08,098 - INFO - Epoch [5], Batch [20], Cls Loss: 0.0044, Domain Loss: 0.0012
+2026-06-17 23:49:08,901 - INFO - DA Training - Epoch [5], Cls Loss: 0.0126, Domain Loss: 0.0359, Acc: 0.9975
+2026-06-17 23:49:09,132 - INFO - Target Val - Epoch [5], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:12,328 - INFO - Epoch [6], Batch [20], Cls Loss: 0.0010, Domain Loss: 0.0300
+2026-06-17 23:49:13,279 - INFO - DA Training - Epoch [6], Cls Loss: 0.0097, Domain Loss: 0.0214, Acc: 0.9988
+2026-06-17 23:49:13,494 - INFO - Target Val - Epoch [6], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:17,115 - INFO - Epoch [7], Batch [20], Cls Loss: 0.0059, Domain Loss: 0.0001
+2026-06-17 23:49:17,950 - INFO - DA Training - Epoch [7], Cls Loss: 0.0094, Domain Loss: 0.0247, Acc: 0.9963
+2026-06-17 23:49:18,188 - INFO - Target Val - Epoch [7], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:21,775 - INFO - Epoch [8], Batch [20], Cls Loss: 0.0025, Domain Loss: 0.0029
+2026-06-17 23:49:22,529 - INFO - DA Training - Epoch [8], Cls Loss: 0.0038, Domain Loss: 0.0401, Acc: 1.0000
+2026-06-17 23:49:22,772 - INFO - Target Val - Epoch [8], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:25,901 - INFO - Epoch [9], Batch [20], Cls Loss: 0.0010, Domain Loss: 0.0125
+2026-06-17 23:49:26,887 - INFO - DA Training - Epoch [9], Cls Loss: 0.0052, Domain Loss: 0.0110, Acc: 0.9975
+2026-06-17 23:49:27,119 - INFO - Target Val - Epoch [9], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:30,667 - INFO - Epoch [10], Batch [20], Cls Loss: 0.0007, Domain Loss: 0.0196
+2026-06-17 23:49:31,461 - INFO - DA Training - Epoch [10], Cls Loss: 0.0185, Domain Loss: 0.0075, Acc: 0.9939
+2026-06-17 23:49:31,689 - INFO - Target Val - Epoch [10], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:49:34,808 - INFO - Epoch [11], Batch [20], Cls Loss: 0.0044, Domain Loss: 0.0097
+2026-06-17 23:49:35,752 - INFO - DA Training - Epoch [11], Cls Loss: 0.0159, Domain Loss: 0.0280, Acc: 0.9926
+2026-06-17 23:49:35,976 - INFO - Target Val - Epoch [11], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:39,417 - INFO - Epoch [12], Batch [20], Cls Loss: 0.0138, Domain Loss: 0.0004
+2026-06-17 23:49:40,197 - INFO - DA Training - Epoch [12], Cls Loss: 0.0072, Domain Loss: 0.0253, Acc: 0.9988
+2026-06-17 23:49:40,432 - INFO - Target Val - Epoch [12], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:49:43,785 - INFO - Epoch [13], Batch [20], Cls Loss: 0.0053, Domain Loss: 0.0012
+2026-06-17 23:49:44,730 - INFO - DA Training - Epoch [13], Cls Loss: 0.0064, Domain Loss: 0.0089, Acc: 0.9988
+2026-06-17 23:49:44,973 - INFO - Target Val - Epoch [13], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:49:48,266 - INFO - Epoch [14], Batch [20], Cls Loss: 0.0141, Domain Loss: 0.0000
+2026-06-17 23:49:49,184 - INFO - DA Training - Epoch [14], Cls Loss: 0.0184, Domain Loss: 0.0170, Acc: 0.9939
+2026-06-17 23:49:49,412 - INFO - Target Val - Epoch [14], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:53,217 - INFO - Epoch [15], Batch [20], Cls Loss: 0.0018, Domain Loss: 0.0001
+2026-06-17 23:49:54,064 - INFO - DA Training - Epoch [15], Cls Loss: 0.0097, Domain Loss: 0.0140, Acc: 0.9975
+2026-06-17 23:49:54,281 - INFO - Target Val - Epoch [15], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:49:57,459 - INFO - Epoch [16], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0007
+2026-06-17 23:49:58,406 - INFO - DA Training - Epoch [16], Cls Loss: 0.0122, Domain Loss: 0.0164, Acc: 0.9951
+2026-06-17 23:49:58,646 - INFO - Target Val - Epoch [16], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:02,094 - INFO - Epoch [17], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0964
+2026-06-17 23:50:03,034 - INFO - DA Training - Epoch [17], Cls Loss: 0.0141, Domain Loss: 0.0245, Acc: 0.9926
+2026-06-17 23:50:03,249 - INFO - Target Val - Epoch [17], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:06,707 - INFO - Epoch [18], Batch [20], Cls Loss: 0.0033, Domain Loss: 0.0046
+2026-06-17 23:50:07,594 - INFO - DA Training - Epoch [18], Cls Loss: 0.0101, Domain Loss: 0.0075, Acc: 0.9988
+2026-06-17 23:50:07,824 - INFO - Target Val - Epoch [18], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:11,072 - INFO - Epoch [19], Batch [20], Cls Loss: 0.0050, Domain Loss: 0.0000
+2026-06-17 23:50:11,999 - INFO - DA Training - Epoch [19], Cls Loss: 0.0056, Domain Loss: 0.0041, Acc: 0.9988
+2026-06-17 23:50:12,233 - INFO - Target Val - Epoch [19], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:15,883 - INFO - Epoch [20], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0010
+2026-06-17 23:50:16,764 - INFO - DA Training - Epoch [20], Cls Loss: 0.0103, Domain Loss: 0.0089, Acc: 0.9951
+2026-06-17 23:50:16,978 - INFO - Target Val - Epoch [20], Acc: 0.3462, F1: 0.3000
+2026-06-17 23:50:20,548 - INFO - Epoch [21], Batch [20], Cls Loss: 0.0028, Domain Loss: 0.0615
+2026-06-17 23:50:21,439 - INFO - DA Training - Epoch [21], Cls Loss: 0.0054, Domain Loss: 0.0165, Acc: 0.9975
+2026-06-17 23:50:21,689 - INFO - Target Val - Epoch [21], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:25,287 - INFO - Epoch [22], Batch [20], Cls Loss: 0.0009, Domain Loss: 0.0287
+2026-06-17 23:50:26,024 - INFO - DA Training - Epoch [22], Cls Loss: 0.0094, Domain Loss: 0.0064, Acc: 0.9975
+2026-06-17 23:50:26,274 - INFO - Target Val - Epoch [22], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:29,653 - INFO - Epoch [23], Batch [20], Cls Loss: 0.0005, Domain Loss: 0.0002
+2026-06-17 23:50:30,545 - INFO - DA Training - Epoch [23], Cls Loss: 0.0096, Domain Loss: 0.0061, Acc: 0.9988
+2026-06-17 23:50:30,814 - INFO - Target Val - Epoch [23], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:50:34,132 - INFO - Epoch [24], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0526
+2026-06-17 23:50:35,037 - INFO - DA Training - Epoch [24], Cls Loss: 0.0131, Domain Loss: 0.0179, Acc: 0.9951
+2026-06-17 23:50:35,268 - INFO - Target Val - Epoch [24], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:50:38,408 - INFO - Epoch [25], Batch [20], Cls Loss: 0.0032, Domain Loss: 0.0003
+2026-06-17 23:50:39,286 - INFO - DA Training - Epoch [25], Cls Loss: 0.0230, Domain Loss: 0.0062, Acc: 0.9926
+2026-06-17 23:50:39,531 - INFO - Target Val - Epoch [25], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:50:43,016 - INFO - Epoch [26], Batch [20], Cls Loss: 0.0019, Domain Loss: 0.0101
+2026-06-17 23:50:43,953 - INFO - DA Training - Epoch [26], Cls Loss: 0.0227, Domain Loss: 0.0307, Acc: 0.9926
+2026-06-17 23:50:44,191 - INFO - Target Val - Epoch [26], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:50:47,580 - INFO - Epoch [27], Batch [20], Cls Loss: 0.0266, Domain Loss: 0.0001
+2026-06-17 23:50:48,320 - INFO - DA Training - Epoch [27], Cls Loss: 0.0147, Domain Loss: 0.0224, Acc: 0.9963
+2026-06-17 23:50:48,535 - INFO - Target Val - Epoch [27], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:50:51,820 - INFO - Epoch [28], Batch [20], Cls Loss: 0.0040, Domain Loss: 0.1056
+2026-06-17 23:50:52,646 - INFO - DA Training - Epoch [28], Cls Loss: 0.0087, Domain Loss: 0.0427, Acc: 0.9963
+2026-06-17 23:50:52,875 - INFO - Target Val - Epoch [28], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:50:56,414 - INFO - Epoch [29], Batch [20], Cls Loss: 0.0007, Domain Loss: 0.0001
+2026-06-17 23:50:57,188 - INFO - DA Training - Epoch [29], Cls Loss: 0.0041, Domain Loss: 0.0036, Acc: 0.9988
+2026-06-17 23:50:57,423 - INFO - Target Val - Epoch [29], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:00,689 - INFO - Epoch [30], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0832
+2026-06-17 23:51:01,603 - INFO - DA Training - Epoch [30], Cls Loss: 0.0062, Domain Loss: 0.0089, Acc: 0.9988
+2026-06-17 23:51:01,837 - INFO - Target Val - Epoch [30], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:05,075 - INFO - Epoch [31], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0000
+2026-06-17 23:51:06,006 - INFO - DA Training - Epoch [31], Cls Loss: 0.0038, Domain Loss: 0.0040, Acc: 0.9988
+2026-06-17 23:51:06,256 - INFO - Target Val - Epoch [31], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:09,359 - INFO - Epoch [32], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0004
+2026-06-17 23:51:10,270 - INFO - DA Training - Epoch [32], Cls Loss: 0.0066, Domain Loss: 0.0026, Acc: 0.9963
+2026-06-17 23:51:10,504 - INFO - Target Val - Epoch [32], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:14,259 - INFO - Epoch [33], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0003
+2026-06-17 23:51:15,061 - INFO - DA Training - Epoch [33], Cls Loss: 0.0089, Domain Loss: 0.0108, Acc: 0.9975
+2026-06-17 23:51:15,277 - INFO - Target Val - Epoch [33], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:18,493 - INFO - Epoch [34], Batch [20], Cls Loss: 0.0033, Domain Loss: 0.0032
+2026-06-17 23:51:19,251 - INFO - DA Training - Epoch [34], Cls Loss: 0.0081, Domain Loss: 0.0126, Acc: 0.9963
+2026-06-17 23:51:19,488 - INFO - Target Val - Epoch [34], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:22,611 - INFO - Epoch [35], Batch [20], Cls Loss: 0.0041, Domain Loss: 0.0019
+2026-06-17 23:51:23,389 - INFO - DA Training - Epoch [35], Cls Loss: 0.0085, Domain Loss: 0.0019, Acc: 0.9975
+2026-06-17 23:51:23,610 - INFO - Target Val - Epoch [35], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:51:27,002 - INFO - Epoch [36], Batch [20], Cls Loss: 0.0026, Domain Loss: 0.0000
+2026-06-17 23:51:27,810 - INFO - DA Training - Epoch [36], Cls Loss: 0.0309, Domain Loss: 0.0084, Acc: 0.9914
+2026-06-17 23:51:28,035 - INFO - Target Val - Epoch [36], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:31,638 - INFO - Epoch [37], Batch [20], Cls Loss: 0.0213, Domain Loss: 0.0020
+2026-06-17 23:51:32,389 - INFO - DA Training - Epoch [37], Cls Loss: 0.0088, Domain Loss: 0.0011, Acc: 0.9975
+2026-06-17 23:51:32,622 - INFO - Target Val - Epoch [37], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:35,723 - INFO - Epoch [38], Batch [20], Cls Loss: 0.0008, Domain Loss: 0.0000
+2026-06-17 23:51:36,507 - INFO - DA Training - Epoch [38], Cls Loss: 0.0022, Domain Loss: 0.0005, Acc: 1.0000
+2026-06-17 23:51:36,729 - INFO - Target Val - Epoch [38], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:40,067 - INFO - Epoch [39], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0000
+2026-06-17 23:51:40,934 - INFO - DA Training - Epoch [39], Cls Loss: 0.0014, Domain Loss: 0.0007, Acc: 1.0000
+2026-06-17 23:51:41,190 - INFO - Target Val - Epoch [39], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:51:44,482 - INFO - Epoch [40], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0000
+2026-06-17 23:51:45,246 - INFO - DA Training - Epoch [40], Cls Loss: 0.0050, Domain Loss: 0.0065, Acc: 0.9988
+2026-06-17 23:51:45,476 - INFO - Target Val - Epoch [40], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:51:48,736 - INFO - Epoch [41], Batch [20], Cls Loss: 0.0136, Domain Loss: 0.0000
+2026-06-17 23:51:49,759 - INFO - DA Training - Epoch [41], Cls Loss: 0.0053, Domain Loss: 0.0097, Acc: 0.9975
+2026-06-17 23:51:50,002 - INFO - Target Val - Epoch [41], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:51:53,300 - INFO - Epoch [42], Batch [20], Cls Loss: 0.0069, Domain Loss: 0.0000
+2026-06-17 23:51:54,105 - INFO - DA Training - Epoch [42], Cls Loss: 0.0177, Domain Loss: 0.0036, Acc: 0.9963
+2026-06-17 23:51:54,342 - INFO - Target Val - Epoch [42], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:51:57,671 - INFO - Epoch [43], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0000
+2026-06-17 23:51:58,550 - INFO - DA Training - Epoch [43], Cls Loss: 0.0062, Domain Loss: 0.0009, Acc: 0.9975
+2026-06-17 23:51:58,790 - INFO - Target Val - Epoch [43], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:52:01,956 - INFO - Epoch [44], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0002
+2026-06-17 23:52:02,887 - INFO - DA Training - Epoch [44], Cls Loss: 0.0016, Domain Loss: 0.0160, Acc: 1.0000
+2026-06-17 23:52:03,130 - INFO - Target Val - Epoch [44], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:52:06,607 - INFO - Epoch [45], Batch [20], Cls Loss: 0.0000, Domain Loss: 0.0000
+2026-06-17 23:52:07,332 - INFO - DA Training - Epoch [45], Cls Loss: 0.0062, Domain Loss: 0.0097, Acc: 0.9975
+2026-06-17 23:52:07,566 - INFO - Target Val - Epoch [45], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:52:10,636 - INFO - Epoch [46], Batch [20], Cls Loss: 0.0032, Domain Loss: 0.0000
+2026-06-17 23:52:11,597 - INFO - DA Training - Epoch [46], Cls Loss: 0.0478, Domain Loss: 0.0032, Acc: 0.9865
+2026-06-17 23:52:11,836 - INFO - Target Val - Epoch [46], Acc: 0.3462, F1: 0.3000
+2026-06-17 23:52:15,450 - INFO - Epoch [47], Batch [20], Cls Loss: 0.0021, Domain Loss: 0.0833
+2026-06-17 23:52:16,410 - INFO - DA Training - Epoch [47], Cls Loss: 0.0936, Domain Loss: 0.0456, Acc: 0.9743
+2026-06-17 23:52:16,641 - INFO - Target Val - Epoch [47], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:52:20,078 - INFO - Epoch [48], Batch [20], Cls Loss: 0.0057, Domain Loss: 0.0065
+2026-06-17 23:52:20,821 - INFO - DA Training - Epoch [48], Cls Loss: 0.0342, Domain Loss: 0.0183, Acc: 0.9914
+2026-06-17 23:52:21,050 - INFO - Target Val - Epoch [48], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:52:24,605 - INFO - Epoch [49], Batch [20], Cls Loss: 0.0010, Domain Loss: 0.0051
+2026-06-17 23:52:25,449 - INFO - DA Training - Epoch [49], Cls Loss: 0.0127, Domain Loss: 0.0168, Acc: 0.9939
+2026-06-17 23:52:25,671 - INFO - Target Val - Epoch [49], Acc: 0.3077, F1: 0.2807
+2026-06-17 23:52:29,186 - INFO - Epoch [50], Batch [20], Cls Loss: 0.0014, Domain Loss: 0.0006
+2026-06-17 23:52:30,090 - INFO - DA Training - Epoch [50], Cls Loss: 0.0072, Domain Loss: 0.0037, Acc: 0.9975
+2026-06-17 23:52:30,320 - INFO - Target Val - Epoch [50], Acc: 0.3077, F1: 0.2807
+2026-06-17 23:52:30,321 - INFO - 第 4 次重复完成
+2026-06-17 23:52:30,321 - INFO - 源域最佳: Epoch 17, Acc: 0.9811, F1: 0.9794
+2026-06-17 23:52:30,321 - INFO - 目标域最佳: Epoch 3, Acc: 0.3462, F1: 0.3000
+2026-06-17 23:52:30,321 - INFO - 
+---------- 第 5/5 次重复 (种子 46) ----------
+2026-06-17 23:52:30,714 - INFO - === 开始源域训练 (种子 46) ===
+2026-06-17 23:52:32,997 - INFO - Epoch [1], Batch [20/26], Loss: 2.5667, Acc: 0.0984
+2026-06-17 23:52:33,813 - INFO - Source Training - Epoch [1], Loss: 2.5926, Acc: 0.1176
+2026-06-17 23:52:35,367 - INFO - Source Val - Epoch [1], Acc: 0.2453, F1: 0.1091
+2026-06-17 23:52:38,973 - INFO - Epoch [2], Batch [20/26], Loss: 2.4844, Acc: 0.2328
+2026-06-17 23:52:39,802 - INFO - Source Training - Epoch [2], Loss: 2.4339, Acc: 0.2341
+2026-06-17 23:52:41,347 - INFO - Source Val - Epoch [2], Acc: 0.2689, F1: 0.1543
+2026-06-17 23:52:45,888 - INFO - Epoch [3], Batch [20/26], Loss: 1.9219, Acc: 0.3078
+2026-06-17 23:52:46,330 - INFO - Source Training - Epoch [3], Loss: 2.1146, Acc: 0.3076
+2026-06-17 23:52:47,802 - INFO - Source Val - Epoch [3], Acc: 0.3349, F1: 0.1930
+2026-06-17 23:52:51,728 - INFO - Epoch [4], Batch [20/26], Loss: 1.6106, Acc: 0.4125
+2026-06-17 23:52:52,342 - INFO - Source Training - Epoch [4], Loss: 1.7755, Acc: 0.4252
+2026-06-17 23:52:53,792 - INFO - Source Val - Epoch [4], Acc: 0.6981, F1: 0.5550
+2026-06-17 23:52:57,996 - INFO - Epoch [5], Batch [20/26], Loss: 1.2955, Acc: 0.5453
+2026-06-17 23:52:58,308 - INFO - Source Training - Epoch [5], Loss: 1.4400, Acc: 0.5417
+2026-06-17 23:52:59,768 - INFO - Source Val - Epoch [5], Acc: 0.6509, F1: 0.6124
+2026-06-17 23:53:02,060 - INFO - Epoch [6], Batch [20/26], Loss: 0.9381, Acc: 0.6188
+2026-06-17 23:53:02,437 - INFO - Source Training - Epoch [6], Loss: 1.2065, Acc: 0.6225
+2026-06-17 23:53:03,890 - INFO - Source Val - Epoch [6], Acc: 0.6698, F1: 0.6245
+2026-06-17 23:53:06,277 - INFO - Epoch [7], Batch [20/26], Loss: 0.8965, Acc: 0.6906
+2026-06-17 23:53:06,969 - INFO - Source Training - Epoch [7], Loss: 0.9552, Acc: 0.6900
+2026-06-17 23:53:08,440 - INFO - Source Val - Epoch [7], Acc: 0.8443, F1: 0.8495
+2026-06-17 23:53:12,417 - INFO - Epoch [8], Batch [20/26], Loss: 0.9870, Acc: 0.7453
+2026-06-17 23:53:12,963 - INFO - Source Training - Epoch [8], Loss: 0.7636, Acc: 0.7647
+2026-06-17 23:53:14,428 - INFO - Source Val - Epoch [8], Acc: 0.8726, F1: 0.8849
+2026-06-17 23:53:18,503 - INFO - Epoch [9], Batch [20/26], Loss: 0.4623, Acc: 0.8375
+2026-06-17 23:53:18,905 - INFO - Source Training - Epoch [9], Loss: 0.5470, Acc: 0.8395
+2026-06-17 23:53:20,356 - INFO - Source Val - Epoch [9], Acc: 0.9623, F1: 0.9631
+2026-06-17 23:53:24,103 - INFO - Epoch [10], Batch [20/26], Loss: 0.5626, Acc: 0.8609
+2026-06-17 23:53:24,901 - INFO - Source Training - Epoch [10], Loss: 0.4514, Acc: 0.8640
+2026-06-17 23:53:26,410 - INFO - Source Val - Epoch [10], Acc: 0.9104, F1: 0.9202
+2026-06-17 23:53:28,643 - INFO - Epoch [11], Batch [20/26], Loss: 0.1562, Acc: 0.8859
+2026-06-17 23:53:29,548 - INFO - Source Training - Epoch [11], Loss: 0.3711, Acc: 0.8885
+2026-06-17 23:53:31,044 - INFO - Source Val - Epoch [11], Acc: 0.9057, F1: 0.9173
+2026-06-17 23:53:33,253 - INFO - Epoch [12], Batch [20/26], Loss: 0.0575, Acc: 0.9172
+2026-06-17 23:53:33,789 - INFO - Source Training - Epoch [12], Loss: 0.2540, Acc: 0.9167
+2026-06-17 23:53:35,323 - INFO - Source Val - Epoch [12], Acc: 0.9292, F1: 0.9330
+2026-06-17 23:53:37,402 - INFO - Epoch [13], Batch [20/26], Loss: 0.2556, Acc: 0.9156
+2026-06-17 23:53:38,311 - INFO - Source Training - Epoch [13], Loss: 0.2449, Acc: 0.9191
+2026-06-17 23:53:39,784 - INFO - Source Val - Epoch [13], Acc: 0.9104, F1: 0.9222
+2026-06-17 23:53:41,994 - INFO - Epoch [14], Batch [20/26], Loss: 0.1671, Acc: 0.9500
+2026-06-17 23:53:42,447 - INFO - Source Training - Epoch [14], Loss: 0.1761, Acc: 0.9485
+2026-06-17 23:53:43,893 - INFO - Source Val - Epoch [14], Acc: 0.9811, F1: 0.9789
+2026-06-17 23:53:48,061 - INFO - Epoch [15], Batch [20/26], Loss: 0.1667, Acc: 0.9469
+2026-06-17 23:53:48,879 - INFO - Source Training - Epoch [15], Loss: 0.1630, Acc: 0.9449
+2026-06-17 23:53:50,351 - INFO - Source Val - Epoch [15], Acc: 0.9198, F1: 0.9317
+2026-06-17 23:53:52,832 - INFO - Epoch [16], Batch [20/26], Loss: 0.3044, Acc: 0.9547
+2026-06-17 23:53:53,125 - INFO - Source Training - Epoch [16], Loss: 0.1872, Acc: 0.9534
+2026-06-17 23:53:54,607 - INFO - Source Val - Epoch [16], Acc: 0.9198, F1: 0.9327
+2026-06-17 23:53:56,714 - INFO - Epoch [17], Batch [20/26], Loss: 0.1358, Acc: 0.9609
+2026-06-17 23:53:57,238 - INFO - Source Training - Epoch [17], Loss: 0.1400, Acc: 0.9608
+2026-06-17 23:53:58,681 - INFO - Source Val - Epoch [17], Acc: 0.8774, F1: 0.8886
+2026-06-17 23:54:00,752 - INFO - Epoch [18], Batch [20/26], Loss: 0.1456, Acc: 0.9594
+2026-06-17 23:54:01,509 - INFO - Source Training - Epoch [18], Loss: 0.1335, Acc: 0.9620
+2026-06-17 23:54:03,043 - INFO - Source Val - Epoch [18], Acc: 0.9198, F1: 0.9317
+2026-06-17 23:54:05,292 - INFO - Epoch [19], Batch [20/26], Loss: 0.1892, Acc: 0.9734
+2026-06-17 23:54:05,893 - INFO - Source Training - Epoch [19], Loss: 0.0976, Acc: 0.9755
+2026-06-17 23:54:07,378 - INFO - Source Val - Epoch [19], Acc: 0.9811, F1: 0.9789
+2026-06-17 23:54:09,691 - INFO - Epoch [20], Batch [20/26], Loss: 0.0374, Acc: 0.9781
+2026-06-17 23:54:10,121 - INFO - Source Training - Epoch [20], Loss: 0.0708, Acc: 0.9779
+2026-06-17 23:54:11,575 - INFO - Source Val - Epoch [20], Acc: 0.9198, F1: 0.9327
+2026-06-17 23:54:13,909 - INFO - Epoch [21], Batch [20/26], Loss: 0.0777, Acc: 0.9875
+2026-06-17 23:54:14,210 - INFO - Source Training - Epoch [21], Loss: 0.0640, Acc: 0.9841
+2026-06-17 23:54:15,681 - INFO - Source Val - Epoch [21], Acc: 0.9104, F1: 0.9251
+2026-06-17 23:54:17,784 - INFO - Epoch [22], Batch [20/26], Loss: 0.0116, Acc: 0.9953
+2026-06-17 23:54:18,402 - INFO - Source Training - Epoch [22], Loss: 0.0428, Acc: 0.9914
+2026-06-17 23:54:19,872 - INFO - Source Val - Epoch [22], Acc: 0.9104, F1: 0.9222
+2026-06-17 23:54:22,330 - INFO - Epoch [23], Batch [20/26], Loss: 0.0177, Acc: 0.9891
+2026-06-17 23:54:22,723 - INFO - Source Training - Epoch [23], Loss: 0.0525, Acc: 0.9853
+2026-06-17 23:54:24,228 - INFO - Source Val - Epoch [23], Acc: 0.9104, F1: 0.9351
+2026-06-17 23:54:26,686 - INFO - Epoch [24], Batch [20/26], Loss: 0.1100, Acc: 0.9859
+2026-06-17 23:54:27,178 - INFO - Source Training - Epoch [24], Loss: 0.0523, Acc: 0.9877
+2026-06-17 23:54:28,667 - INFO - Source Val - Epoch [24], Acc: 0.9811, F1: 0.9812
+2026-06-17 23:54:30,580 - INFO - Epoch [25], Batch [20/26], Loss: 0.0034, Acc: 0.9859
+2026-06-17 23:54:31,610 - INFO - Source Training - Epoch [25], Loss: 0.0389, Acc: 0.9877
+2026-06-17 23:54:33,058 - INFO - Source Val - Epoch [25], Acc: 0.8774, F1: 0.8920
+2026-06-17 23:54:35,276 - INFO - Epoch [26], Batch [20/26], Loss: 0.0171, Acc: 0.9859
+2026-06-17 23:54:35,889 - INFO - Source Training - Epoch [26], Loss: 0.0469, Acc: 0.9865
+2026-06-17 23:54:37,354 - INFO - Source Val - Epoch [26], Acc: 0.9057, F1: 0.9213
+2026-06-17 23:54:39,615 - INFO - Epoch [27], Batch [20/26], Loss: 0.0469, Acc: 0.9812
+2026-06-17 23:54:40,170 - INFO - Source Training - Epoch [27], Loss: 0.0541, Acc: 0.9816
+2026-06-17 23:54:41,637 - INFO - Source Val - Epoch [27], Acc: 0.9198, F1: 0.9317
+2026-06-17 23:54:44,009 - INFO - Epoch [28], Batch [20/26], Loss: 0.0074, Acc: 0.9828
+2026-06-17 23:54:44,291 - INFO - Source Training - Epoch [28], Loss: 0.0430, Acc: 0.9841
+2026-06-17 23:54:45,738 - INFO - Source Val - Epoch [28], Acc: 0.9198, F1: 0.9440
+2026-06-17 23:54:48,692 - INFO - Epoch [29], Batch [20/26], Loss: 0.0971, Acc: 0.9875
+2026-06-17 23:54:49,328 - INFO - Source Training - Epoch [29], Loss: 0.0437, Acc: 0.9865
+2026-06-17 23:54:50,808 - INFO - Source Val - Epoch [29], Acc: 0.8915, F1: 0.9131
+2026-06-17 23:54:53,210 - INFO - Epoch [30], Batch [20/26], Loss: 0.0014, Acc: 0.9891
+2026-06-17 23:54:53,713 - INFO - Source Training - Epoch [30], Loss: 0.0367, Acc: 0.9890
+2026-06-17 23:54:55,170 - INFO - Source Val - Epoch [30], Acc: 0.9198, F1: 0.9440
+2026-06-17 23:54:57,488 - INFO - Epoch [31], Batch [20/26], Loss: 0.0385, Acc: 0.9766
+2026-06-17 23:54:58,073 - INFO - Source Training - Epoch [31], Loss: 0.0631, Acc: 0.9755
+2026-06-17 23:54:59,585 - INFO - Source Val - Epoch [31], Acc: 0.9198, F1: 0.9440
+2026-06-17 23:55:01,739 - INFO - Epoch [32], Batch [20/26], Loss: 0.0922, Acc: 0.9891
+2026-06-17 23:55:02,675 - INFO - Source Training - Epoch [32], Loss: 0.0402, Acc: 0.9890
+2026-06-17 23:55:04,144 - INFO - Source Val - Epoch [32], Acc: 0.9198, F1: 0.9440
+2026-06-17 23:55:06,383 - INFO - Epoch [33], Batch [20/26], Loss: 0.0147, Acc: 0.9891
+2026-06-17 23:55:07,011 - INFO - Source Training - Epoch [33], Loss: 0.0400, Acc: 0.9890
+2026-06-17 23:55:08,474 - INFO - Source Val - Epoch [33], Acc: 0.9811, F1: 0.9812
+2026-06-17 23:55:10,982 - INFO - Epoch [34], Batch [20/26], Loss: 0.0448, Acc: 0.9844
+2026-06-17 23:55:11,427 - INFO - Source Training - Epoch [34], Loss: 0.0439, Acc: 0.9853
+2026-06-17 23:55:12,972 - INFO - Source Val - Epoch [34], Acc: 0.9811, F1: 0.9812
+2026-06-17 23:55:15,285 - INFO - Epoch [35], Batch [20/26], Loss: 0.0264, Acc: 0.9891
+2026-06-17 23:55:15,622 - INFO - Source Training - Epoch [35], Loss: 0.0394, Acc: 0.9902
+2026-06-17 23:55:17,076 - INFO - Source Val - Epoch [35], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:55:19,538 - INFO - Epoch [36], Batch [20/26], Loss: 0.0330, Acc: 0.9953
+2026-06-17 23:55:20,104 - INFO - Source Training - Epoch [36], Loss: 0.0215, Acc: 0.9951
+2026-06-17 23:55:21,581 - INFO - Source Val - Epoch [36], Acc: 0.9245, F1: 0.9372
+2026-06-17 23:55:23,794 - INFO - Epoch [37], Batch [20/26], Loss: 0.0041, Acc: 0.9875
+2026-06-17 23:55:24,722 - INFO - Source Training - Epoch [37], Loss: 0.0316, Acc: 0.9865
+2026-06-17 23:55:26,167 - INFO - Source Val - Epoch [37], Acc: 0.9198, F1: 0.9407
+2026-06-17 23:55:28,532 - INFO - Epoch [38], Batch [20/26], Loss: 0.0078, Acc: 0.9922
+2026-06-17 23:55:29,241 - INFO - Source Training - Epoch [38], Loss: 0.0223, Acc: 0.9939
+2026-06-17 23:55:30,725 - INFO - Source Val - Epoch [38], Acc: 0.9104, F1: 0.9260
+2026-06-17 23:55:33,069 - INFO - Epoch [39], Batch [20/26], Loss: 0.0083, Acc: 0.9953
+2026-06-17 23:55:33,628 - INFO - Source Training - Epoch [39], Loss: 0.0181, Acc: 0.9939
+2026-06-17 23:55:35,123 - INFO - Source Val - Epoch [39], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:55:37,247 - INFO - Epoch [40], Batch [20/26], Loss: 0.0079, Acc: 0.9938
+2026-06-17 23:55:37,660 - INFO - Source Training - Epoch [40], Loss: 0.0166, Acc: 0.9951
+2026-06-17 23:55:39,162 - INFO - Source Val - Epoch [40], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:55:41,581 - INFO - Epoch [41], Batch [20/26], Loss: 0.0062, Acc: 0.9938
+2026-06-17 23:55:42,204 - INFO - Source Training - Epoch [41], Loss: 0.0163, Acc: 0.9951
+2026-06-17 23:55:43,657 - INFO - Source Val - Epoch [41], Acc: 0.8774, F1: 0.8920
+2026-06-17 23:55:46,078 - INFO - Epoch [42], Batch [20/26], Loss: 0.0054, Acc: 0.9984
+2026-06-17 23:55:46,702 - INFO - Source Training - Epoch [42], Loss: 0.0101, Acc: 0.9975
+2026-06-17 23:55:48,156 - INFO - Source Val - Epoch [42], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:55:50,276 - INFO - Epoch [43], Batch [20/26], Loss: 0.0089, Acc: 0.9969
+2026-06-17 23:55:51,029 - INFO - Source Training - Epoch [43], Loss: 0.0129, Acc: 0.9951
+2026-06-17 23:55:52,487 - INFO - Source Val - Epoch [43], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:55:54,600 - INFO - Epoch [44], Batch [20/26], Loss: 0.0715, Acc: 0.9922
+2026-06-17 23:55:55,082 - INFO - Source Training - Epoch [44], Loss: 0.0169, Acc: 0.9914
+2026-06-17 23:55:56,531 - INFO - Source Val - Epoch [44], Acc: 0.9340, F1: 0.9471
+2026-06-17 23:55:59,201 - INFO - Epoch [45], Batch [20/26], Loss: 0.0008, Acc: 0.9969
+2026-06-17 23:55:59,767 - INFO - Source Training - Epoch [45], Loss: 0.0192, Acc: 0.9975
+2026-06-17 23:56:01,218 - INFO - Source Val - Epoch [45], Acc: 0.9340, F1: 0.9471
+2026-06-17 23:56:03,452 - INFO - Epoch [46], Batch [20/26], Loss: 0.0002, Acc: 0.9969
+2026-06-17 23:56:03,876 - INFO - Source Training - Epoch [46], Loss: 0.0080, Acc: 0.9975
+2026-06-17 23:56:05,509 - INFO - Source Val - Epoch [46], Acc: 0.9340, F1: 0.9471
+2026-06-17 23:56:08,027 - INFO - Epoch [47], Batch [20/26], Loss: 0.0005, Acc: 0.9984
+2026-06-17 23:56:08,572 - INFO - Source Training - Epoch [47], Loss: 0.0114, Acc: 0.9963
+2026-06-17 23:56:10,038 - INFO - Source Val - Epoch [47], Acc: 0.9340, F1: 0.9471
+2026-06-17 23:56:12,310 - INFO - Epoch [48], Batch [20/26], Loss: 0.0150, Acc: 0.9953
+2026-06-17 23:56:12,750 - INFO - Source Training - Epoch [48], Loss: 0.0304, Acc: 0.9939
+2026-06-17 23:56:14,257 - INFO - Source Val - Epoch [48], Acc: 0.8774, F1: 0.9069
+2026-06-17 23:56:16,634 - INFO - Epoch [49], Batch [20/26], Loss: 0.0373, Acc: 0.9859
+2026-06-17 23:56:17,021 - INFO - Source Training - Epoch [49], Loss: 0.0721, Acc: 0.9841
+2026-06-17 23:56:18,551 - INFO - Source Val - Epoch [49], Acc: 0.9340, F1: 0.9562
+2026-06-17 23:56:20,730 - INFO - Epoch [50], Batch [20/26], Loss: 0.0628, Acc: 0.9859
+2026-06-17 23:56:21,331 - INFO - Source Training - Epoch [50], Loss: 0.0337, Acc: 0.9877
+2026-06-17 23:56:22,834 - INFO - Source Val - Epoch [50], Acc: 0.9198, F1: 0.9411
+2026-06-17 23:56:22,834 - INFO - === 开始目标域适应 (种子 46) ===
+2026-06-17 23:56:26,402 - INFO - Epoch [1], Batch [20], Cls Loss: 0.0025, Domain Loss: 0.1944
+2026-06-17 23:56:27,305 - INFO - DA Training - Epoch [1], Cls Loss: 0.0335, Domain Loss: 1.0075, Acc: 0.9890
+2026-06-17 23:56:27,529 - INFO - Target Val - Epoch [1], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:32,182 - INFO - Epoch [2], Batch [20], Cls Loss: 0.0049, Domain Loss: 0.0347
+2026-06-17 23:56:33,086 - INFO - DA Training - Epoch [2], Cls Loss: 0.0252, Domain Loss: 0.1505, Acc: 0.9951
+2026-06-17 23:56:33,339 - INFO - Target Val - Epoch [2], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:36,744 - INFO - Epoch [3], Batch [20], Cls Loss: 0.0072, Domain Loss: 0.0208
+2026-06-17 23:56:37,597 - INFO - DA Training - Epoch [3], Cls Loss: 0.0127, Domain Loss: 0.0602, Acc: 0.9975
+2026-06-17 23:56:37,825 - INFO - Target Val - Epoch [3], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:41,364 - INFO - Epoch [4], Batch [20], Cls Loss: 0.0012, Domain Loss: 0.1404
+2026-06-17 23:56:42,282 - INFO - DA Training - Epoch [4], Cls Loss: 0.0262, Domain Loss: 0.0371, Acc: 0.9914
+2026-06-17 23:56:42,492 - INFO - Target Val - Epoch [4], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:45,852 - INFO - Epoch [5], Batch [20], Cls Loss: 0.0083, Domain Loss: 0.0862
+2026-06-17 23:56:46,665 - INFO - DA Training - Epoch [5], Cls Loss: 0.0166, Domain Loss: 0.0523, Acc: 0.9963
+2026-06-17 23:56:46,887 - INFO - Target Val - Epoch [5], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:50,215 - INFO - Epoch [6], Batch [20], Cls Loss: 0.0015, Domain Loss: 0.0143
+2026-06-17 23:56:51,056 - INFO - DA Training - Epoch [6], Cls Loss: 0.0145, Domain Loss: 0.0380, Acc: 0.9951
+2026-06-17 23:56:51,314 - INFO - Target Val - Epoch [6], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:54,845 - INFO - Epoch [7], Batch [20], Cls Loss: 0.0071, Domain Loss: 0.0122
+2026-06-17 23:56:55,770 - INFO - DA Training - Epoch [7], Cls Loss: 0.0091, Domain Loss: 0.0212, Acc: 0.9975
+2026-06-17 23:56:56,003 - INFO - Target Val - Epoch [7], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:56:59,499 - INFO - Epoch [8], Batch [20], Cls Loss: 0.0026, Domain Loss: 0.0126
+2026-06-17 23:57:00,369 - INFO - DA Training - Epoch [8], Cls Loss: 0.0118, Domain Loss: 0.0279, Acc: 0.9975
+2026-06-17 23:57:00,623 - INFO - Target Val - Epoch [8], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:03,996 - INFO - Epoch [9], Batch [20], Cls Loss: 0.0017, Domain Loss: 0.0466
+2026-06-17 23:57:04,925 - INFO - DA Training - Epoch [9], Cls Loss: 0.0121, Domain Loss: 0.0222, Acc: 0.9963
+2026-06-17 23:57:05,176 - INFO - Target Val - Epoch [9], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:08,486 - INFO - Epoch [10], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0049
+2026-06-17 23:57:09,468 - INFO - DA Training - Epoch [10], Cls Loss: 0.0121, Domain Loss: 0.0139, Acc: 0.9951
+2026-06-17 23:57:09,696 - INFO - Target Val - Epoch [10], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:13,178 - INFO - Epoch [11], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0003
+2026-06-17 23:57:13,914 - INFO - DA Training - Epoch [11], Cls Loss: 0.0047, Domain Loss: 0.0131, Acc: 1.0000
+2026-06-17 23:57:14,160 - INFO - Target Val - Epoch [11], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:17,555 - INFO - Epoch [12], Batch [20], Cls Loss: 0.0247, Domain Loss: 0.0374
+2026-06-17 23:57:18,305 - INFO - DA Training - Epoch [12], Cls Loss: 0.0094, Domain Loss: 0.0171, Acc: 0.9963
+2026-06-17 23:57:18,530 - INFO - Target Val - Epoch [12], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:21,940 - INFO - Epoch [13], Batch [20], Cls Loss: 0.0031, Domain Loss: 0.0008
+2026-06-17 23:57:22,828 - INFO - DA Training - Epoch [13], Cls Loss: 0.0065, Domain Loss: 0.0157, Acc: 0.9988
+2026-06-17 23:57:23,076 - INFO - Target Val - Epoch [13], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:26,492 - INFO - Epoch [14], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0004
+2026-06-17 23:57:27,373 - INFO - DA Training - Epoch [14], Cls Loss: 0.0031, Domain Loss: 0.0117, Acc: 0.9988
+2026-06-17 23:57:27,610 - INFO - Target Val - Epoch [14], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:30,897 - INFO - Epoch [15], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0003
+2026-06-17 23:57:31,851 - INFO - DA Training - Epoch [15], Cls Loss: 0.0058, Domain Loss: 0.0075, Acc: 0.9975
+2026-06-17 23:57:32,079 - INFO - Target Val - Epoch [15], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:35,503 - INFO - Epoch [16], Batch [20], Cls Loss: 0.0125, Domain Loss: 0.0002
+2026-06-17 23:57:36,410 - INFO - DA Training - Epoch [16], Cls Loss: 0.0116, Domain Loss: 0.0115, Acc: 0.9963
+2026-06-17 23:57:36,679 - INFO - Target Val - Epoch [16], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:40,142 - INFO - Epoch [17], Batch [20], Cls Loss: 0.0604, Domain Loss: 0.0000
+2026-06-17 23:57:40,997 - INFO - DA Training - Epoch [17], Cls Loss: 0.0154, Domain Loss: 0.0059, Acc: 0.9926
+2026-06-17 23:57:41,225 - INFO - Target Val - Epoch [17], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:44,498 - INFO - Epoch [18], Batch [20], Cls Loss: 0.0016, Domain Loss: 0.0055
+2026-06-17 23:57:45,260 - INFO - DA Training - Epoch [18], Cls Loss: 0.0076, Domain Loss: 0.0194, Acc: 0.9988
+2026-06-17 23:57:45,480 - INFO - Target Val - Epoch [18], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:48,621 - INFO - Epoch [19], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0142
+2026-06-17 23:57:49,612 - INFO - DA Training - Epoch [19], Cls Loss: 0.0149, Domain Loss: 0.0213, Acc: 0.9939
+2026-06-17 23:57:49,837 - INFO - Target Val - Epoch [19], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:53,150 - INFO - Epoch [20], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0082
+2026-06-17 23:57:54,087 - INFO - DA Training - Epoch [20], Cls Loss: 0.0147, Domain Loss: 0.0149, Acc: 0.9951
+2026-06-17 23:57:54,312 - INFO - Target Val - Epoch [20], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:57:57,835 - INFO - Epoch [21], Batch [20], Cls Loss: 0.0158, Domain Loss: 0.0001
+2026-06-17 23:57:58,601 - INFO - DA Training - Epoch [21], Cls Loss: 0.0080, Domain Loss: 0.0140, Acc: 0.9975
+2026-06-17 23:57:58,821 - INFO - Target Val - Epoch [21], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:01,988 - INFO - Epoch [22], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0000
+2026-06-17 23:58:02,765 - INFO - DA Training - Epoch [22], Cls Loss: 0.0052, Domain Loss: 0.0121, Acc: 0.9975
+2026-06-17 23:58:02,977 - INFO - Target Val - Epoch [22], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:05,909 - INFO - Epoch [23], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0000
+2026-06-17 23:58:06,773 - INFO - DA Training - Epoch [23], Cls Loss: 0.0039, Domain Loss: 0.0067, Acc: 0.9988
+2026-06-17 23:58:07,004 - INFO - Target Val - Epoch [23], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:10,130 - INFO - Epoch [24], Batch [20], Cls Loss: 0.0051, Domain Loss: 0.0003
+2026-06-17 23:58:10,901 - INFO - DA Training - Epoch [24], Cls Loss: 0.0081, Domain Loss: 0.0089, Acc: 0.9975
+2026-06-17 23:58:11,141 - INFO - Target Val - Epoch [24], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:14,468 - INFO - Epoch [25], Batch [20], Cls Loss: 0.0153, Domain Loss: 0.0022
+2026-06-17 23:58:15,242 - INFO - DA Training - Epoch [25], Cls Loss: 0.0063, Domain Loss: 0.0025, Acc: 0.9975
+2026-06-17 23:58:15,468 - INFO - Target Val - Epoch [25], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:18,574 - INFO - Epoch [26], Batch [20], Cls Loss: 0.0007, Domain Loss: 0.0000
+2026-06-17 23:58:19,385 - INFO - DA Training - Epoch [26], Cls Loss: 0.0042, Domain Loss: 0.0108, Acc: 1.0000
+2026-06-17 23:58:19,618 - INFO - Target Val - Epoch [26], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:22,712 - INFO - Epoch [27], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0009
+2026-06-17 23:58:23,485 - INFO - DA Training - Epoch [27], Cls Loss: 0.0093, Domain Loss: 0.0067, Acc: 0.9963
+2026-06-17 23:58:23,707 - INFO - Target Val - Epoch [27], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:26,979 - INFO - Epoch [28], Batch [20], Cls Loss: 0.0040, Domain Loss: 0.0003
+2026-06-17 23:58:27,731 - INFO - DA Training - Epoch [28], Cls Loss: 0.0144, Domain Loss: 0.0164, Acc: 0.9951
+2026-06-17 23:58:27,952 - INFO - Target Val - Epoch [28], Acc: 0.0385, F1: 0.0556
+2026-06-17 23:58:32,602 - INFO - Epoch [29], Batch [20], Cls Loss: 0.0499, Domain Loss: 0.0044
+2026-06-17 23:58:33,502 - INFO - DA Training - Epoch [29], Cls Loss: 0.0083, Domain Loss: 0.0094, Acc: 0.9963
+2026-06-17 23:58:33,735 - INFO - Target Val - Epoch [29], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:37,154 - INFO - Epoch [30], Batch [20], Cls Loss: 0.0172, Domain Loss: 0.0013
+2026-06-17 23:58:37,928 - INFO - DA Training - Epoch [30], Cls Loss: 0.0069, Domain Loss: 0.0092, Acc: 0.9988
+2026-06-17 23:58:38,172 - INFO - Target Val - Epoch [30], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:41,951 - INFO - Epoch [31], Batch [20], Cls Loss: 0.0003, Domain Loss: 0.0077
+2026-06-17 23:58:42,845 - INFO - DA Training - Epoch [31], Cls Loss: 0.0176, Domain Loss: 0.0147, Acc: 0.9939
+2026-06-17 23:58:43,072 - INFO - Target Val - Epoch [31], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:46,515 - INFO - Epoch [32], Batch [20], Cls Loss: 0.0145, Domain Loss: 0.0241
+2026-06-17 23:58:47,329 - INFO - DA Training - Epoch [32], Cls Loss: 0.0161, Domain Loss: 0.0052, Acc: 0.9939
+2026-06-17 23:58:47,563 - INFO - Target Val - Epoch [32], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:50,675 - INFO - Epoch [33], Batch [20], Cls Loss: 0.0004, Domain Loss: 0.0005
+2026-06-17 23:58:51,570 - INFO - DA Training - Epoch [33], Cls Loss: 0.0082, Domain Loss: 0.0120, Acc: 0.9975
+2026-06-17 23:58:51,793 - INFO - Target Val - Epoch [33], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:55,558 - INFO - Epoch [34], Batch [20], Cls Loss: 0.0044, Domain Loss: 0.0000
+2026-06-17 23:58:56,501 - INFO - DA Training - Epoch [34], Cls Loss: 0.0264, Domain Loss: 0.0108, Acc: 0.9963
+2026-06-17 23:58:56,717 - INFO - Target Val - Epoch [34], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:58:59,990 - INFO - Epoch [35], Batch [20], Cls Loss: 0.0042, Domain Loss: 0.0000
+2026-06-17 23:59:01,011 - INFO - DA Training - Epoch [35], Cls Loss: 0.0121, Domain Loss: 0.0189, Acc: 0.9975
+2026-06-17 23:59:01,240 - INFO - Target Val - Epoch [35], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:04,506 - INFO - Epoch [36], Batch [20], Cls Loss: 0.0011, Domain Loss: 0.0003
+2026-06-17 23:59:05,303 - INFO - DA Training - Epoch [36], Cls Loss: 0.0026, Domain Loss: 0.0094, Acc: 0.9988
+2026-06-17 23:59:05,532 - INFO - Target Val - Epoch [36], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:09,045 - INFO - Epoch [37], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0001
+2026-06-17 23:59:09,841 - INFO - DA Training - Epoch [37], Cls Loss: 0.0055, Domain Loss: 0.0117, Acc: 0.9988
+2026-06-17 23:59:10,068 - INFO - Target Val - Epoch [37], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:13,672 - INFO - Epoch [38], Batch [20], Cls Loss: 0.0098, Domain Loss: 0.0001
+2026-06-17 23:59:14,563 - INFO - DA Training - Epoch [38], Cls Loss: 0.0044, Domain Loss: 0.0019, Acc: 1.0000
+2026-06-17 23:59:14,811 - INFO - Target Val - Epoch [38], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:18,226 - INFO - Epoch [39], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0000
+2026-06-17 23:59:18,987 - INFO - DA Training - Epoch [39], Cls Loss: 0.0060, Domain Loss: 0.0093, Acc: 0.9988
+2026-06-17 23:59:19,240 - INFO - Target Val - Epoch [39], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:22,774 - INFO - Epoch [40], Batch [20], Cls Loss: 0.0026, Domain Loss: 0.0000
+2026-06-17 23:59:23,566 - INFO - DA Training - Epoch [40], Cls Loss: 0.0072, Domain Loss: 0.0058, Acc: 0.9988
+2026-06-17 23:59:23,826 - INFO - Target Val - Epoch [40], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:27,545 - INFO - Epoch [41], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0000
+2026-06-17 23:59:28,470 - INFO - DA Training - Epoch [41], Cls Loss: 0.0128, Domain Loss: 0.0007, Acc: 0.9975
+2026-06-17 23:59:28,704 - INFO - Target Val - Epoch [41], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:32,060 - INFO - Epoch [42], Batch [20], Cls Loss: 0.0023, Domain Loss: 0.0000
+2026-06-17 23:59:33,030 - INFO - DA Training - Epoch [42], Cls Loss: 0.0104, Domain Loss: 0.0031, Acc: 0.9963
+2026-06-17 23:59:33,247 - INFO - Target Val - Epoch [42], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:36,601 - INFO - Epoch [43], Batch [20], Cls Loss: 0.0059, Domain Loss: 0.0030
+2026-06-17 23:59:37,435 - INFO - DA Training - Epoch [43], Cls Loss: 0.0126, Domain Loss: 0.0027, Acc: 0.9963
+2026-06-17 23:59:37,655 - INFO - Target Val - Epoch [43], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:40,902 - INFO - Epoch [44], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0000
+2026-06-17 23:59:41,847 - INFO - DA Training - Epoch [44], Cls Loss: 0.0098, Domain Loss: 0.0033, Acc: 0.9963
+2026-06-17 23:59:42,062 - INFO - Target Val - Epoch [44], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:45,501 - INFO - Epoch [45], Batch [20], Cls Loss: 0.0001, Domain Loss: 0.0001
+2026-06-17 23:59:46,386 - INFO - DA Training - Epoch [45], Cls Loss: 0.0114, Domain Loss: 0.0018, Acc: 0.9975
+2026-06-17 23:59:46,623 - INFO - Target Val - Epoch [45], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:49,983 - INFO - Epoch [46], Batch [20], Cls Loss: 0.0006, Domain Loss: 0.0359
+2026-06-17 23:59:50,718 - INFO - DA Training - Epoch [46], Cls Loss: 0.0083, Domain Loss: 0.0018, Acc: 0.9975
+2026-06-17 23:59:50,956 - INFO - Target Val - Epoch [46], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:54,127 - INFO - Epoch [47], Batch [20], Cls Loss: 0.0743, Domain Loss: 0.0018
+2026-06-17 23:59:55,010 - INFO - DA Training - Epoch [47], Cls Loss: 0.0062, Domain Loss: 0.0012, Acc: 0.9975
+2026-06-17 23:59:55,245 - INFO - Target Val - Epoch [47], Acc: 0.0000, F1: 0.0000
+2026-06-17 23:59:58,566 - INFO - Epoch [48], Batch [20], Cls Loss: 0.0137, Domain Loss: 0.0001
+2026-06-17 23:59:59,492 - INFO - DA Training - Epoch [48], Cls Loss: 0.0188, Domain Loss: 0.0192, Acc: 0.9939
+2026-06-17 23:59:59,762 - INFO - Target Val - Epoch [48], Acc: 0.0000, F1: 0.0000
+2026-06-18 00:00:03,207 - INFO - Epoch [49], Batch [20], Cls Loss: 0.0065, Domain Loss: 0.0039
+2026-06-18 00:00:04,053 - INFO - DA Training - Epoch [49], Cls Loss: 0.0110, Domain Loss: 0.0049, Acc: 0.9963
+2026-06-18 00:00:04,305 - INFO - Target Val - Epoch [49], Acc: 0.0000, F1: 0.0000
+2026-06-18 00:00:07,614 - INFO - Epoch [50], Batch [20], Cls Loss: 0.0002, Domain Loss: 0.0305
+2026-06-18 00:00:08,391 - INFO - DA Training - Epoch [50], Cls Loss: 0.0098, Domain Loss: 0.0082, Acc: 0.9963
+2026-06-18 00:00:08,645 - INFO - Target Val - Epoch [50], Acc: 0.0000, F1: 0.0000
+2026-06-18 00:00:08,645 - INFO - 第 5 次重复完成
+2026-06-18 00:00:08,646 - INFO - 源域最佳: Epoch 14, Acc: 0.9811, F1: 0.9789
+2026-06-18 00:00:08,646 - INFO - 目标域最佳: Epoch 28, Acc: 0.0385, F1: 0.0556
+2026-06-18 00:00:08,646 - INFO - 
+========== 晴天 -> 雨天 实验汇总 ==========
+2026-06-18 00:00:08,646 - INFO - ACC: 均值 = 0.1462, 标准差 = 0.1341
+2026-06-18 00:00:08,646 - INFO - Precision: 均值 = 0.2978, 标准差 = 0.0711
+2026-06-18 00:00:08,646 - INFO - Recall: 均值 = 0.1394, 标准差 = 0.1350
+2026-06-18 00:00:08,646 - INFO - F1: 均值 = 0.1358, 标准差 = 0.1021
