@@ -61,6 +61,39 @@ def make_criterion(label_smoothing, logger):
         return nn.CrossEntropyLoss()
 
 
+def resolve_device(args, logger):
+    requested = args.device.lower()
+    if requested == "cpu":
+        logger.info("Using device: cpu")
+        return torch.device("cpu")
+
+    if args.gpu_id is not None:
+        requested = f"cuda:{args.gpu_id}"
+
+    if requested.startswith("cuda"):
+        if not torch.cuda.is_available():
+            raise RuntimeError("CUDA was requested, but torch.cuda.is_available() is False.")
+
+        if requested == "cuda":
+            device_index = torch.cuda.current_device()
+        else:
+            try:
+                device_index = int(requested.split(":", 1)[1])
+            except (IndexError, ValueError) as exc:
+                raise ValueError(f"Invalid CUDA device string: {args.device!r}") from exc
+
+        device_count = torch.cuda.device_count()
+        if device_index < 0 or device_index >= device_count:
+            raise ValueError(f"Requested GPU {device_index}, but only {device_count} CUDA device(s) are visible.")
+
+        torch.cuda.set_device(device_index)
+        device = torch.device(f"cuda:{device_index}")
+        logger.info(f"Using device: {device} ({torch.cuda.get_device_name(device_index)})")
+        return device
+
+    raise ValueError("Unsupported --device value. Use 'cpu', 'cuda', or 'cuda:<id>'.")
+
+
 def to_device(batch, device):
     return {
         "infrared": batch["infrared"].to(device, non_blocking=True),
@@ -411,7 +444,7 @@ def adapt_target_comac(
 
 def run_single_experiment(source_domain, target_domain, data_root, output_dir, seed, args, logger=None):
     set_seed(seed)
-    device = torch.device(args.device if args.device == "cuda" and torch.cuda.is_available() else "cpu")
+    device = resolve_device(args, logger)
 
     transform = make_transforms(args.image_size)
     data_loaders = get_domain_data(
@@ -633,7 +666,8 @@ def parse_args():
     parser.add_argument("--num_workers", type=int, default=4)
     parser.add_argument("--val_ratio", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--device", type=str, default="cuda", help="Use cpu, cuda, or cuda:<id>.")
+    parser.add_argument("--gpu_id", type=int, default=None, help="CUDA GPU index to use. Overrides --device when set.")
 
     parser.add_argument("--backbone", type=str, default="resnet18", choices=["cnn", "resnet18", "resnet34"])
     parser.add_argument("--pretrained", action="store_true", help="Use ImageNet weights when available")
