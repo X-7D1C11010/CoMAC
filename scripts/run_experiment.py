@@ -708,7 +708,7 @@ def parse_args():
     parser.add_argument("--adapt_epochs", type=int, default=None)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--image_size", type=int, default=224)
-    parser.add_argument("--num_workers", type=int, default=4)
+    parser.add_argument("--num_workers", type=int, default=32)
     parser.add_argument("--val_ratio", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", type=str, default="cuda", help="Use cpu, cuda, or cuda:<id>.")
